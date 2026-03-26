@@ -1,0 +1,9 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/mux/project_1/project_1.srcs/sources_1/new/mux_4x1_Behavioral.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_Behavioral
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'Q' is not allowed [D:/AIOT/vivado_pj/mux/project_1/project_1.srcs/sources_1/new/mux_4x1_Behavioral.v:32]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/mux/project_1/project_1.srcs/sources_1/new/mux_4x1_Gate_Level.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_Gate_Level
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/mux/project_1/project_1.srcs/sources_1/new/mux_4x1_dataflow.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_4x1_dataflow
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/mux/project_1/project_1.srcs/sim_1/new/mux_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mux_tb

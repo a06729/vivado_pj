@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/mux_4x1_Behavioral.v" \
+"../../../../project_1.srcs/sources_1/new/mux_4x1_Gate_Level.v" \
+"../../../../project_1.srcs/sources_1/new/mux_4x1_dataflow.v" \
+"../../../../project_1.srcs/sim_1/new/mux_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
