@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/flip_flop_pj/flip_flop_pj.srcs/sources_1/new/flip_flop.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module flip_flop
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'q' is not allowed [D:/AIOT/vivado_pj/flip_flop_pj/flip_flop_pj.srcs/sources_1/new/flip_flop.v:30]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/flip_flop_pj/flip_flop_pj.srcs/sim_1/new/filp_flop_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module filp_flop_tb

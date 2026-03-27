@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1774575892">
-  <File Type="PA-TCL" Name="decoder2_8.tcl"/>
-  <File Type="REPORTS-TCL" Name="decoder2_8_reports.tcl"/>
-  <File Type="RDS-RDS" Name="decoder2_8.vds"/>
+<GenRun Id="synth_1" LaunchPart="xc7vx485tffg1157-1" LaunchTime="1774579369">
+  <File Type="PA-TCL" Name="decode2_8_always.tcl"/>
+  <File Type="REPORTS-TCL" Name="decode2_8_always_reports.tcl"/>
+  <File Type="RDS-RDS" Name="decode2_8_always.vds"/>
   <File Type="RDS-UTIL" Name="decoder2_8_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="decoder2_8_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="decoder2_8.dcp"/>
+  <File Type="RDS-DCP" Name="decode2_8_always.dcp"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/decode2_8_always.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PSRCDIR/sources_1/new/decoder2_8.v">
       <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -17,8 +25,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="decoder2_8"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="decode2_8_always"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">

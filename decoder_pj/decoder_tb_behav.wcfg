@@ -11,13 +11,13 @@
       </db_ref>
    </db_ref_list>
    <zoom_setting>
-      <ZoomStartTime time="0.000 ns"></ZoomStartTime>
-      <ZoomEndTime time="80.001 ns"></ZoomEndTime>
-      <Cursor1Time time="15.167 ns"></Cursor1Time>
+      <ZoomStartTime time="6.392 ns"></ZoomStartTime>
+      <ZoomEndTime time="161.350 ns"></ZoomEndTime>
+      <Cursor1Time time="80.000 ns"></Cursor1Time>
    </zoom_setting>
    <column_width_setting>
       <NameColumnWidth column_width="84"></NameColumnWidth>
-      <ValueColumnWidth column_width="189"></ValueColumnWidth>
+      <ValueColumnWidth column_width="185"></ValueColumnWidth>
    </column_width_setting>
    <WVObjectSize size="3" />
    <wvobject fp_name="/decoder_tb/en" type="logic">
@@ -31,6 +31,6 @@
    <wvobject fp_name="/decoder_tb/out" type="array">
       <obj_property name="ElementShortName">out[7:0]</obj_property>
       <obj_property name="ObjectShortName">out[7:0]</obj_property>
-      <obj_property name="Radix">BINARYRADIX</obj_property>
+      <obj_property name="Radix">HEXRADIX</obj_property>
    </wvobject>
 </wave_config>

@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "D:/AIOT/vivado_pj/decoder_pj/decoder_pj.runs/synth_1/decoder2_8.tcl"
+  variable script "D:/AIOT/vivado_pj/decoder_pj/decoder_pj.runs/synth_1/decode2_8_always.tcl"
   variable category "vivado_synth"
 }
 
@@ -70,6 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
+set_msg_config -id {Common 17-41} -limit 10000000
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7vx485tffg1157-1
 
@@ -84,7 +85,7 @@ set_property ip_output_repo d:/AIOT/vivado_pj/decoder_pj/decoder_pj.cache/ip [cu
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib D:/AIOT/vivado_pj/decoder_pj/decoder_pj.srcs/sources_1/new/decoder2_8.v
+read_verilog -library xil_defaultlib D:/AIOT/vivado_pj/decoder_pj/decoder_pj.srcs/sources_1/new/decode2_8_always.v
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -98,7 +99,7 @@ set_param ips.enableIPCacheLiteLoad 1
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
-synth_design -top decoder2_8 -part xc7vx485tffg1157-1
+synth_design -top decode2_8_always -part xc7vx485tffg1157-1
 OPTRACE "synth_design" END { }
 if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
  send_msg_id runtcl-6 info "Synthesis results are not added to the cache due to CRITICAL_WARNING"
@@ -108,10 +109,10 @@ if { [get_msg_config -count -severity {CRITICAL WARNING}] > 0 } {
 OPTRACE "write_checkpoint" START { CHECKPOINT }
 # disable binary constraint mode for synth run checkpoints
 set_param constraints.enableBinaryConstraints false
-write_checkpoint -force -noxdef decoder2_8.dcp
+write_checkpoint -force -noxdef decode2_8_always.dcp
 OPTRACE "write_checkpoint" END { }
 OPTRACE "synth reports" START { REPORT }
-create_report "synth_1_synth_report_utilization_0" "report_utilization -file decoder2_8_utilization_synth.rpt -pb decoder2_8_utilization_synth.pb"
+create_report "synth_1_synth_report_utilization_0" "report_utilization -file decode2_8_always_utilization_synth.rpt -pb decode2_8_always_utilization_synth.pb"
 OPTRACE "synth reports" END { }
 file delete __synthesis_is_running__
 close [open __synthesis_is_complete__ w]

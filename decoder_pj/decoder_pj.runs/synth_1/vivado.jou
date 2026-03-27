@@ -3,12 +3,12 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Fri Mar 27 10:44:57 2026
-# Process ID: 5036
+# Start of session at: Fri Mar 27 11:42:54 2026
+# Process ID: 19464
 # Current directory: D:/AIOT/vivado_pj/decoder_pj/decoder_pj.runs/synth_1
-# Command line: vivado.exe -log decoder2_8.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decoder2_8.tcl
-# Log file: D:/AIOT/vivado_pj/decoder_pj/decoder_pj.runs/synth_1/decoder2_8.vds
+# Command line: vivado.exe -log decode2_8_always.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source decode2_8_always.tcl
+# Log file: D:/AIOT/vivado_pj/decoder_pj/decoder_pj.runs/synth_1/decode2_8_always.vds
 # Journal file: D:/AIOT/vivado_pj/decoder_pj/decoder_pj.runs/synth_1\vivado.jou
 # Running On: SAT05, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 4, Host memory: 8541 MB
 #-----------------------------------------------------------
-source decoder2_8.tcl -notrace
+source decode2_8_always.tcl -notrace

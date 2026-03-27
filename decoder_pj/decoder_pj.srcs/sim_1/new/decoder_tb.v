@@ -30,10 +30,15 @@ module decoder_tb;
         .x(x),
         .out(out)
     );
+/*    decode2_8_always de2(
+        .en(en),
+        .x(x),
+        .out(out)
+    );*/
     
     initial begin
         en=0;
-        #5 en=1;
+     #5 en=1;
     end
     
     initial begin
