@@ -1,0 +1,8 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/AIOT/vivado_pj/moore_pj/moore_pj.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/AIOT/vivado_pj/moore_pj/moore_pj.srcs/sim_1/new/moore_tb.v,1775020637,verilog,,,,moore_tb,,,,,,,,
+D:/AIOT/vivado_pj/moore_pj/moore_pj.srcs/sources_1/new/moore.v,1775014953,verilog,,D:/AIOT/vivado_pj/moore_pj/moore_pj.srcs/sim_1/new/moore_tb.v,,moore,,,,,,,,
+D:/AIOT/vivado_pj/moore_pj/moore_pj.srcs/sources_1/new/moore_non_next.v,1775020985,verilog,,D:/AIOT/vivado_pj/moore_pj/moore_pj.srcs/sim_1/new/moore_tb.v,,moore_non_next,,,,,,,,
