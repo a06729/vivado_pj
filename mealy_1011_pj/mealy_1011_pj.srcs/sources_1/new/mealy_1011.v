@@ -57,12 +57,12 @@ module mealy_1011(
             
             s2:begin
                 if(x) state_next=s3;
-                else state_next= s2;
+                else state_next= s0;
             end
             
             s3:begin
                 if(x) state_next=s1;
-                else state_next = s0;
+                else state_next = s2;
             end
             
             default:state_next = state;

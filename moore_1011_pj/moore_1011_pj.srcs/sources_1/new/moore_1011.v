@@ -58,11 +58,11 @@ module moore_1011(
                 
                 s3:begin
                     if(x) state_next=s4;
-                    else state_next=s0;
+                    else state_next=s2;
                 end
                 s4:begin
                     if(x) state_next=s1;
-                    else state_next=s0;
+                    else state_next=s2;
                 end
                 default state_next = state;
             endcase 
