@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/moore_1011_pj/moore_1011_pj.srcs/sources_1/new/moore_1011.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moore_1011
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'state_next' is not allowed [D:/AIOT/vivado_pj/moore_1011_pj/moore_1011_pj.srcs/sources_1/new/moore_1011.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/moore_1011_pj/moore_1011_pj.srcs/sim_1/new/moore_1011_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module moore_1011_tb
