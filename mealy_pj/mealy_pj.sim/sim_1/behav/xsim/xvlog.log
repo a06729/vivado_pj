@@ -1,0 +1,5 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/mealy_pj/mealy_pj.srcs/sources_1/new/mealy.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mealy
+WARNING: [VRFC 10-9336] redeclaration of ANSI port 'state_next' is not allowed [D:/AIOT/vivado_pj/mealy_pj/mealy_pj.srcs/sources_1/new/mealy.v:33]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/mealy_pj/mealy_pj.srcs/sim_1/new/mealy_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module mealy_tb
