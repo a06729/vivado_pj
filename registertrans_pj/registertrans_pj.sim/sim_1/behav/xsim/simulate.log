@@ -1,0 +1,14 @@
+Time resolution is 1 ps
+Time=0 | DATA_IN=xxxx A=xxxx B=xxxx
+Time=10000 | DATA_IN=0001 A=xxxx B=xxxx
+Time=15000 | DATA_IN=0001 A=0001 B=xxxx
+Time=20000 | DATA_IN=0010 A=0001 B=xxxx
+Time=25000 | DATA_IN=0010 A=0010 B=0001
+Time=30000 | DATA_IN=0011 A=0010 B=0001
+Time=35000 | DATA_IN=0011 A=0011 B=0010
+Time=40000 | DATA_IN=0100 A=0011 B=0010
+Time=45000 | DATA_IN=0100 A=0100 B=0011
+Time=50000 | DATA_IN=1111 A=0100 B=0011
+Time=55000 | DATA_IN=1111 A=1111 B=0100
+Time=65000 | DATA_IN=1111 A=1111 B=1111
+$finish called at time : 150 ns : File "D:/AIOT/vivado_pj/registertrans_pj/registertrans_pj.srcs/sim_1/new/registertrans_tb.v" Line 57

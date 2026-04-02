@@ -2,3 +2,6 @@ Running: xsim.dir/moore_1011_tb_behav/xsimk.exe -simmode gui -wdb moore_1011_tb_
 Design successfully loaded
 Design Loading Memory Usage: 7328 KB (Peak: 7328 KB)
 Design Loading CPU Usage: 31 ms
+Simulation completed
+Simulation Memory Usage: 7808 KB (Peak: 7808 KB)
+Simulation CPU Usage: 78 ms
