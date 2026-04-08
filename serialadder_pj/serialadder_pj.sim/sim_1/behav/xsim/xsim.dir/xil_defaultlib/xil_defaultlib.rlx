@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sim_1/new/serialadder_tb.v,1775609039,verilog,,,,serialadder_tb,,,,,,,,
+D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sources_1/new/fulladder.v,1775201368,verilog,,D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sources_1/new/parallel8shift.v,,fulladder,,,,,,,,
+D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sources_1/new/parallel8shift.v,1775202901,verilog,,D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sources_1/new/serialadder.v,,parallel8shift,,,,,,,,
+D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sources_1/new/register_1bit.v,1775607616,verilog,,D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sources_1/new/serialadder.v,,register_1bit,,,,,,,,
+D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sources_1/new/serialadder.v,1775608858,verilog,,D:/AIOT/vivado_pj/serialadder_pj/serialadder_pj.srcs/sim_1/new/serialadder_tb.v,,serialadder,,,,,,,,

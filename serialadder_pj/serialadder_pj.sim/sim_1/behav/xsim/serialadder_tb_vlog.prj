@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../serialadder_pj.srcs/sources_1/new/fulladder.v" \
+"../../../../serialadder_pj.srcs/sources_1/new/parallel8shift.v" \
+"../../../../serialadder_pj.srcs/sources_1/new/serialadder.v" \
+"../../../../serialadder_pj.srcs/sim_1/new/serialadder_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
