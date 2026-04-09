@@ -102,6 +102,8 @@ read_xdc D:/AIOT/vivado_pj/button_shift_board/button_shift_board.srcs/constrs_1/
 set_property used_in_implementation false [get_files D:/AIOT/vivado_pj/button_shift_board/button_shift_board.srcs/constrs_1/new/button_shitft_board.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/AIOT/vivado_pj/button_shift_board/button_shift_board.srcs/utils_1/imports/synth_1/button_shift_board.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

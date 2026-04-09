@@ -3,3 +3,8 @@
     <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="6268" HostCore="8" HostMemory="08541687808">
     </Process>
 </ProcessHandle>
+<?xml version="1.0"?>
+<ProcessHandle Version="1" Minor="0">
+    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="6892" HostCore="8" HostMemory="08541687808">
+    </Process>
+</ProcessHandle>

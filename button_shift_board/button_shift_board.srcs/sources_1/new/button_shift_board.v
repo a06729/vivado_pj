@@ -26,6 +26,8 @@ module button_shift_board(
 
 // 1. 동기화
 reg [1:0] syncL, syncR;
+
+//메타 스테빌리티
 always @(posedge clk or posedge reset) begin
     if (reset) begin
         syncL <= 0;
@@ -39,10 +41,12 @@ always @(posedge clk or posedge reset) begin
         syncR <= {syncR[0], btnR};
     end
 end
+
 // 2. 디바운싱
 parameter DEBOUNCE = 1_000_000;
 reg [19:0] cntL, cntR;
 reg debL, debR;
+
 always @(posedge clk or posedge reset) begin
     if (reset) begin
         cntL <= 0; 
@@ -70,10 +74,12 @@ always @(posedge clk or posedge reset) begin
         end else cntR <= 0;
     end
 end
+
 // 3. 1초 타이머 생성 (100MHz 기준)
 parameter ONE_SEC = 100_000_000;
 reg [26:0] sec_cnt;
 reg tick_1s;
+
 always @(posedge clk or posedge reset) begin
     if (reset) begin
         sec_cnt <= 0;
@@ -88,6 +94,7 @@ always @(posedge clk or posedge reset) begin
         end
     end
 end
+
 // 4. LED 쉬프트 제어
 always @(posedge clk or posedge reset) begin
     if (reset) begin
