@@ -28,6 +28,7 @@ module byte_to_bcd(
         sel <= sel+1;
     end
     */
+    
     wire [1:0] sel;
     
     assign sel = clk_div[18:17];
