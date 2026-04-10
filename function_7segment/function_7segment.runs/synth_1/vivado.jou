@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Fri Apr 10 16:37:51 2026
+# Process ID: 27512
+# Current directory: D:/AIOT/vivado_pj/function_7segment/function_7segment.runs/synth_1
+# Command line: vivado.exe -log fnd_function.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source fnd_function.tcl
+# Log file: D:/AIOT/vivado_pj/function_7segment/function_7segment.runs/synth_1/fnd_function.vds
+# Journal file: D:/AIOT/vivado_pj/function_7segment/function_7segment.runs/synth_1\vivado.jou
+# Running On: SAT05, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 4, Host memory: 8541 MB
+#-----------------------------------------------------------
+source fnd_function.tcl -notrace

@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1775806665">
+  <File Type="ROUTE-PWR" Name="fnd_function_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="fnd_function.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="fnd_function_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="fnd_function_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="fnd_function_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="fnd_function.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="fnd_function_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="fnd_function_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="fnd_function_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="fnd_function_opt.dcp"/>
+  <File Type="OPT-DRC" Name="fnd_function_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="fnd_function.hwdef"/>
+  <File Type="PWROPT-DCP" Name="fnd_function_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="fnd_function_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="fnd_function_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="fnd_function_placed.dcp"/>
+  <File Type="PLACE-IO" Name="fnd_function_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="fnd_function_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="fnd_function_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="fnd_function_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="fnd_function_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="fnd_function_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="fnd_function_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="fnd_function.bin"/>
+  <File Type="PLACE-TIMING" Name="fnd_function_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="fnd_function_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="fnd_function_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="fnd_function_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="fnd_function.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="fnd_function_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="fnd_function_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="fnd_function_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="fnd_function.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="fnd_function_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="fnd_function_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="fnd_function_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="fnd_function_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="fnd_function_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="fnd_function_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="fnd_function_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="fnd_function_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="fnd_function_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="fnd_function_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="fnd_function_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="fnd_function_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="fnd_function_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="fnd_function_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="fnd_function_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="fnd_function_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="fnd_function_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="fnd_function_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="fnd_function_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="fnd_function_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="fnd_function_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="fnd_function_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="fnd_function_postroute_physopt_bb.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING" Name="fnd_function_timing_summary_postroute_physopted.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="fnd_function_timing_summary_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="fnd_function_timing_summary_postroute_physopted.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="fnd_function_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="fnd_function.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="fnd_function_bus_skew_postroute_physopted.pb"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="fnd_function_bus_skew_postroute_physopted.rpx"/>
+  <File Type="BITSTR-NKY" Name="fnd_function.nky"/>
+  <File Type="BITSTR-BMM" Name="fnd_function_bd.bmm"/>
+  <File Type="PDI-FILE" Name="fnd_function.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="fnd_function_boot.pdi"/>
+  <File Type="PL-PDI-FILE" Name="fnd_function_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="fnd_function.rcfi"/>
+  <File Type="CFI_FILE" Name="fnd_function.cfi"/>
+  <File Type="RNPI_FILE" Name="fnd_function.rnpi"/>
+  <File Type="NPI_FILE" Name="fnd_function.npi"/>
+  <File Type="RBD_FILE" Name="fnd_function.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="fnd_function.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="fnd_function.sysdef"/>
+  <File Type="BG-BGN" Name="fnd_function.bgn"/>
+  <File Type="BG-DRC" Name="fnd_function.drc"/>
+  <File Type="RDI-RDI" Name="fnd_function.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="fnd_function_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="fnd_function_postroute_physopted.rqs"/>
+  <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
+  <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
+    <Filter Type="Srcs"/>
+    <File Path="$PSRCDIR/sources_1/new/fnd_function.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="DesignMode" Val="RTL"/>
+      <Option Name="TopModule" Val="fnd_function"/>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
+    <Filter Type="Constrs"/>
+    <File Path="$PSRCDIR/constrs_1/new/fnd_function.xdc">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="ConstrsType" Val="XDC"/>
+    </Config>
+  </FileSet>
+  <FileSet Name="utils" Type="Utils" RelSrcDir="$PSRCDIR/utils_1" RelGenDir="$PGENDIR/utils_1">
+    <Filter Type="Utils"/>
+    <File Path="$PSRCDIR/utils_1/imports/synth_1/fnd_function.dcp">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedInSteps" Val="synth_1"/>
+        <Attr Name="AutoDcp" Val="1"/>
+      </FileInfo>
+    </File>
+    <Config>
+      <Option Name="TopAutoSet" Val="TRUE"/>
+    </Config>
+  </FileSet>
+  <Strategy Version="1" Minor="2">
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
+      <Desc>Default settings for Implementation.</Desc>
+    </StratHandle>
+    <Step Id="init_design"/>
+    <Step Id="opt_design"/>
+    <Step Id="power_opt_design"/>
+    <Step Id="place_design"/>
+    <Step Id="post_place_power_opt_design"/>
+    <Step Id="phys_opt_design"/>
+    <Step Id="route_design"/>
+    <Step Id="post_route_phys_opt_design"/>
+    <Step Id="write_bitstream"/>
+  </Strategy>
+</GenRun>

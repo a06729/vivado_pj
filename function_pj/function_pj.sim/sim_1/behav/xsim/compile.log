@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/function_pj/function_pj.srcs/sources_1/imports/새 폴더/function2.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module function2
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/AIOT/vivado_pj/function_pj/function_pj.srcs/sim_1/imports/새 폴더/function2_tb.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module function2_tb

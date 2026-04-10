@@ -10,7 +10,7 @@ output f,
 output [2:0] g
 );
 
-function  myfunction;
+function [2:0]  myfunction;
 input [2:0] a, b, c, d;
 begin                                   
     myfunction = (a+b) + (c-d);
