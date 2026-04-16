@@ -6,18 +6,18 @@ module FNDdecoder(
     );
     always @(fndin)begin
         case(fndin)
-            4'h0 : fnd=8'h01;
-            4'h1 : fnd=8'h4f;
-            4'h2 : fnd=8'h12;
-            4'h3 : fnd=8'h06;
-            4'h4 : fnd=8'h4c;
-            4'h5 : fnd=8'h24;
-            4'h6 : fnd=8'h60;
-            4'h7 : fnd=8'h0f;
-            4'h8 : fnd=8'h00;
-            4'h9 : fnd=8'h0c;
+            4'd0 : fnd=7'b1000000;
+            4'd1 : fnd=7'b1111001;
+            4'd2 : fnd=7'b0100100;
+            4'd3 : fnd=7'b0110000;
+            4'd4 : fnd=7'b0011001;
+            4'd5 : fnd=7'b0010010;
+            4'd6 : fnd=7'b0000010;
+            4'd7 : fnd=7'b1111000;
+            4'd8 : fnd=7'b0000000;
+            4'd9 : fnd=7'b0011000;
             
-            default fnd=8'hff;
+            default fnd= 7'b1000000;
         endcase
          
         

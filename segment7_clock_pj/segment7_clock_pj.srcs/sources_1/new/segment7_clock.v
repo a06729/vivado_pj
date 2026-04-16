@@ -23,9 +23,9 @@ module segment7_clock(
     wire [5:0] min_out;
     wire [5:0] sec_out;
     
-    wire[ 4:0] hour_out;
-    wire [5:0] min_out;
-    wire [5:0] sec_out;
+    //wire[ 4:0] hour_out;
+    //wire [5:0] min_out;
+    //wire [5:0] sec_out;
     
     wire [3:0] hour10;
     wire [3:0] hour0;
@@ -89,7 +89,7 @@ module segment7_clock(
     
     counter u4(
         .inclk(w_clkout),
-        .reset(rest),
+        .reset(reset),
         .out_counter(out_counter)
     );
     
@@ -111,14 +111,14 @@ module segment7_clock(
     );
     
     FNDdecoder u7(
-        .findin(fndin),
+        .fndin(fndin),
         .fnd(fnd)
     );
     
     clockdivider_paramN #(.N(100_000_000)) u8 (
         .clk(clk),
         .reset(reset),
-        .clk_out(w_clkout)
+        .clk_out(w_clk_out)
     );
     
     Timer u9(
@@ -131,6 +131,23 @@ module segment7_clock(
         .mmsec_out(w_t_mmsec_out),
         .sec_out(w_t_sec_out),
         .min_out(w_t_min_out)
+    );
+    
+    AlarmLogic u10 (
+        .reset(reset),
+        .clk1000hz(w_clkout),
+        .mode(mode_out),
+        .set_pos(set_pos_out),
+        .clk_min(min_out),
+        .clk_hour(hour_out),
+        .sw2(sw2),
+        .sw3(sw3),
+        .sec_out(w_a_sec_out),
+        .min_out(w_a_min_out),
+        .hour_out(w_a_hour_out),
+        .alarm_out(alarm_out),
+        .alarm_on(alarm_on)
+    
     );
 
 endmodule
