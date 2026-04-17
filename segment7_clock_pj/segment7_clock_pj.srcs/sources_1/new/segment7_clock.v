@@ -27,6 +27,7 @@ module segment7_clock(
     wire [5:0] min_out;
     wire [5:0] sec_out;
     
+    //시 분초 10의자리 1의자리 wire
     wire [3:0] hour10;
     wire [3:0] hour0;
     wire [3:0] min10;
