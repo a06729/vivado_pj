@@ -7,10 +7,10 @@
 set_property -dict { PACKAGE_PIN W5   IOSTANDARD LVCMOS33 } [get_ports clk]
 create_clock -add -name sys_clk_pin -period 10.00 -waveform {0 5} [get_ports clk]
 
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw0_IBUF]
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw1_IBUF]
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw2_IBUF]
-set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw3_IBUF]
+#set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw0_IBUF]
+#set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw1_IBUF]
+#set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw2_IBUF]
+#set_property CLOCK_DEDICATED_ROUTE FALSE [get_nets sw3_IBUF]
 
 ## Switches
 set_property -dict { PACKAGE_PIN V17   IOSTANDARD LVCMOS33 } [get_ports {sw0}]

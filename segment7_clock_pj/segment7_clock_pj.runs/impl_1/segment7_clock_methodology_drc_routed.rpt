@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Thu Apr 16 16:53:58 2026
+| Date         : Fri Apr 17 11:15:21 2026
 | Host         : SAT05 running 64-bit major release  (build 9200)
 | Command      : report_methodology -file segment7_clock_methodology_drc_routed.rpt -pb segment7_clock_methodology_drc_routed.pb -rpx segment7_clock_methodology_drc_routed.rpx
 | Design       : segment7_clock
@@ -23,11 +23,11 @@ Table of Contents
           Floorplan: design_1
       Design limits: <entire design considered>
              Max violations: <unlimited>
-             Violations found: 39
+             Violations found: 41
 +-----------+------------------+-------------------------------+------------+
 | Rule      | Severity         | Description                   | Violations |
 +-----------+------------------+-------------------------------+------------+
-| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 23         |
+| TIMING-17 | Critical Warning | Non-clocked sequential cell   | 25         |
 | TIMING-18 | Warning          | Missing input or output delay | 16         |
 +-----------+------------------+-------------------------------+------------+
 
@@ -140,10 +140,20 @@ Related violations: <none>
 
 TIMING-17#22 Critical Warning
 Non-clocked sequential cell  
-The clock pin u4/out_counter_reg[0]/C is not reached by a timing clock
+The clock pin u10/sw2_d_reg/C is not reached by a timing clock
 Related violations: <none>
 
 TIMING-17#23 Critical Warning
+Non-clocked sequential cell  
+The clock pin u10/sw3_d_reg/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#24 Critical Warning
+Non-clocked sequential cell  
+The clock pin u4/out_counter_reg[0]/C is not reached by a timing clock
+Related violations: <none>
+
+TIMING-17#25 Critical Warning
 Non-clocked sequential cell  
 The clock pin u4/out_counter_reg[1]/C is not reached by a timing clock
 Related violations: <none>
