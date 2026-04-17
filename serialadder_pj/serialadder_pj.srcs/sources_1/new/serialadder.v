@@ -51,7 +51,7 @@ module serialadder(
         .out(b_in)
     );
 
-    register_1bit dut3(
+    register_1 dut3(
         .clk(clk),
         .reset(reset),
         .din(cout),  
