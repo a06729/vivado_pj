@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Fri Apr 17 11:14:52 2026
+| Date         : Fri Apr 17 16:02:51 2026
 | Host         : SAT05 running 64-bit major release  (build 9200)
 | Command      : report_control_sets -verbose -file segment7_clock_control_sets_placed.rpt
 | Design       : segment7_clock
@@ -80,10 +80,10 @@ Table of Contents
 |  u3/CLK        | u0/set_pos_reg[2]_1[0] | reset_IBUF       |                2 |              6 |         3.00 |
 |  u3/CLK        | u0/set_pos_reg[0]_0[0] | reset_IBUF       |                3 |              6 |         2.00 |
 |  clk_IBUF_BUFG |                        |                  |                3 |              6 |         2.00 |
-|  clk_IBUF_BUFG | u1/min[5]_i_1_n_0      | reset_IBUF       |                2 |              6 |         3.00 |
-|  clk_IBUF_BUFG | u0/mode_reg[0]_0[0]    | reset_IBUF       |                3 |              6 |         2.00 |
 |  clk_IBUF_BUFG | u0/mode_reg[0]_1[0]    | reset_IBUF       |                2 |              6 |         3.00 |
+|  clk_IBUF_BUFG | u0/mode_reg[0]_0[0]    | reset_IBUF       |                3 |              6 |         2.00 |
 |  clk_IBUF_BUFG | u0/mode_reg[1]_1[0]    | reset_IBUF       |                3 |              6 |         2.00 |
+|  clk_IBUF_BUFG | u1/min[5]_i_1_n_0      | reset_IBUF       |                2 |              6 |         3.00 |
 |  clk_IBUF_BUFG | u0/clk_out_reg[0]      | reset_IBUF       |                4 |              7 |         1.75 |
 |  clk_IBUF_BUFG |                        | reset_IBUF       |               41 |            133 |         3.24 |
 +----------------+------------------------+------------------+------------------+----------------+--------------+
