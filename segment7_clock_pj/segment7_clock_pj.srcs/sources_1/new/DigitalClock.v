@@ -18,7 +18,13 @@ module DigitalClock(
     reg deb;
     reg prev;
     
+    //시간 설정 flag를 문자로 보기 위한 파라메터
     parameter Time_set_flag = 2'b01;
+    
+    parameter Hour_pos_flag =3'b100;
+    parameter Min_pos_flag =3'b010;
+    parameter Sec_pos_flag =3'b001;
+   
     parameter DEBOUNCE = 1_000_000;
     
     always @(posedge clk,posedge reset)begin
@@ -54,7 +60,8 @@ module DigitalClock(
     
     wire sw2_pulse = deb & (~prev);
     
-    wire tick_sec = clk1Hz; //일반 모드
+    
+    wire tick_sec = clk1Hz; //일반 모드 1초마다 1의 값을 받는 곳 
     wire tick_set = sw2_pulse;// 설정 모드
     
     wire enable = (mode == Time_set_flag) ? tick_set : tick_sec;
@@ -70,21 +77,23 @@ module DigitalClock(
         end
         else if(enable) begin
             if(mode == Time_set_flag)begin
+                //변경할 시간 위치를 case문으로 구별
                 case(set_pos)
-                    3'b001:begin
+                    Sec_pos_flag:begin
                         if(sec==59) sec <= 0;
                         else sec <= sec+1;
                     end
-                    3'b010:begin
+                    Min_pos_flag:begin
                         if(min==59) min <= 0;
                         else min <= min + 1;
                     end
-                    3'b100:begin
+                    Hour_pos_flag:begin
                         if(hour == 23) hour <= 0;
                         else hour <= hour + 1;
                     end
                 endcase 
             end
+            //1초씩 증가 시키는 조건문
             else begin
                 if(sec == 59) begin
                     sec <=0;

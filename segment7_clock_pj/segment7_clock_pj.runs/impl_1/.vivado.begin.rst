@@ -1,50 +1,10 @@
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="2940" HostCore="8" HostMemory="08541687808">
+    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="17460" HostCore="8" HostMemory="08541687808">
     </Process>
 </ProcessHandle>
 <?xml version="1.0"?>
 <ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="17372" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="21424" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="6844" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="8596" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="4656" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="19796" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="21236" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="6136" HostCore="8" HostMemory="08541687808">
-    </Process>
-</ProcessHandle>
-<?xml version="1.0"?>
-<ProcessHandle Version="1" Minor="0">
-    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="15396" HostCore="8" HostMemory="08541687808">
+    <Process Command="vivado.bat" Owner="SAMSUNG" Host="SAT05" Pid="18928" HostCore="8" HostMemory="08541687808">
     </Process>
 </ProcessHandle>

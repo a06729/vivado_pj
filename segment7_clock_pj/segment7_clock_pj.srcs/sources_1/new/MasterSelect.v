@@ -12,8 +12,9 @@ module MasterSelect(
 //--------------------------------------------------
 // 내부 레지스터
 //--------------------------------------------------
-reg [1:0] mode;
-reg [2:0] set_pos;
+reg [1:0] mode; // 시계,시간설정,스톱워치.알람 기능 표시 reg
+reg [2:0] set_pos; // 시간설정이 시 분 초 위치를 바꾸기 위한 reg
+
 
 //--------------------------------------------------
 // 1. 동기화
@@ -32,6 +33,7 @@ parameter DEBOUNCE = 20'd200_000; // 약 2ms (100MHz 기준)
 reg [19:0] cnt0, cnt1;
 reg sw0_db, sw1_db;
 
+//sw0 의 디바운싱을 하기 위한 always
 always @(posedge clk or posedge reset) begin
     if (reset) begin
         cnt0 <= 0;
@@ -50,6 +52,7 @@ always @(posedge clk or posedge reset) begin
     end
 end
 
+//sw1 의 디바운싱을 하기 위한 always
 always @(posedge clk or posedge reset) begin
     if (reset) begin
         cnt1 <= 0;

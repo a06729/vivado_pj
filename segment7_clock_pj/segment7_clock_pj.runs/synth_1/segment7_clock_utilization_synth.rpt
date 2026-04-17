@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ---------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
-| Date         : Thu Apr 16 16:34:36 2026
+| Date         : Thu Apr 16 16:52:40 2026
 | Host         : SAT05 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file segment7_clock_utilization_synth.rpt -pb segment7_clock_utilization_synth.pb
 | Design       : segment7_clock
@@ -57,9 +57,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 | 0     |            _ |       Reset |            - |
 | 0     |          Yes |           - |            - |
 | 1     |          Yes |           - |          Set |
-| 186   |          Yes |           - |        Reset |
+| 188   |          Yes |           - |        Reset |
 | 0     |          Yes |         Set |            - |
-| 9     |          Yes |       Reset |            - |
+| 7     |          Yes |       Reset |            - |
 +-------+--------------+-------------+--------------+
 
 
@@ -151,7 +151,7 @@ Warning! LUT value is adjusted to account for LUT combining.
 +----------+------+---------------------+
 | Ref Name | Used | Functional Category |
 +----------+------+---------------------+
-| FDCE     |  186 |        Flop & Latch |
+| FDCE     |  188 |        Flop & Latch |
 | LUT5     |  115 |                 LUT |
 | LUT4     |   96 |                 LUT |
 | LUT6     |   81 |                 LUT |
@@ -159,9 +159,9 @@ Warning! LUT value is adjusted to account for LUT combining.
 | LUT3     |   22 |                 LUT |
 | LUT2     |   22 |                 LUT |
 | OBUF     |   19 |                  IO |
-| FDRE     |    9 |        Flop & Latch |
 | LUT1     |    7 |                 LUT |
 | IBUF     |    7 |                  IO |
+| FDRE     |    7 |        Flop & Latch |
 | OBUFT    |    3 |                  IO |
 | BUFG     |    3 |               Clock |
 | FDPE     |    1 |        Flop & Latch |

@@ -1,70 +1,63 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1776324805">
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1776325894">
   <File Type="ROUTE-PWR" Name="segment7_clock_power_routed.rpt"/>
   <File Type="PA-TCL" Name="segment7_clock.tcl"/>
   <File Type="ROUTE-PWR-SUM" Name="segment7_clock_power_summary_routed.pb"/>
   <File Type="REPORTS-TCL" Name="segment7_clock_reports.tcl"/>
-  <File Type="OPT-RQA-PB" Name="segment7_clock_rqa_opted.pb"/>
+  <File Type="BITSTR-MSK" Name="segment7_clock.msk"/>
+  <File Type="ROUTE-CLK" Name="segment7_clock_clock_utilization_routed.rpt"/>
+  <File Type="RDI-RDI" Name="segment7_clock.vdi"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="segment7_clock_bus_skew_postroute_physopted.pb"/>
+  <File Type="BG-BIT" Name="segment7_clock.bit"/>
+  <File Type="BG-DRC" Name="segment7_clock.drc"/>
+  <File Type="BG-BGN" Name="segment7_clock.bgn"/>
+  <File Type="BG-BIN" Name="segment7_clock.bin"/>
+  <File Type="BITSTR-RBT" Name="segment7_clock.rbt"/>
+  <File Type="BITSTR-NKY" Name="segment7_clock.nky"/>
+  <File Type="BITSTR-BMM" Name="segment7_clock_bd.bmm"/>
   <File Type="BITSTR-MMI" Name="segment7_clock.mmi"/>
-  <File Type="OPT-METHODOLOGY-DRC" Name="segment7_clock_methodology_drc_opted.rpt"/>
-  <File Type="INIT-TIMING" Name="segment7_clock_timing_summary_init.rpt"/>
-  <File Type="OPT-TIMING" Name="segment7_clock_timing_summary_opted.rpt"/>
-  <File Type="OPT-DCP" Name="segment7_clock_opt.dcp"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="segment7_clock_methodology_drc_routed.rpt"/>
+  <File Type="BITSTR-SYSDEF" Name="segment7_clock.sysdef"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="segment7_clock.ltx"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="OPT-DRC" Name="segment7_clock_drc_opted.rpt"/>
   <File Type="OPT-HWDEF" Name="segment7_clock.hwdef"/>
-  <File Type="PWROPT-DCP" Name="segment7_clock_pwropt.dcp"/>
-  <File Type="PWROPT-DRC" Name="segment7_clock_drc_pwropted.rpt"/>
-  <File Type="PWROPT-TIMING" Name="segment7_clock_timing_summary_pwropted.rpt"/>
-  <File Type="PLACE-DCP" Name="segment7_clock_placed.dcp"/>
   <File Type="PLACE-IO" Name="segment7_clock_io_placed.rpt"/>
-  <File Type="PLACE-CLK" Name="segment7_clock_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL" Name="segment7_clock_utilization_placed.rpt"/>
   <File Type="PLACE-UTIL-PB" Name="segment7_clock_utilization_placed.pb"/>
   <File Type="PLACE-CTRL" Name="segment7_clock_control_sets_placed.rpt"/>
-  <File Type="PLACE-SIMILARITY" Name="segment7_clock_incremental_reuse_placed.rpt"/>
   <File Type="PLACE-PRE-SIMILARITY" Name="segment7_clock_incremental_reuse_pre_placed.rpt"/>
-  <File Type="BG-BIN" Name="segment7_clock.bin"/>
-  <File Type="PLACE-TIMING" Name="segment7_clock_timing_summary_placed.rpt"/>
-  <File Type="ROUTE-PWR-RPX" Name="segment7_clock_power_routed.rpx"/>
-  <File Type="PLACE-RQA-PB" Name="segment7_clock_rqa_placed.pb"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="segment7_clock_postplace_pwropt.dcp"/>
-  <File Type="BITSTR-MSK" Name="segment7_clock.msk"/>
-  <File Type="POSTPLACE-PWROPT-TIMING" Name="segment7_clock_timing_summary_postplace_pwropted.rpt"/>
-  <File Type="PHYSOPT-DCP" Name="segment7_clock_physopt.dcp"/>
-  <File Type="PHYSOPT-DRC" Name="segment7_clock_drc_physopted.rpt"/>
-  <File Type="BITSTR-RBT" Name="segment7_clock.rbt"/>
-  <File Type="PHYSOPT-TIMING" Name="segment7_clock_timing_summary_physopted.rpt"/>
-  <File Type="ROUTE-ERROR-DCP" Name="segment7_clock_routed_error.dcp"/>
-  <File Type="ROUTE-DCP" Name="segment7_clock_routed.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="segment7_clock_routed_bb.dcp"/>
   <File Type="ROUTE-DRC" Name="segment7_clock_drc_routed.rpt"/>
   <File Type="ROUTE-DRC-PB" Name="segment7_clock_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="segment7_clock_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="segment7_clock_methodology_drc_routed.rpt"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="segment7_clock_methodology_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="segment7_clock_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-RQS-PB" Name="segment7_clock_rqs_routed.pb"/>
+  <File Type="ROUTE-PWR-RPX" Name="segment7_clock_power_routed.rpx"/>
   <File Type="ROUTE-STATUS" Name="segment7_clock_route_status.rpt"/>
   <File Type="ROUTE-STATUS-PB" Name="segment7_clock_route_status.pb"/>
+  <File Type="ROUTE-DCP" Name="segment7_clock_routed.dcp"/>
+  <File Type="ROUTE-ERROR-DCP" Name="segment7_clock_routed_error.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="segment7_clock_routed_bb.dcp"/>
   <File Type="ROUTE-TIMINGSUMMARY" Name="segment7_clock_timing_summary_routed.rpt"/>
   <File Type="ROUTE-TIMING-PB" Name="segment7_clock_timing_summary_routed.pb"/>
   <File Type="ROUTE-TIMING-RPX" Name="segment7_clock_timing_summary_routed.rpx"/>
   <File Type="ROUTE-SIMILARITY" Name="segment7_clock_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-CLK" Name="segment7_clock_clock_utilization_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW" Name="segment7_clock_bus_skew_routed.rpt"/>
   <File Type="ROUTE-BUS-SKEW-PB" Name="segment7_clock_bus_skew_routed.pb"/>
   <File Type="ROUTE-BUS-SKEW-RPX" Name="segment7_clock_bus_skew_routed.rpx"/>
+  <File Type="OPT-DCP" Name="segment7_clock_opt.dcp"/>
+  <File Type="PLACE-DCP" Name="segment7_clock_placed.dcp"/>
+  <File Type="PWROPT-DCP" Name="segment7_clock_pwropt.dcp"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="segment7_clock_postplace_pwropt.dcp"/>
+  <File Type="PHYSOPT-DCP" Name="segment7_clock_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-DCP" Name="segment7_clock_postroute_physopt.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="segment7_clock_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="segment7_clock_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="segment7_clock_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="segment7_clock_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="segment7_clock_bus_skew_postroute_physopted.rpt"/>
-  <File Type="BG-BIT" Name="segment7_clock.bit"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="segment7_clock_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="segment7_clock_bus_skew_postroute_physopted.rpx"/>
-  <File Type="BITSTR-NKY" Name="segment7_clock.nky"/>
-  <File Type="BITSTR-BMM" Name="segment7_clock_bd.bmm"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="segment7_clock_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="segment7_clock_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="segment7_clock_methodology_drc_routed.rpx"/>
   <File Type="PDI-FILE" Name="segment7_clock.pdi"/>
   <File Type="BOOT-PDI-FILE" Name="segment7_clock_boot.pdi"/>
   <File Type="PL-PDI-FILE" Name="segment7_clock_pld.pdi"/>
@@ -73,13 +66,6 @@
   <File Type="RNPI_FILE" Name="segment7_clock.rnpi"/>
   <File Type="NPI_FILE" Name="segment7_clock.npi"/>
   <File Type="RBD_FILE" Name="segment7_clock.rbd"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="segment7_clock.ltx"/>
-  <File Type="BITSTR-SYSDEF" Name="segment7_clock.sysdef"/>
-  <File Type="BG-BGN" Name="segment7_clock.bgn"/>
-  <File Type="BG-DRC" Name="segment7_clock.drc"/>
-  <File Type="RDI-RDI" Name="segment7_clock.vdi"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
   <File Type="ROUTE-RQS" Name="segment7_clock_routed.rqs"/>
   <File Type="POSTROUTE-PHYSOPT-RQS" Name="segment7_clock_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
@@ -196,9 +182,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023">
-      <Desc>Default settings for Implementation.</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2023"/>
     <Step Id="init_design"/>
     <Step Id="opt_design"/>
     <Step Id="power_opt_design"/>

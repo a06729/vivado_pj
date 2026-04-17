@@ -14,7 +14,11 @@ module segment7_clock(
     output [2:0]alarm_out,
     output [2:0] alaram_on
 );
+
+    //1 밀리초를 만들기 위한 wire
     wire w_clkout;
+    
+    //1초를 탐지하기 위해 만들 wire
     wire w_clk_out;
     
     wire [1:0] out_counter;
@@ -22,10 +26,6 @@ module segment7_clock(
     wire [4:0] hour_out;
     wire [5:0] min_out;
     wire [5:0] sec_out;
-    
-    //wire[ 4:0] hour_out;
-    //wire [5:0] min_out;
-    //wire [5:0] sec_out;
     
     wire [3:0] hour10;
     wire [3:0] hour0;
@@ -42,6 +42,8 @@ module segment7_clock(
     wire [5:0] w_a_sec_out;
     wire [5:0] w_a_min_out;
     
+    //시 분 초 선택을 위한 스위치 제어 및 모드제어를 스위치로 하기 위해서
+    //만들어진 모듈
     MasterSelect u0(
         .clk(clk),
         .reset(reset),
@@ -51,6 +53,7 @@ module segment7_clock(
         .set_pos_out(set_pos_out)
     );
     
+    //시간 표시 및 시간 설정을 하는 모듈
     DigitalClock u1(
         .clk(clk),
         .reset(reset),
@@ -63,6 +66,7 @@ module segment7_clock(
         .hour_out(hour_out)
     );
     
+    //FND에 표시하기 위해서 BCD 코드로 만드는 모듈
     FNDDisplay u2(
         .mode(mode_out),
         .sec_in(sec_out),
@@ -81,18 +85,22 @@ module segment7_clock(
         .al_min(w_a_min_out),
         .al_hour(w_a_hour_out)
     );
+    
+    //1ms를 만들기 위한 모듈
     clockdivider_paramN #(.N(100_000)) u3 (
         .clk(clk),
         .reset(reset),
         .clk_out(w_clkout)
     );
     
+    //1ms FND 표시할 FND를 설정하기 위한 카운터 모듈
     counter u4(
         .inclk(w_clkout),
         .reset(reset),
         .out_counter(out_counter)
     );
     
+    //분 초 or 시 분으로 표시를 선택 하기 위한 모듈
     datamux u5(
         .time_mode(time_mode),
         .ina(sec0),
@@ -105,16 +113,19 @@ module segment7_clock(
         .outy(fndin)
     );
     
+    //4개의  fnd 선택하기 위한 모듈
     mux4x1 u6(
         .sel_in(out_counter),
         .fndsel(fndsel)
     );
     
+    //FND에 숫자를 표시하는 모듈
     FNDdecoder u7(
         .fndin(fndin),
         .fnd(fnd)
     );
     
+    //1초를 만들어 내기 위한 clock 분할 모듈
     clockdivider_paramN #(.N(100_000_000)) u8 (
         .clk(clk),
         .reset(reset),
