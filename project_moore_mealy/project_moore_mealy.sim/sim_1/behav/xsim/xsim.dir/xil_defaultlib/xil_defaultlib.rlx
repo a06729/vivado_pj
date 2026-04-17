@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,,,,,,,
+D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.srcs/sim_1/new/test_banch.v,1776406390,verilog,,,,tb_moore,,,,,,,,
+D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.srcs/sources_1/new/mealy.v,1776405815,verilog,,D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.srcs/sim_1/new/test_banch.v,,mealy,,,,,,,,
+D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.srcs/sources_1/new/moore.v,1776405572,verilog,,D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.srcs/sim_1/new/test_banch.v,,moore,,,,,,,,
+D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.srcs/sources_1/new/top_state_machine.v,1776406209,verilog,,D:/AIOT/vivado_pj/project_moore_mealy/project_moore_mealy.srcs/sim_1/new/test_banch.v,,top_state_machine,,,,,,,,
