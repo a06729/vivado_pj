@@ -1,0 +1,32 @@
+Vivado Simulator v2024.2.0
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2024 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2024.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L uvm -L unisims_ver -L unimacro_ver -L secureip --snapshot hand_shake_tb_behav xil_defaultlib.hand_shake_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_data' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:26]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_validout' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:27]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_data' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:34]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_validout' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:35]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_state' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:36]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_state' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:43]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_validout' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:44]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 'm_state' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:47]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_data' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:59]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_readyout' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:60]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_readyout' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:67]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_state' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:70]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_readyout' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:71]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_data' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:72]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_state' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:75]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_state' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:79]
+WARNING: [VRFC 10-9578] illegal assignment to variable input port 's_readyout' [C:/Users/Administrator/hand_shake/hand_shake.srcs/sources_1/new/hand_shake.sv:80]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.hand_shake
+Compiling module xil_defaultlib.hand_shake_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot hand_shake_tb_behav

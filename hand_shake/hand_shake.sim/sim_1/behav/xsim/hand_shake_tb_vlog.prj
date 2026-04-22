@@ -1,0 +1,12 @@
+# compile verilog/system verilog design source files
+sv xil_defaultlib  \
+"../../../../hand_shake.srcs/sources_1/new/hand_shake.sv" \
+
+verilog xil_defaultlib  \
+"../../../../hand_shake.srcs/sim_1/new/hand_shake_tb.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
