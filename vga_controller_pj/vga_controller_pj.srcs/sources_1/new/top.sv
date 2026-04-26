@@ -6,8 +6,9 @@ module top(
     output hsync,
     output vsync,
     //output p_tick,
-    output [9:0] x,
-    output [9:0] y,
+    //output [9:0] x,
+    //output [9:0] y,
+    output [2:0] led,
     output [3:0] vgaRed,
     output [3:0] vgaGreen,
     output [3:0] vgaBlue
@@ -77,5 +78,10 @@ module top(
     assign vgaRed   = rgb_reg[11:8];
     assign vgaGreen = rgb_reg[7:4];
     assign vgaBlue  = rgb_reg[3:0];
+    
+    //led로 체크하기 위한 코드
+    assign led[0] = reset;           // 리셋 버튼을 누를 때 불이 들어옴
+    assign led[1] = video_on;
+    assign led[2] = vgaRed[3];
     
 endmodule
