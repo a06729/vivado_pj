@@ -57,14 +57,17 @@ if {$::dispatch::connected} {
 
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 4
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
 set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
+set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir C:/vivado_pj/vga_controller_pj/vga_controller_pj.cache/wt [current_project]
 set_property parent.project_path C:/vivado_pj/vga_controller_pj/vga_controller_pj.xpr [current_project]
+set_property XPM_LIBRARIES XPM_MEMORY [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property board_part digilentinc.com:basys3:part0:1.2 [current_project]
@@ -72,10 +75,14 @@ set_property ip_output_repo c:/vivado_pj/vga_controller_pj/vga_controller_pj.cac
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+add_files c:/Users/Administrator/Desktop/test/image_320.coe
 read_verilog -library xil_defaultlib -sv {
   C:/vivado_pj/vga_controller_pj/vga_controller_pj.srcs/sources_1/new/vga_controller.sv
   C:/vivado_pj/vga_controller_pj/vga_controller_pj.srcs/sources_1/new/top.sv
 }
+read_ip -quiet c:/vivado_pj/vga_controller_pj/vga_controller_pj.srcs/sources_1/ip/image_rom/image_rom.xci
+set_property used_in_implementation false [get_files -all c:/vivado_pj/vga_controller_pj/vga_controller_pj.gen/sources_1/ip/image_rom/image_rom_ooc.xdc]
+
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the
@@ -89,6 +96,8 @@ read_xdc C:/vivado_pj/vga_controller_pj/vga_controller_pj.srcs/constrs_1/new/vga
 set_property used_in_implementation false [get_files C:/vivado_pj/vga_controller_pj/vga_controller_pj.srcs/constrs_1/new/vga_controller_xdc.xdc]
 
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental C:/vivado_pj/vga_controller_pj/vga_controller_pj.srcs/utils_1/imports/synth_1/top.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
