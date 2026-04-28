@@ -81,7 +81,7 @@ module vga_controller(
     
     assign h_sync_next = (h_count_reg >= (HD+HB) && h_count_reg <= (HD+HB+HR-1));
     
-    assign v_sync_next = (h_count_reg >= (VD+VB) && v_count_reg <= (VD+VB+VR-1));
+    assign v_sync_next = (v_count_reg >= (VD+VB) && v_count_reg <= (VD+VB+VR-1));
     
     assign video_on = (h_count_reg < HD) && (v_count_reg < VD);
     
