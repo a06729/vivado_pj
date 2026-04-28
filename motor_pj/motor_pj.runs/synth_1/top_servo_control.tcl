@@ -87,7 +87,7 @@ set_property ip_output_repo d:/AIOT/vivado_pj/motor_pj/motor_pj.cache/ip [curren
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo2.v
+read_verilog -library xil_defaultlib -sv D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
 # stitched into the results of this synthesis run. Any black boxes in the

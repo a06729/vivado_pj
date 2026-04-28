@@ -3,8 +3,8 @@
 # SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
 # IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
 # SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
-# Start of session at: Tue Apr 28 16:12:02 2026
-# Process ID: 14600
+# Start of session at: Tue Apr 28 16:45:42 2026
+# Process ID: 22684
 # Current directory: D:/AIOT/vivado_pj/motor_pj/motor_pj.runs/synth_1
 # Command line: vivado.exe -log top_servo_control.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source top_servo_control.tcl
 # Log file: D:/AIOT/vivado_pj/motor_pj/motor_pj.runs/synth_1/top_servo_control.vds
@@ -12,7 +12,7 @@
 # Running On: SAT05, OS: Windows, CPU Frequency: 3408 MHz, CPU Physical cores: 4, Host memory: 8541 MB
 #-----------------------------------------------------------
 source top_servo_control.tcl -notrace
-create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:13 . Memory (MB): peak = 591.461 ; gain = 217.461
+create_project: Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 591.918 ; gain = 220.102
 Command: read_checkpoint -auto_incremental -incremental D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/utils_1/imports/synth_1/top_servo_control.dcp
 INFO: [Vivado 12-5825] Read reference checkpoint from D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/utils_1/imports/synth_1/top_servo_control.dcp for incremental synthesis
 INFO: [Vivado 12-7989] Please ensure there are no constraint changes
@@ -25,29 +25,31 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 13820
+INFO: [Synth 8-7075] Helper process launched with PID 18632
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 1424.664 ; gain = 440.461
+Starting RTL Elaboration : Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 1423.883 ; gain = 440.445
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-6157] synthesizing module 'top_servo_control' [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo2.v:2]
-INFO: [Synth 8-6157] synthesizing module 'debounce' [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo2.v:53]
-INFO: [Synth 8-6155] done synthesizing module 'debounce' (0#1) [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo2.v:53]
-INFO: [Synth 8-6157] synthesizing module 'servo' [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo2.v:25]
-INFO: [Synth 8-6155] done synthesizing module 'servo' (0#1) [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo2.v:25]
-INFO: [Synth 8-6155] done synthesizing module 'top_servo_control' (0#1) [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo2.v:2]
+INFO: [Synth 8-6157] synthesizing module 'top_servo_control' [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:110]
+INFO: [Synth 8-6157] synthesizing module 'clockdivider_100k' [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:120]
+INFO: [Synth 8-6155] done synthesizing module 'clockdivider_100k' (0#1) [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:120]
+INFO: [Synth 8-6157] synthesizing module 'servo_control' [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:135]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:157]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:187]
+INFO: [Synth 8-6155] done synthesizing module 'servo_control' (0#1) [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:135]
+INFO: [Synth 8-6155] done synthesizing module 'top_servo_control' (0#1) [D:/AIOT/vivado_pj/motor_pj/motor_pj.srcs/sources_1/new/servo_3.sv:110]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 1531.770 ; gain = 547.566
+Finished RTL Elaboration : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1530.805 ; gain = 547.367
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1531.770 ; gain = 547.566
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1530.805 ; gain = 547.367
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:10 . Memory (MB): peak = 1531.770 ; gain = 547.566
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 1530.805 ; gain = 547.367
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1531.770 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 1530.805 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -58,51 +60,59 @@ INFO: [Project 1-236] Implementation specific constraints were found while readi
 Resolution: To avoid this warning, move constraints listed in [.Xil/top_servo_control_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1621.883 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1616.039 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1621.883 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 1616.039 ; gain = 0.000
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Constraint Validation : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:19 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'state_reg' in module 'servo_control'
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                     S_0 |                              001 |                               00
+                    S_90 |                              010 |                               01
+                   S_180 |                              100 |                               10
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'state_reg' using encoding 'one-hot' in module 'servo_control'
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:17 ; elapsed = 00:00:20 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
 ---------------------------------------------------------------------------------
 Detailed RTL Component Info : 
 +---Adders : 
-	   2 Input   20 Bit       Adders := 3     
+	   2 Input   17 Bit       Adders := 1     
 	   2 Input   11 Bit       Adders := 1     
 	   2 Input   10 Bit       Adders := 1     
 +---Registers : 
-	               20 Bit    Registers := 3     
+	               17 Bit    Registers := 1     
 	               11 Bit    Registers := 1     
-	               10 Bit    Registers := 2     
-	                2 Bit    Registers := 3     
-	                1 Bit    Registers := 11    
+	               10 Bit    Registers := 1     
+	                1 Bit    Registers := 2     
 +---Muxes : 
-	   2 Input   20 Bit        Muxes := 6     
+	   2 Input   17 Bit        Muxes := 1     
 	   2 Input   11 Bit        Muxes := 1     
 	   3 Input    8 Bit        Muxes := 1     
-	   2 Input    1 Bit        Muxes := 2     
+	   3 Input    1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -120,25 +130,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:23 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:21 ; elapsed = 00:00:22 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:27 ; elapsed = 00:00:28 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:29 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Timing Optimization : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Technology Mapping : Time (s): cpu = 00:00:27 ; elapsed = 00:00:29 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -156,37 +166,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished IO Insertion : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -202,42 +212,41 @@ Report Cell Usage:
 +------+-------+------+
 |      |Cell   |Count |
 +------+-------+------+
-|1     |BUFG   |     1|
-|2     |CARRY4 |    17|
-|3     |LUT1   |     3|
-|4     |LUT2   |    12|
-|5     |LUT3   |    19|
-|6     |LUT4   |    80|
-|7     |LUT5   |    12|
-|8     |LUT6   |    11|
-|9     |FDCE   |    94|
-|10    |FDPE   |     3|
-|11    |FDRE   |     6|
-|12    |IBUF   |     5|
-|13    |OBUF   |     1|
+|1     |BUFG   |     2|
+|2     |CARRY4 |     6|
+|3     |LUT1   |     2|
+|4     |LUT2   |    22|
+|5     |LUT3   |     9|
+|6     |LUT4   |    15|
+|7     |LUT5   |    11|
+|8     |LUT6   |    12|
+|9     |FDCE   |    42|
+|10    |FDPE   |     1|
+|11    |IBUF   |     2|
+|12    |OBUF   |     4|
 +------+-------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:22 ; elapsed = 00:00:32 . Memory (MB): peak = 1621.883 ; gain = 547.566
-Synthesis Optimization Complete : Time (s): cpu = 00:00:32 ; elapsed = 00:00:35 . Memory (MB): peak = 1621.883 ; gain = 637.680
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:24 ; elapsed = 00:00:36 . Memory (MB): peak = 1616.039 ; gain = 547.367
+Synthesis Optimization Complete : Time (s): cpu = 00:00:35 ; elapsed = 00:00:38 . Memory (MB): peak = 1616.039 ; gain = 632.602
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1621.883 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 17 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.008 . Memory (MB): peak = 1616.039 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1621.883 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 1616.039 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: 7d2536f4
+Synth Design complete | Checksum: 1fafa239
 INFO: [Common 17-83] Releasing license: Synthesis
-27 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
+31 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:37 ; elapsed = 00:00:42 . Memory (MB): peak = 1621.883 ; gain = 1027.488
-Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.003 . Memory (MB): peak = 1621.883 ; gain = 0.000
+synth_design: Time (s): cpu = 00:00:40 ; elapsed = 00:00:47 . Memory (MB): peak = 1616.039 ; gain = 1020.137
+Write ShapeDB Complete: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.099 . Memory (MB): peak = 1616.039 ; gain = 0.000
 INFO: [Common 17-1381] The checkpoint 'D:/AIOT/vivado_pj/motor_pj/motor_pj.runs/synth_1/top_servo_control.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file top_servo_control_utilization_synth.rpt -pb top_servo_control_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 16:13:21 2026...
+INFO: [Common 17-206] Exiting Vivado at Tue Apr 28 16:46:52 2026...
