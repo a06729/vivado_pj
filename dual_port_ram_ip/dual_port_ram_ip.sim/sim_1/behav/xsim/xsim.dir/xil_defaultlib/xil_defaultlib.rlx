@@ -1,0 +1,9 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/AIOT/vivado_pj/dual_port_ram_ip/dual_port_ram_ip.gen/sources_1/ip/sdpram1/sim/sdpram1.v,1777443700,verilog,,,,sdpram1,,uvm,,,,,,
+D:/AIOT/vivado_pj/dual_port_ram_ip/dual_port_ram_ip.gen/sources_1/ip/sdpram2/sim/sdpram2.v,1777443754,verilog,,D:/AIOT/vivado_pj/dual_port_ram_ip/dual_port_ram_ip.gen/sources_1/ip/sdpram1/sim/sdpram1.v,,sdpram2,,uvm,,,,,,
+D:/AIOT/vivado_pj/dual_port_ram_ip/dual_port_ram_ip.gen/sources_1/ip/sdpram3/sim/sdpram3.v,1777443810,verilog,,D:/AIOT/vivado_pj/dual_port_ram_ip/dual_port_ram_ip.gen/sources_1/ip/sdpram2/sim/sdpram2.v,,sdpram3,,uvm,,,,,,
+D:/AIOT/vivado_pj/dual_port_ram_ip/dual_port_ram_ip.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+D:/AIOT/vivado_pj/dual_port_ram_ip/dual_port_ram_ip.srcs/sim_1/new/sdpram_tb.sv,1777446325,systemVerilog,,,,sdpram_tb,,uvm,,,,,,

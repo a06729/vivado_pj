@@ -1,0 +1,2 @@
+sdpram2.v,verilog,xil_defaultlib,../../../../dual_port_ram_ip.gen/sources_1/ip/sdpram2/sim/sdpram2.v,
+glbl.v,Verilog,xil_defaultlib,glbl.v

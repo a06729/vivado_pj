@@ -1,0 +1,12 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram1/sim/spram1.v,1777434634,verilog,,,,spram1,,uvm,,,,,,
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram2/sim/spram2.v,1777438979,verilog,,D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram1/sim/spram1.v,,spram2,,uvm,,,,,,
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram3/sim/spram3.v,1777439120,verilog,,D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram2/sim/spram2.v,,spram3,,uvm,,,,,,
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram4/sim/spram4.v,1777439179,verilog,,D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram3/sim/spram3.v,,spram4,,uvm,,,,,,
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram5/sim/spram5.v,1777440486,verilog,,D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram4/sim/spram4.v,,spram5,,uvm,,,,,,
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram6/sim/spram6.v,1777439275,verilog,,D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.gen/sources_1/ip/spram5/sim/spram5.v,,spram6,,uvm,,,,,,
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.sim/sim_1/behav/xsim/glbl.v,1697210495,verilog,,,,glbl,,uvm,,,,,,
+D:/AIOT/vivado_pj/block_memory_pj/block_memory_pj.srcs/sim_1/new/spram_tb.sv,1777441771,systemVerilog,,,,spram_tb,,uvm,,,,,,

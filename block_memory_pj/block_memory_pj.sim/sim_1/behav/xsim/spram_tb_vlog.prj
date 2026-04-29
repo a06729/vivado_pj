@@ -1,0 +1,17 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../block_memory_pj.gen/sources_1/ip/spram6/sim/spram6.v" \
+"../../../../block_memory_pj.gen/sources_1/ip/spram5/sim/spram5.v" \
+"../../../../block_memory_pj.gen/sources_1/ip/spram4/sim/spram4.v" \
+"../../../../block_memory_pj.gen/sources_1/ip/spram3/sim/spram3.v" \
+"../../../../block_memory_pj.gen/sources_1/ip/spram2/sim/spram2.v" \
+"../../../../block_memory_pj.gen/sources_1/ip/spram1/sim/spram1.v" \
+
+sv xil_defaultlib  \
+"../../../../block_memory_pj.srcs/sim_1/new/spram_tb.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort
