@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="spi_master_tb_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="spi_master_tb" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="0.000000 us"></ZoomStartTime>
+      <ZoomEndTime time="161.000001 us"></ZoomEndTime>
+      <Cursor1Time time="161.000000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="127"></NameColumnWidth>
+      <ValueColumnWidth column_width="118"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="20" />
+   <wvobject fp_name="/spi_master_tb/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/clock" type="logic">
+      <obj_property name="ElementShortName">clock</obj_property>
+      <obj_property name="ObjectShortName">clock</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[14:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[14:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/start_w" type="logic">
+      <obj_property name="ElementShortName">start_w</obj_property>
+      <obj_property name="ObjectShortName">start_w</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/startw_pedge" type="logic">
+      <obj_property name="ElementShortName">startw_pedge</obj_property>
+      <obj_property name="ObjectShortName">startw_pedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/startw_1d" type="logic">
+      <obj_property name="ElementShortName">startw_1d</obj_property>
+      <obj_property name="ObjectShortName">startw_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/startw_2d" type="logic">
+      <obj_property name="ElementShortName">startw_2d</obj_property>
+      <obj_property name="ObjectShortName">startw_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/start_r" type="logic">
+      <obj_property name="ElementShortName">start_r</obj_property>
+      <obj_property name="ObjectShortName">start_r</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/s_idle" type="logic">
+      <obj_property name="ElementShortName">s_idle</obj_property>
+      <obj_property name="ObjectShortName">s_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/s_ready" type="logic">
+      <obj_property name="ElementShortName">s_ready</obj_property>
+      <obj_property name="ObjectShortName">s_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/s_send" type="logic">
+      <obj_property name="ElementShortName">s_send</obj_property>
+      <obj_property name="ObjectShortName">s_send</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/rw_flag" type="logic">
+      <obj_property name="ElementShortName">rw_flag</obj_property>
+      <obj_property name="ObjectShortName">rw_flag</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/sck_cnt" type="array">
+      <obj_property name="ElementShortName">sck_cnt[9:0]</obj_property>
+      <obj_property name="ObjectShortName">sck_cnt[9:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/sck_index" type="array">
+      <obj_property name="ElementShortName">sck_index[5:0]</obj_property>
+      <obj_property name="ObjectShortName">sck_index[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/rdata" type="array">
+      <obj_property name="ElementShortName">rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/ss" type="logic">
+      <obj_property name="ElementShortName">ss</obj_property>
+      <obj_property name="ObjectShortName">ss</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/sck" type="logic">
+      <obj_property name="ElementShortName">sck</obj_property>
+      <obj_property name="ObjectShortName">sck</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/mosi" type="logic">
+      <obj_property name="ElementShortName">mosi</obj_property>
+      <obj_property name="ObjectShortName">mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/s_done" type="logic">
+      <obj_property name="ElementShortName">s_done</obj_property>
+      <obj_property name="ObjectShortName">s_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/spi_master_tb/done" type="logic">
+      <obj_property name="ElementShortName">done</obj_property>
+      <obj_property name="ObjectShortName">done</obj_property>
+   </wvobject>
+</wave_config>
