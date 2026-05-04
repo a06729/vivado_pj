@@ -33,60 +33,6 @@ module top(
         .y(y)
        //.p_tick(p_tick),
     );
-    
-//    always @(posedge vsync or posedge reset) begin
-//        if (reset) begin
-//            box_x <= 0;
-//            box_y <= 0;
-//        end
-//        else begin
-           
-//            if (box_x + BOX_SIZE < 640) begin
-//                box_x <= box_x + 2; 
-//            end
-//            else begin
-                
-//                box_x <= 0;
-//                if (box_y + BOX_SIZE < 480) begin
-//                    box_y <= box_y + BOX_SIZE; 
-//                end
-//                else begin
-//                    box_y <= 0;
-//                end
-//            end
-//        end
-//    end
-
-
-//    always @* begin
-//        if (~video_on)
-//            rgb_reg = 12'h000; 
-//        else begin
-           
-//            if (x >= box_x && x < (box_x + BOX_SIZE) &&
-//                y >= box_y && y < (box_y + BOX_SIZE)) 
-//            begin
-//                rgb_reg = 12'hFFF; 
-//            end
-//            else begin
-//                rgb_reg = 12'h222; 
-//            end
-//        end
-//    end
-
-//    always @(*) begin
-//        if(~video_on)begin
-//            rgb_reg = 12'h000;
-//        end
-//        else begin
-//            if(sw[0])begin
-//                rgb_reg = 12'hFFF;
-//            end
-//            else if(sw[1]) rgb_reg = 12'hF00;
-//            else if(sw[2]) rgb_reg = 12'h080;
-//            else  rgb_reg = 12'h000;
-//        end
-//    end
 
     // 8가지 디스플레이 테스트 패턴 로직
     always @(*) begin
