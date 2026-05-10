@@ -3,7 +3,7 @@ module uart_echo (
     input  uart_rx,
     output uart_tx
 );
-    // ? Bug 1 수정: 2단 FF 동기화기
+
     reg rx_sync1 = 1'b1, rx_sync2 = 1'b1;  // 초기값 1 (IDLE=High)
     always @(posedge clk) begin
         rx_sync1 <= uart_rx;
@@ -17,7 +17,7 @@ module uart_echo (
 
     uart_rx #(.CLKS_PER_BIT(868)) RX (
         .clk(clk),
-        .i_rx_serial(rx_sync2),  // ? 동기화된 신호 사용
+        .i_rx_serial(rx_sync2),  
         .o_rx_dv(rx_dv),
         .o_rx_byte(rx_byte)
     );

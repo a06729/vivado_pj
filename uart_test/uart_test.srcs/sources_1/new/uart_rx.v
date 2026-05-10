@@ -33,7 +33,7 @@ module uart_rx #(
                         bit_idx <= 0;
                         state   <= DATA;
                     end else
-                        state <= IDLE;  // 글리치 제거
+                        state <= IDLE; 
                 end else
                     clk_cnt <= clk_cnt + 1;
             end

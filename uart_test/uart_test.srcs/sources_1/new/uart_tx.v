@@ -2,7 +2,7 @@ module uart_tx #(
     parameter CLKS_PER_BIT = 868  // 115200 baud @ 100MHz
 )(
     input        clk,
-    input        i_tx_dv,    // data valid (1Å¬·° ÆÞ½º)
+    input        i_tx_dv,    
     input  [7:0] i_tx_byte,
     output reg   o_tx_serial,
     output reg   o_tx_done
