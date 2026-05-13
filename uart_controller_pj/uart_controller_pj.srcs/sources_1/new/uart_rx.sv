@@ -142,7 +142,7 @@ wire [7:0] fifo_dout;
 
 
 assign overrun = fifo_full;
-assign rvalid  = fifo_valid;
+assign rvalid  = ~fifo_empty;
 assign rdata   = fifo_dout;  // [FIX2] wire rdata=fifo_dout 재선언 제거
 
 wire fifo_wen = (cnt_done == 3'd2) ? 1'b1 : 1'b0;

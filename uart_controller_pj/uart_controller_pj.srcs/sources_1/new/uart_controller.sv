@@ -18,8 +18,6 @@ module uart_controller(
         output parity_err
     );
     
-   //  wire trdy;
-    // wire txd;
     
     Uart_Tx uart_tx(
         .reset(reset),
@@ -33,12 +31,6 @@ module uart_controller(
         .txd(txd)
     );
     
-    //wire [7:0] rdata;
-    //wire rvalid;
-    //wire overrun;
-    //wire frame_err;
-    //wire parity_err;
-   
    
    uart_rx uart_rx(
         .reset(reset),
