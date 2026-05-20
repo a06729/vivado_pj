@@ -24,3 +24,15 @@
 16:33:37 INFO  : Result from executing command 'getProjects': mb1_block_wrapper
 16:33:37 INFO  : Result from executing command 'getPlatforms': mb1_block_wrapper|D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/mb1_block_wrapper.xpfm;xilinx_vck190_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
 16:33:38 INFO  : Checking for BSP changes to sync application flags for project 'ledIntrrupt'...
+21:24:28 DEBUG : Logs will be stored at 'C:/vivado_pj/workspace/IDE.log'.
+21:24:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive C:\vivado_pj\workspace\temp_xsdb_launch_script.tcl
+21:24:32 INFO  : XSCT server has started successfully.
+21:24:32 INFO  : Successfully done setting XSCT server connection channel  
+21:24:32 INFO  : plnx-install-location is set to ''
+21:24:32 INFO  : Successfully done setting workspace for the tool. 
+21:24:35 INFO  : Platform repository initialization has completed.
+21:24:41 INFO  : Registering command handlers for Vitis TCF services
+21:24:41 INFO  : Successfully done query RDI_DATADIR 
+21:24:41 WARN  : Failed to identify the type of project 'RemoteSystemsTempFiles'. Skipping...
+21:24:41 WARN  : The following projects could not be identified as Vitis projects and will not be managed by the tool:
+	RemoteSystemsTempFiles
