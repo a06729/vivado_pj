@@ -1,0 +1,26 @@
+16:28:27 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace/IDE.log'.
+16:28:29 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace\temp_xsdb_launch_script.tcl
+16:28:29 INFO  : Registering command handlers for Vitis TCF services
+16:28:30 INFO  : Platform repository initialization has completed.
+16:28:31 INFO  : XSCT server has started successfully.
+16:28:31 INFO  : plnx-install-location is set to ''
+16:28:31 INFO  : Successfully done setting XSCT server connection channel  
+16:28:31 INFO  : Successfully done query RDI_DATADIR 
+16:28:31 INFO  : Successfully done setting workspace for the tool. 
+16:31:01 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace/IDE.log'.
+16:31:03 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace\temp_xsdb_launch_script.tcl
+16:31:03 INFO  : Registering command handlers for Vitis TCF services
+16:31:04 INFO  : Platform repository initialization has completed.
+16:31:05 INFO  : XSCT server has started successfully.
+16:31:05 INFO  : Successfully done setting XSCT server connection channel  
+16:31:05 INFO  : plnx-install-location is set to ''
+16:31:05 INFO  : Successfully done query RDI_DATADIR 
+16:31:05 INFO  : Successfully done setting workspace for the tool. 
+16:32:18 INFO  : Result from executing command 'getProjects': mb1_block_wrapper
+16:32:18 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:32:19 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:32:20 INFO  : Platform 'mb1_block_wrapper' is added to custom repositories.
+16:32:21 INFO  : Platform 'mb1_block_wrapper' is added to custom repositories.
+16:33:37 INFO  : Result from executing command 'getProjects': mb1_block_wrapper
+16:33:37 INFO  : Result from executing command 'getPlatforms': mb1_block_wrapper|D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/mb1_block_wrapper.xpfm;xilinx_vck190_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_202220_1/xilinx_vck190_base_202220_1.xpfm;xilinx_vck190_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vck190_base_dfx_202220_1/xilinx_vck190_base_dfx_202220_1.xpfm;xilinx_vmk180_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_vmk180_base_202220_1/xilinx_vmk180_base_202220_1.xpfm;xilinx_zcu102_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_202220_1/xilinx_zcu102_base_202220_1.xpfm;xilinx_zcu102_base_dfx_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu102_base_dfx_202220_1/xilinx_zcu102_base_dfx_202220_1.xpfm;xilinx_zcu104_base_202220_1|D:/Xilinx/Vitis/2022.2/base_platforms/xilinx_zcu104_base_202220_1/xilinx_zcu104_base_202220_1.xpfm
+16:33:38 INFO  : Checking for BSP changes to sync application flags for project 'ledIntrrupt'...

@@ -1,0 +1,9 @@
+timestamp=[2026-05-20 16:28:28], mode=WORKBENCH_START, duration=0:00:04.084, duration_ms=4084, data={}
+timestamp=[2026-05-20 16:28:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.297, duration_ms=297, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-05-20 16:28:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.703, duration_ms=703, data={}
+timestamp=[2026-05-20 16:31:02], mode=WORKBENCH_START, duration=0:00:03.295, duration_ms=3295, data={}
+timestamp=[2026-05-20 16:31:03], mode=WORKBENCH_UI_INIT, duration=0:00:00.382, duration_ms=382, data={editors_count=0, platform_editors_count=0, projects_count=1, platform_projects_count=0, active_platform_editor=false, projects=RemoteSystemsTempFiles}
+timestamp=[2026-05-20 16:31:04], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.631, duration_ms=631, data={}
+timestamp=[2026-05-20 16:32:21], mode=APP_CREATION, duration=0:00:03.829, duration_ms=3829, data={name=ledIntrrupt, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=mb1_block_wrapper, application_type=application}
+timestamp=[2026-05-20 16:33:38], mode=PLATFORM_GENERATION, duration=0:00:03.938, duration_ms=3938, data={name=mb1_block_wrapper}
+timestamp=[2026-05-20 16:33:40], mode=BUILD, duration=0:00:01.376, duration_ms=1376, data={name=ledIntrrupt, configuration=Debug, clean_build=false}
