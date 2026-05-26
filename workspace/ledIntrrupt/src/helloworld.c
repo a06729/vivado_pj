@@ -84,12 +84,198 @@
 #define INTC_BTN0_INT_VEC_ID XPAR_INTC_0_GPIO_1_VEC_ID
 #define INTC_BTN1_INT_VEC_ID XPAR_INTC_0_GPIO_2_VEC_ID
 
+#define LED4 0x01
+#define LED5 0x02
+#define LED6 0x04
+#define LED7 0x08
+
+#define UART_BUFFER_SIZE 100
+
+#define TIMER_CNTRE_0 0
+#define TMR_RST_VALUE (0xffffffff - 100000000)
+
+void Gpio1Handler(void *CallBackRef);
+void Gpio2Handler(void *CallbackRef);
+
+void UartSendHandler(void *CallBackRef, unsigned int EventData);
+void UartRecvHandler(void *CallBackRef, unsigned int EventData);
+
+void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber);
+
+XGpio     Gpio_led;
+XGpio 	  Gpio_btn_0;
+XGpio     Gpio_btn_1;
+XGpio     Gpio_btn_2_3;
+XUartLite   UartLite;
+XTmrCtr   TimerCounter;
+XIntc     Intc;
+
+static volatile int TotalSentCount;
+
+int UartRxIndex1, UartRxIndex2;
+u8 UartTxBuf[UART_BUFFER_SIZE];
+u8 UartRxBuf[UART_BUFFER_SIZE];
+
+u8 TimerFlag;
+
+void interrupt_init(void){
+	XIntc_Initialize(&Intc, INTC_DEVICE_ID);
+
+	XIntc_Connect(&Intc, INTC_BTN0_INT_VEC_ID, (XInterruptHandler)Gpio1Handler, &Gpio_btn_0);
+	XIntc_Connect(&Intc, INTC_BTN1_INT_VEC_ID, (XInterruptHandler)Gpio2Handler,&Gpio_btn_1);
+
+	XIntc_Connect(&Intc, UARTLITE_INT_IRQ_ID,(XInterruptHandler)XUartLite_InterruptHandler,(void *)&UartLite);
+	XIntc_Connect(&Intc, TMRCTR_INTERRUPT_ID,(XInterruptHandler)XTmrCtr_InterruptHandler, (void *)&TimerCounter);
+
+	XIntc_Start(&Intc, XIN_REAL_MODE);
+	XIntc_Enable(&Intc, UARTLITE_INT_IRQ_ID);  //Interrupt 활성화
+	XIntc_Enable(&Intc, INTC_BTN0_INT_VEC_ID);
+	XIntc_Enable(&Intc, INTC_BTN1_INT_VEC_ID);
+	XIntc_Enable(&Intc, TMRCTR_INTERRUPT_ID);
+
+}
+
+void exception_init(void){
+
+	Xil_ExceptionInit();
+	Xil_ExceptionRegisterHandler(XIL_EXCEPTION_ID_INT,(Xil_ExceptionHandler)XIntc_InterruptHandler, &Intc);
+	Xil_ExceptionEnable();
+}
+void uart_init(void){
+
+	XUartLite_Initialize(&UartLite, UARTLITE_DEVICE_ID); //Uart 초기화
+	XUartLite_SelfTest(&UartLite);
+	XUartLite_SetSendHandler(&UartLite, UartSendHandler, &UartLite);
+	XUartLite_SetRecvHandler(&UartLite, UartRecvHandler, &UartLite);
+
+	/* 송신, 수신즉, Send/RecvHandler를넣어주는작업*/
+	XUartLite_EnableInterrupt(&UartLite);
+
+	UartRxIndex1 = 0;
+	UartRxIndex2 = 0;
+}
+
+void gpio_init(void){
+
+	XGpio_Initialize(&Gpio_led, GPIO_LED4BITS_DEVICE_ID);
+	XGpio_Initialize(&Gpio_btn_0, GPIO_BTN0_DEVICE_ID);
+	XGpio_Initialize(&Gpio_btn_1, GPIO_BTN1_DEVICE_ID);
+	XGpio_Initialize(&Gpio_btn_2_3, GPIO_BTN2_3_DEVICE_ID);
+
+	XGpio_InterruptEnable(&Gpio_btn_0, BTN0_CHANNEL1);
+	XGpio_InterruptEnable(&Gpio_btn_1, BTN1_CHANNEL1);
+
+	XGpio_InterruptGlobalEnable(&Gpio_btn_0);
+	XGpio_InterruptGlobalEnable(&Gpio_btn_1);
+}
+
+void timer_init(void){
+
+	XTmrCtr_Initialize(&TimerCounter, TMRCTR_DEVICE_ID);
+	XTmrCtr_SelfTest(&TimerCounter, TIMER_CNTRE_0);
+
+	XTmrCtr_SetHandler(&TimerCounter, TimerCounterHandler, &TimerCounter);
+	XTmrCtr_SetOptions(&TimerCounter, TIMER_CNTRE_0,XTC_INT_MODE_OPTION | XTC_AUTO_RELOAD_OPTION);
+
+	XTmrCtr_SetResetValue(&TimerCounter, TIMER_CNTRE_0, TMR_RST_VALUE);
+
+	TimerFlag = 0;
+
+
+}
+
 int main()
 {
+
+	int cnt_1s = 0;
     init_platform();
 
-    print("Hello World\n\r");
-    print("Successfully ran Hello World application");
+    gpio_init();
+    uart_init();
+    timer_init();
+    interrupt_init();
+    exception_init();
+
+    xil_printf("\r\n App Start v1.0 \r\n");
+    XTmrCtr_Start(&TimerCounter, TIMER_CNTRE_0);
+
+    while(1){
+
+    	xil_printf("\r\n rcb:%c",UartRxBuf[UartRxIndex2]);
+    	UartRxIndex2++;
+    	if(UartRxIndex2 >= UART_BUFFER_SIZE){
+    		UartRxIndex2=0;
+    	}
+
+    	if(TimerFlag==1){
+    		TimerFlag =0;
+    		xil_printf("\r\n Timer0 isr %d",cnt_1s++);
+    	}
+
+    	if((XGpio_DiscreteRead(&Gpio_btn_2_3, BTN2_3_CHANNEL1)&0x0001)){
+    		XGpio_DiscreteWrite(&Gpio_led, LED4BITS_CHANNEL1, LED6);
+    	}else{
+    		XGpio_DiscreteClear(&Gpio_led, LED4BITS_CHANNEL1, LED6);
+
+    	}
+    	 if ((XGpio_DiscreteRead(&Gpio_btn_2_3, BTN2_3_CHANNEL1) & 0x0002)){
+    		 XGpio_DiscreteWrite(&Gpio_led, LED4BITS_CHANNEL1, LED7);
+    	 }else{
+
+    		 XGpio_DiscreteClear(&Gpio_led, LED4BITS_CHANNEL1, LED7);
+    	 }
+    }
+
     cleanup_platform();
     return 0;
 }
+
+void UartSendHandler(void *CallBackRef, unsigned int EventData){
+	TotalSentCount = EventData;
+}
+
+void UartRecvHandler(void *CallBackRef, unsigned int EventData){
+	u8 rxData;
+	XUartLite_Recv(&UartLite, &rxData, 1);
+	UartRxBuf[UartRxIndex1] = rxData;
+
+	UartRxIndex1++;
+	if(UartRxIndex1 >= UART_BUFFER_SIZE) UartRxIndex1 = 0;
+}
+
+void Gpio1Handler(void *CallbackRef){
+	static int intrCount = 0;
+	XGpio *GpioPtr = (XGpio *)CallbackRef;
+	if ((XGpio_DiscreteRead(&Gpio_btn_0,BTN0_CHANNEL1)&0x0001)){
+		xil_printf("\r\n interrupt-0 occurs %d\r\n", intrCount++);
+	}
+	if(intrCount & 0x01) XGpio_DiscreteWrite(&Gpio_led,LED4BITS_CHANNEL1, LED4);
+	else XGpio_DiscreteClear(&Gpio_led, LED4BITS_CHANNEL1, LED4);
+
+	XGpio_InterruptClear(GpioPtr, BTN0_CHANNEL1);
+
+}
+
+
+void Gpio2Handler(void *CallbackRef){
+	static int intrCount = 0;
+	XGpio *GpioPtr = (XGpio *)CallbackRef;
+	if ((XGpio_DiscreteRead(&Gpio_btn_1, BTN1_CHANNEL1)&0x0001))xil_printf("\r\n interrupt-1 occurs %d\r\n", intrCount++);
+
+	if(intrCount & 0x01) XGpio_DiscreteWrite(&Gpio_led, LED4BITS_CHANNEL1, LED5);
+	else XGpio_DiscreteClear(&Gpio_led, LED4BITS_CHANNEL1, LED5);
+
+	XGpio_InterruptClear(GpioPtr, BTN1_CHANNEL1);
+
+}
+
+void TimerCounterHandler(void *CallBackRef, u8 TmrCtrNumber){
+	TimerFlag = 1;
+}
+
+void GpioDisableIntr(XIntc *IntcInstancePtr, XGpio *InstancePtr,u16 IntrId, u16 IntrMask){
+	XGpio_InterruptDisable(InstancePtr, IntrMask);
+	XIntc_Disable(IntcInstancePtr, IntrId);
+	return;
+}
+

@@ -1666,6 +1666,34 @@
           }
         }
       }
+    },
+    "elf_association": {
+      "file": {
+        "name": "..\\..\\..\\..\\..\\workspace\\ledIntrrupt\\Debug\\ledIntrrupt.elf",
+        "type": "ELF",
+        "checksum": "3241767039",
+        "IsVisible": "1",
+        "ScopedToRef": "mb1_block",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "implementation"
+        ]
+      },
+      "file": {
+        "name": "..\\..\\..\\..\\..\\workspace\\ledIntrrupt\\Debug\\ledIntrrupt.elf",
+        "type": "ELF",
+        "checksum": "3241767039",
+        "IsVisible": "1",
+        "ScopedToRef": "mb1_block",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "simulation"
+        ]
+      }
     }
   }
 }

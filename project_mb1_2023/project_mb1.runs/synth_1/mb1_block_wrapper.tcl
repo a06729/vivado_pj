@@ -4,7 +4,7 @@
 
 set TIME_start [clock seconds] 
 namespace eval ::optrace {
-  variable script "C:/vivado_pj/project_mb1_2023/project_mb1.runs/synth_1/mb1_block_wrapper.tcl"
+  variable script "D:/vivado_pj/project_mb1_2023/project_mb1.runs/synth_1/mb1_block_wrapper.tcl"
   variable category "vivado_synth"
 }
 
@@ -77,56 +77,59 @@ set_param project.singleFileAddWarning.threshold 0
 set_param project.compositeFile.enableAutoGeneration 0
 set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
-set_property webtalk.parent_dir C:/vivado_pj/project_mb1_2023/project_mb1.cache/wt [current_project]
-set_property parent.project_path C:/vivado_pj/project_mb1_2023/project_mb1.xpr [current_project]
+set_property webtalk.parent_dir D:/vivado_pj/project_mb1_2023/project_mb1.cache/wt [current_project]
+set_property parent.project_path D:/vivado_pj/project_mb1_2023/project_mb1.xpr [current_project]
 set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
-set_property ip_output_repo c:/vivado_pj/project_mb1_2023/project_mb1.cache/ip [current_project]
+set_property ip_output_repo d:/vivado_pj/project_mb1_2023/project_mb1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_verilog -library xil_defaultlib C:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/hdl/mb1_block_wrapper.v
-add_files C:/vivado_pj/project_mb1_2023/project_mb1.srcs/sources_1/bd/mb1_block/mb1_block.bd
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0_ooc_debug.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_dlmb_v10_0/mb1_block_dlmb_v10_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_ilmb_v10_0/mb1_block_ilmb_v10_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_dlmb_bram_if_cntlr_0/mb1_block_dlmb_bram_if_cntlr_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_ilmb_bram_if_cntlr_0/mb1_block_ilmb_bram_if_cntlr_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_lmb_bram_0/mb1_block_lmb_bram_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_xbar_0/mb1_block_xbar_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_axi_intc_0/mb1_block_microblaze_0_axi_intc_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_axi_intc_0/mb1_block_microblaze_0_axi_intc_0_clocks.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_axi_intc_0/mb1_block_microblaze_0_axi_intc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_mdm_1_0/mb1_block_mdm_1_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_mdm_1_0/mb1_block_mdm_1_0_ooc_trace.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_timer_0_0/mb1_block_axi_timer_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_timer_0_0/mb1_block_axi_timer_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_1_4/mb1_block_axi_gpio_1_4_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_1_4/mb1_block_axi_gpio_1_4_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_1_4/mb1_block_axi_gpio_1_4.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1_board.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/mb1_block_ooc.xdc]
-set_property used_in_implementation false [get_files -all c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/data/mb_bootloop_le.elf]
+add_files D:/vivado_pj/workspace/ledIntrrupt/Debug/ledIntrrupt.elf
+set_property SCOPED_TO_REF mb1_block [get_files -all D:/vivado_pj/workspace/ledIntrrupt/Debug/ledIntrrupt.elf]
+set_property SCOPED_TO_CELLS microblaze_0 [get_files -all D:/vivado_pj/workspace/ledIntrrupt/Debug/ledIntrrupt.elf]
+read_verilog -library xil_defaultlib D:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/hdl/mb1_block_wrapper.v
+add_files D:/vivado_pj/project_mb1_2023/project_mb1.srcs/sources_1/bd/mb1_block/mb1_block.bd
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0_ooc_debug.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_dlmb_v10_0/mb1_block_dlmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_ilmb_v10_0/mb1_block_ilmb_v10_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_dlmb_bram_if_cntlr_0/mb1_block_dlmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_ilmb_bram_if_cntlr_0/mb1_block_ilmb_bram_if_cntlr_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_lmb_bram_0/mb1_block_lmb_bram_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_xbar_0/mb1_block_xbar_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_axi_intc_0/mb1_block_microblaze_0_axi_intc_0.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_axi_intc_0/mb1_block_microblaze_0_axi_intc_0_clocks.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_axi_intc_0/mb1_block_microblaze_0_axi_intc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_mdm_1_0/mb1_block_mdm_1_0.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_mdm_1_0/mb1_block_mdm_1_0_ooc_trace.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_timer_0_0/mb1_block_axi_timer_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_timer_0_0/mb1_block_axi_timer_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0_board.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_1_4/mb1_block_axi_gpio_1_4_board.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_1_4/mb1_block_axi_gpio_1_4_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_1_4/mb1_block_axi_gpio_1_4.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1_board.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1_board.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1_board.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/mb1_block_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_0/data/mb_bootloop_le.elf]
 
 OPTRACE "Adding files" END { }
 # Mark all dcp files as not used in implementation to prevent them from being
@@ -137,14 +140,14 @@ OPTRACE "Adding files" END { }
 foreach dcp [get_files -quiet -all -filter file_type=="Design\ Checkpoint"] {
   set_property used_in_implementation false $dcp
 }
-read_xdc C:/vivado_pj/project_mb1_2023/project_mb1.srcs/constrs_1/new/mb1_block.xdc
-set_property used_in_implementation false [get_files C:/vivado_pj/project_mb1_2023/project_mb1.srcs/constrs_1/new/mb1_block.xdc]
+read_xdc D:/vivado_pj/project_mb1_2023/project_mb1.srcs/constrs_1/new/mb1_block.xdc
+set_property used_in_implementation false [get_files D:/vivado_pj/project_mb1_2023/project_mb1.srcs/constrs_1/new/mb1_block.xdc]
 
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
 
-read_checkpoint -auto_incremental -incremental C:/vivado_pj/project_mb1_2023/project_mb1.srcs/utils_1/imports/synth_1/mb1_block_wrapper.dcp
+read_checkpoint -auto_incremental -incremental D:/vivado_pj/project_mb1_2023/project_mb1.srcs/utils_1/imports/synth_1/mb1_block_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }

@@ -63,4 +63,4 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb1_block_a
 # IP: bd/mb1_block/ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==mb1_block_axi_gpio_0_1 || ORIG_REF_NAME==mb1_block_axi_gpio_0_1} -quiet] -quiet
 
-# XDC: c:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/mb1_block_ooc.xdc
+# XDC: d:/vivado_pj/project_mb1_2023/project_mb1.gen/sources_1/bd/mb1_block/mb1_block_ooc.xdc

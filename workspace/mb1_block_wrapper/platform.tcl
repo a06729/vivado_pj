@@ -18,3 +18,4 @@ platform generate -domains
 platform active {mb1_block_wrapper}
 platform generate -quick
 platform generate
+platform generate

@@ -3,9 +3,9 @@
   <File Type="PA-TCL" Name="mb1_block_axi_gpio_2_1.tcl"/>
   <File Type="REPORTS-TCL" Name="mb1_block_axi_gpio_2_1_reports.tcl"/>
   <File Type="RDS-RDS" Name="mb1_block_axi_gpio_2_1.vds"/>
-  <File Type="RDS-DCP" Name="mb1_block_axi_gpio_2_1.dcp"/>
   <File Type="RDS-UTIL" Name="mb1_block_axi_gpio_2_1_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="mb1_block_axi_gpio_2_1_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="mb1_block_axi_gpio_2_1.dcp"/>
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mb1_block_axi_gpio_2_1">
     <File Path="$PSRCDIR/sources_1/bd/mb1_block/ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1.xci">
       <FileInfo>

@@ -17,7 +17,7 @@ proc create_report { reportName command } {
   }
 }
 namespace eval ::optrace {
-  variable script "C:/vivado_pj/project_mb1_2023/project_mb1.runs/impl_1/mb1_block_wrapper.tcl"
+  variable script "D:/vivado_pj/project_mb1_2023/project_mb1.runs/impl_1/mb1_block_wrapper.tcl"
   variable category "vivado_impl"
 }
 
@@ -122,28 +122,31 @@ start_step init_design
 set ACTIVE_STEP init_design
 set rc [catch {
   create_msg_db init_design.pb
-  set_param chipscope.maxJobs 4
-  set_param runs.launchOptions { -jobs 8  }
+  set_param chipscope.maxJobs 5
+  set_param runs.launchOptions { -jobs 10  }
 OPTRACE "create in-memory project" START { }
   create_project -in_memory -part xc7a35tcpg236-1
   set_property design_mode GateLvl [current_fileset]
   set_param project.singleFileAddWarning.threshold 0
 OPTRACE "create in-memory project" END { }
 OPTRACE "set parameters" START { }
-  set_property webtalk.parent_dir C:/vivado_pj/project_mb1_2023/project_mb1.cache/wt [current_project]
-  set_property parent.project_path C:/vivado_pj/project_mb1_2023/project_mb1.xpr [current_project]
-  set_property ip_output_repo C:/vivado_pj/project_mb1_2023/project_mb1.cache/ip [current_project]
+  set_property webtalk.parent_dir D:/vivado_pj/project_mb1_2023/project_mb1.cache/wt [current_project]
+  set_property parent.project_path D:/vivado_pj/project_mb1_2023/project_mb1.xpr [current_project]
+  set_property ip_output_repo D:/vivado_pj/project_mb1_2023/project_mb1.cache/ip [current_project]
   set_property ip_cache_permissions {read write} [current_project]
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 OPTRACE "set parameters" END { }
 OPTRACE "add files" START { }
-  add_files -quiet C:/vivado_pj/project_mb1_2023/project_mb1.runs/synth_1/mb1_block_wrapper.dcp
+  add_files -quiet D:/vivado_pj/project_mb1_2023/project_mb1.runs/synth_1/mb1_block_wrapper.dcp
   set_msg_config -source 4 -id {BD 41-1661} -limit 0
   set_param project.isImplRun true
-  add_files C:/vivado_pj/project_mb1_2023/project_mb1.srcs/sources_1/bd/mb1_block/mb1_block.bd
+  add_files D:/vivado_pj/project_mb1_2023/project_mb1.srcs/sources_1/bd/mb1_block/mb1_block.bd
   set_param project.isImplRun false
+  add_files D:/vivado_pj/workspace/ledIntrrupt/Debug/ledIntrrupt.elf
+  set_property SCOPED_TO_REF mb1_block [get_files -all D:/vivado_pj/workspace/ledIntrrupt/Debug/ledIntrrupt.elf]
+  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all D:/vivado_pj/workspace/ledIntrrupt/Debug/ledIntrrupt.elf]
 OPTRACE "read constraints: implementation" START { }
-  read_xdc C:/vivado_pj/project_mb1_2023/project_mb1.srcs/constrs_1/new/mb1_block.xdc
+  read_xdc D:/vivado_pj/project_mb1_2023/project_mb1.srcs/constrs_1/new/mb1_block.xdc
 OPTRACE "read constraints: implementation" END { }
 OPTRACE "add files" END { }
 OPTRACE "link_design" START { }
