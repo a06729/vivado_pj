@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue May 26 12:47:51 2026
+# Process ID: 25300
+# Current directory: D:/vivado_pj/project_mb_spi_2023/project_1/project_1.runs/mb1_block_microblaze_0_axi_intc_0_synth_1
+# Command line: vivado.exe -log mb1_block_microblaze_0_axi_intc_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb1_block_microblaze_0_axi_intc_0.tcl
+# Log file: D:/vivado_pj/project_mb_spi_2023/project_1/project_1.runs/mb1_block_microblaze_0_axi_intc_0_synth_1/mb1_block_microblaze_0_axi_intc_0.vds
+# Journal file: D:/vivado_pj/project_mb_spi_2023/project_1/project_1.runs/mb1_block_microblaze_0_axi_intc_0_synth_1\vivado.jou
+# Running On: SmST12, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 14, Host memory: 34116 MB
+#-----------------------------------------------------------
+source mb1_block_microblaze_0_axi_intc_0.tcl -notrace

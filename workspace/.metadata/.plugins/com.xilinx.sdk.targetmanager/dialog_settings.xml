@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="ledIntrrupt_system-bitFile" value="${project_loc:ledIntrrupt}/_ide/bitstream/mb1_block_wrapper.bit"/>
+	<item key="ledIntrrupt_system-bmmFile" value="${project_loc:ledIntrrupt}/_ide/bitstream/mb1_block_wrapper.mmi"/>
+	<item key="ledIntrrupt_system-target" value="Local"/>
+	<item key="ledIntrrupt_system-device" value="Auto Detect"/>
+	<item key="ledIntrrupt_system-partial_bit" value="false"/>
+	<item key="ledIntrrupt_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="ledIntrrupt_system"/>
+	<item key="ledIntrrupt_system-microblaze_0-initElf" value="D:\vivado_pj\workspace\ledIntrrupt\Debug\ledIntrrupt.elf"/>
+</section>
