@@ -2,7 +2,7 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-//Date        : Tue May 26 14:04:58 2026
+//Date        : Tue May 26 16:46:25 2026
 //Host        : SmST12 running 64-bit major release  (build 9200)
 //Command     : generate_target mb1_block.bd
 //Design      : mb1_block
@@ -1073,7 +1073,6 @@ module mb1_block
     btn23_tri_i,
     led_4bits_tri_o,
     mclk,
-    reset_rtl_0,
     resetn,
     spi_io0_i,
     spi_io0_o,
@@ -1095,7 +1094,6 @@ module mb1_block
   (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 btn23 TRI_I" *) input [1:0]btn23_tri_i;
   (* X_INTERFACE_INFO = "xilinx.com:interface:gpio:1.0 led_4bits TRI_O" *) output [3:0]led_4bits_tri_o;
   (* X_INTERFACE_INFO = "xilinx.com:signal:clock:1.0 CLK.MCLK CLK" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME CLK.MCLK, CLK_DOMAIN /clk_wiz_1_clk_out1, FREQ_HZ 100000000, FREQ_TOLERANCE_HZ 0, INSERT_VIP 0, PHASE 0.0" *) output mclk;
-  (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.RESET_RTL_0 RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.RESET_RTL_0, INSERT_VIP 0, POLARITY ACTIVE_HIGH" *) input reset_rtl_0;
   (* X_INTERFACE_INFO = "xilinx.com:signal:reset:1.0 RST.RESETN RST" *) (* X_INTERFACE_PARAMETER = "XIL_INTERFACENAME RST.RESETN, INSERT_VIP 0, POLARITY ACTIVE_LOW" *) input resetn;
   (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO0_I" *) input spi_io0_i;
   (* X_INTERFACE_INFO = "xilinx.com:interface:spi:1.0 spi IO0_O" *) output spi_io0_o;
@@ -1326,7 +1324,6 @@ module mb1_block
   wire [31:0]microblaze_0_interrupt_ADDRESS;
   wire microblaze_0_interrupt_INTERRUPT;
   wire [3:0]microblaze_0_intr;
-  wire reset_1;
   wire resetn_1;
   wire [0:0]rst_clk_wiz_1_100M_bus_struct_reset;
   wire rst_clk_wiz_1_100M_mb_reset;
@@ -1343,7 +1340,6 @@ module mb1_block
   assign axi_uartlite_0_UART_RxD = usb_uart_rxd;
   assign led_4bits_tri_o[3:0] = axi_gpio_0_GPIO_TRI_O;
   assign mclk = clk_wiz_1_clk_out2;
-  assign reset_1 = reset_rtl_0;
   assign resetn_1 = resetn;
   assign spi_io0_o = axi_quad_spi_0_SPI_0_IO0_O;
   assign spi_io0_t = axi_quad_spi_0_SPI_0_IO0_T;
@@ -1827,7 +1823,7 @@ module mb1_block
        (.aux_reset_in(1'b1),
         .bus_struct_reset(rst_clk_wiz_1_100M_bus_struct_reset),
         .dcm_locked(clk_wiz_1_locked),
-        .ext_reset_in(reset_1),
+        .ext_reset_in(resetn_1),
         .mb_debug_sys_rst(mdm_1_debug_sys_rst),
         .mb_reset(rst_clk_wiz_1_100M_mb_reset),
         .peripheral_aresetn(rst_clk_wiz_1_100M_peripheral_aresetn),

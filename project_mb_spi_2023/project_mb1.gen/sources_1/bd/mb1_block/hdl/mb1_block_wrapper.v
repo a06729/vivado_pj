@@ -2,7 +2,7 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-//Date        : Tue May 26 14:04:58 2026
+//Date        : Tue May 26 16:46:25 2026
 //Host        : SmST12 running 64-bit major release  (build 9200)
 //Command     : generate_target mb1_block_wrapper.bd
 //Design      : mb1_block_wrapper
@@ -16,7 +16,6 @@ module mb1_block_wrapper
     btn23_tri_i,
     led_4bits_tri_o,
     mclk,
-    reset_rtl_0,
     resetn,
     spi_io0_io,
     spi_io1_io,
@@ -30,7 +29,6 @@ module mb1_block_wrapper
   input [1:0]btn23_tri_i;
   output [3:0]led_4bits_tri_o;
   output mclk;
-  input reset_rtl_0;
   input resetn;
   inout spi_io0_io;
   inout spi_io1_io;
@@ -45,7 +43,6 @@ module mb1_block_wrapper
   wire [1:0]btn23_tri_i;
   wire [3:0]led_4bits_tri_o;
   wire mclk;
-  wire reset_rtl_0;
   wire resetn;
   wire spi_io0_i;
   wire spi_io0_io;
@@ -73,7 +70,6 @@ module mb1_block_wrapper
         .btn23_tri_i(btn23_tri_i),
         .led_4bits_tri_o(led_4bits_tri_o),
         .mclk(mclk),
-        .reset_rtl_0(reset_rtl_0),
         .resetn(resetn),
         .spi_io0_i(spi_io0_i),
         .spi_io0_o(spi_io0_o),

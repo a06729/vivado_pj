@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/vivado_pj/project_mb1_2023/project_mb1.runs/synth_1'
+HD_PWD='D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -41,4 +41,4 @@ EAStep()
      fi
 }
 
-EAStep vivado -log mb1_block_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb1_block_wrapper.tcl
+EAStep vivado -log micBlazeAppTop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source micBlazeAppTop.tcl

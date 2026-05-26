@@ -1,7 +1,7 @@
 {
   "design": {
     "design_info": {
-      "boundary_crc": "0xCF069D7770982C90",
+      "boundary_crc": "0x2955B1C2897A6693",
       "device": "xc7a35tcpg236-1",
       "gen_directory": "../../../../project_mb1.gen/sources_1/bd/mb1_block",
       "name": "mb1_block",
@@ -173,19 +173,6 @@
       }
     },
     "ports": {
-      "reset_rtl_0": {
-        "type": "rst",
-        "direction": "I",
-        "parameters": {
-          "INSERT_VIP": {
-            "value": "0",
-            "value_src": "default"
-          },
-          "POLARITY": {
-            "value": "ACTIVE_HIGH"
-          }
-        }
-      },
       "sys_clock": {
         "type": "clk",
         "direction": "I",
@@ -1785,16 +1772,11 @@
           "microblaze_0_axi_intc/intr"
         ]
       },
-      "reset_1": {
-        "ports": [
-          "reset_rtl_0",
-          "rst_clk_wiz_1_100M/ext_reset_in"
-        ]
-      },
       "resetn_1": {
         "ports": [
           "resetn",
-          "clk_wiz_1/resetn"
+          "clk_wiz_1/resetn",
+          "rst_clk_wiz_1_100M/ext_reset_in"
         ]
       },
       "rst_clk_wiz_1_100M_bus_struct_reset": {
@@ -1909,22 +1891,22 @@
     },
     "elf_association": {
       "file": {
-        "name": "..\\..\\..\\..\\..\\workspace\\ledIntrrupt\\Debug\\ledIntrrupt.elf",
+        "name": "..\\..\\..\\..\\..\\workspace_mb_spi\\spi_test\\Debug\\spi_test.elf",
         "type": "ELF",
-        "checksum": "1347383832",
+        "checksum": "1135798995",
         "IsVisible": "1",
         "ScopedToRef": "mb1_block",
         "ScopedToCell": [
           "microblaze_0"
         ],
         "UsedIn": [
-          "implementation"
+          "simulation"
         ]
       },
       "file": {
-        "name": "..\\..\\..\\..\\..\\workspace\\ledIntrrupt\\Debug\\ledIntrrupt.elf",
+        "name": "..\\..\\..\\..\\..\\workspace_mb_spi\\spi_test\\Debug\\spi_test.elf",
         "type": "ELF",
-        "checksum": "1347383832",
+        "checksum": "1135798995",
         "IsVisible": "1",
         "ScopedToRef": "mb1_block",
         "ScopedToCell": [

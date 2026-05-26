@@ -1,73 +1,87 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779759648">
-  <File Type="ROUTE-PWR" Name="mb1_block_wrapper_power_routed.rpt"/>
-  <File Type="PA-TCL" Name="mb1_block_wrapper.tcl"/>
-  <File Type="ROUTE-PWR-SUM" Name="mb1_block_wrapper_power_summary_routed.pb"/>
-  <File Type="REPORTS-TCL" Name="mb1_block_wrapper_reports.tcl"/>
-  <File Type="BITSTR-MSK" Name="mb1_block_wrapper.msk"/>
-  <File Type="ROUTE-CLK" Name="mb1_block_wrapper_clock_utilization_routed.rpt"/>
-  <File Type="RDI-RDI" Name="mb1_block_wrapper.vdi"/>
-  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mb1_block_wrapper_bus_skew_postroute_physopted.pb"/>
-  <File Type="BG-BIT" Name="mb1_block_wrapper.bit"/>
-  <File Type="BG-DRC" Name="mb1_block_wrapper.drc"/>
-  <File Type="BG-BGN" Name="mb1_block_wrapper.bgn"/>
-  <File Type="BG-BIN" Name="mb1_block_wrapper.bin"/>
-  <File Type="BITSTR-RBT" Name="mb1_block_wrapper.rbt"/>
-  <File Type="BITSTR-NKY" Name="mb1_block_wrapper.nky"/>
-  <File Type="BITSTR-BMM" Name="mb1_block_wrapper_bd.bmm"/>
-  <File Type="BITSTR-MMI" Name="mb1_block_wrapper.mmi"/>
-  <File Type="ROUTE-METHODOLOGY-DRC" Name="mb1_block_wrapper_methodology_drc_routed.rpt"/>
-  <File Type="BITSTR-SYSDEF" Name="mb1_block_wrapper.sysdef"/>
-  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
-  <File Type="BITSTR-LTX" Name="mb1_block_wrapper.ltx"/>
-  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
-  <File Type="OPT-DRC" Name="mb1_block_wrapper_drc_opted.rpt"/>
-  <File Type="OPT-HWDEF" Name="mb1_block_wrapper.hwdef"/>
-  <File Type="PLACE-IO" Name="mb1_block_wrapper_io_placed.rpt"/>
-  <File Type="PLACE-UTIL" Name="mb1_block_wrapper_utilization_placed.rpt"/>
-  <File Type="PLACE-UTIL-PB" Name="mb1_block_wrapper_utilization_placed.pb"/>
-  <File Type="PLACE-CTRL" Name="mb1_block_wrapper_control_sets_placed.rpt"/>
-  <File Type="PLACE-PRE-SIMILARITY" Name="mb1_block_wrapper_incremental_reuse_pre_placed.rpt"/>
-  <File Type="ROUTE-DRC" Name="mb1_block_wrapper_drc_routed.rpt"/>
-  <File Type="ROUTE-DRC-PB" Name="mb1_block_wrapper_drc_routed.pb"/>
-  <File Type="ROUTE-PWR-RPX" Name="mb1_block_wrapper_power_routed.rpx"/>
-  <File Type="ROUTE-STATUS" Name="mb1_block_wrapper_route_status.rpt"/>
-  <File Type="ROUTE-STATUS-PB" Name="mb1_block_wrapper_route_status.pb"/>
-  <File Type="ROUTE-DCP" Name="mb1_block_wrapper_routed.dcp"/>
-  <File Type="ROUTE-ERROR-DCP" Name="mb1_block_wrapper_routed_error.dcp"/>
-  <File Type="ROUTE-BLACKBOX-DCP" Name="mb1_block_wrapper_routed_bb.dcp"/>
-  <File Type="ROUTE-TIMINGSUMMARY" Name="mb1_block_wrapper_timing_summary_routed.rpt"/>
-  <File Type="ROUTE-TIMING-PB" Name="mb1_block_wrapper_timing_summary_routed.pb"/>
-  <File Type="ROUTE-TIMING-RPX" Name="mb1_block_wrapper_timing_summary_routed.rpx"/>
-  <File Type="ROUTE-SIMILARITY" Name="mb1_block_wrapper_incremental_reuse_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW" Name="mb1_block_wrapper_bus_skew_routed.rpt"/>
-  <File Type="ROUTE-BUS-SKEW-PB" Name="mb1_block_wrapper_bus_skew_routed.pb"/>
-  <File Type="ROUTE-BUS-SKEW-RPX" Name="mb1_block_wrapper_bus_skew_routed.rpx"/>
-  <File Type="OPT-DCP" Name="mb1_block_wrapper_opt.dcp"/>
-  <File Type="PLACE-DCP" Name="mb1_block_wrapper_placed.dcp"/>
-  <File Type="PWROPT-DCP" Name="mb1_block_wrapper_pwropt.dcp"/>
-  <File Type="POSTPLACE-PWROPT-DCP" Name="mb1_block_wrapper_postplace_pwropt.dcp"/>
-  <File Type="PHYSOPT-DCP" Name="mb1_block_wrapper_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-DCP" Name="mb1_block_wrapper_postroute_physopt.dcp"/>
-  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="mb1_block_wrapper_postroute_physopt_bb.dcp"/>
+<GenRun Id="impl_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779781590">
+  <File Type="ROUTE-PWR" Name="micBlazeAppTop_power_routed.rpt"/>
+  <File Type="PA-TCL" Name="micBlazeAppTop.tcl"/>
+  <File Type="ROUTE-PWR-SUM" Name="micBlazeAppTop_power_summary_routed.pb"/>
+  <File Type="REPORTS-TCL" Name="micBlazeAppTop_reports.tcl"/>
+  <File Type="OPT-RQA-PB" Name="micBlazeAppTop_rqa_opted.pb"/>
+  <File Type="BITSTR-MMI" Name="micBlazeAppTop.mmi"/>
+  <File Type="OPT-METHODOLOGY-DRC" Name="micBlazeAppTop_methodology_drc_opted.rpt"/>
+  <File Type="INIT-TIMING" Name="micBlazeAppTop_timing_summary_init.rpt"/>
+  <File Type="OPT-TIMING" Name="micBlazeAppTop_timing_summary_opted.rpt"/>
+  <File Type="OPT-DCP" Name="micBlazeAppTop_opt.dcp"/>
+  <File Type="OPT-DRC" Name="micBlazeAppTop_drc_opted.rpt"/>
+  <File Type="OPT-HWDEF" Name="micBlazeAppTop.hwdef"/>
+  <File Type="PWROPT-DCP" Name="micBlazeAppTop_pwropt.dcp"/>
+  <File Type="PWROPT-DRC" Name="micBlazeAppTop_drc_pwropted.rpt"/>
+  <File Type="PWROPT-TIMING" Name="micBlazeAppTop_timing_summary_pwropted.rpt"/>
+  <File Type="PLACE-DCP" Name="micBlazeAppTop_placed.dcp"/>
+  <File Type="PLACE-IO" Name="micBlazeAppTop_io_placed.rpt"/>
+  <File Type="PLACE-CLK" Name="micBlazeAppTop_clock_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL" Name="micBlazeAppTop_utilization_placed.rpt"/>
+  <File Type="PLACE-UTIL-PB" Name="micBlazeAppTop_utilization_placed.pb"/>
+  <File Type="PLACE-CTRL" Name="micBlazeAppTop_control_sets_placed.rpt"/>
+  <File Type="PLACE-SIMILARITY" Name="micBlazeAppTop_incremental_reuse_placed.rpt"/>
+  <File Type="PLACE-PRE-SIMILARITY" Name="micBlazeAppTop_incremental_reuse_pre_placed.rpt"/>
+  <File Type="BG-BIN" Name="micBlazeAppTop.bin"/>
+  <File Type="PLACE-TIMING" Name="micBlazeAppTop_timing_summary_placed.rpt"/>
+  <File Type="ROUTE-PWR-RPX" Name="micBlazeAppTop_power_routed.rpx"/>
+  <File Type="PLACE-RQA-PB" Name="micBlazeAppTop_rqa_placed.pb"/>
+  <File Type="POSTPLACE-PWROPT-DCP" Name="micBlazeAppTop_postplace_pwropt.dcp"/>
+  <File Type="BITSTR-MSK" Name="micBlazeAppTop.msk"/>
+  <File Type="POSTPLACE-PWROPT-TIMING" Name="micBlazeAppTop_timing_summary_postplace_pwropted.rpt"/>
+  <File Type="PHYSOPT-DCP" Name="micBlazeAppTop_physopt.dcp"/>
+  <File Type="PHYSOPT-DRC" Name="micBlazeAppTop_drc_physopted.rpt"/>
+  <File Type="BITSTR-RBT" Name="micBlazeAppTop.rbt"/>
+  <File Type="PHYSOPT-TIMING" Name="micBlazeAppTop_timing_summary_physopted.rpt"/>
+  <File Type="ROUTE-ERROR-DCP" Name="micBlazeAppTop_routed_error.dcp"/>
+  <File Type="ROUTE-DCP" Name="micBlazeAppTop_routed.dcp"/>
+  <File Type="ROUTE-BLACKBOX-DCP" Name="micBlazeAppTop_routed_bb.dcp"/>
+  <File Type="ROUTE-DRC" Name="micBlazeAppTop_drc_routed.rpt"/>
+  <File Type="ROUTE-DRC-PB" Name="micBlazeAppTop_drc_routed.pb"/>
+  <File Type="ROUTE-DRC-RPX" Name="micBlazeAppTop_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC" Name="micBlazeAppTop_methodology_drc_routed.rpt"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="micBlazeAppTop_methodology_drc_routed.rpx"/>
+  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="micBlazeAppTop_methodology_drc_routed.pb"/>
+  <File Type="ROUTE-RQS-PB" Name="micBlazeAppTop_rqs_routed.pb"/>
+  <File Type="ROUTE-STATUS" Name="micBlazeAppTop_route_status.rpt"/>
+  <File Type="ROUTE-STATUS-PB" Name="micBlazeAppTop_route_status.pb"/>
+  <File Type="ROUTE-TIMINGSUMMARY" Name="micBlazeAppTop_timing_summary_routed.rpt"/>
+  <File Type="ROUTE-TIMING-PB" Name="micBlazeAppTop_timing_summary_routed.pb"/>
+  <File Type="ROUTE-TIMING-RPX" Name="micBlazeAppTop_timing_summary_routed.rpx"/>
+  <File Type="ROUTE-SIMILARITY" Name="micBlazeAppTop_incremental_reuse_routed.rpt"/>
+  <File Type="ROUTE-CLK" Name="micBlazeAppTop_clock_utilization_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW" Name="micBlazeAppTop_bus_skew_routed.rpt"/>
+  <File Type="ROUTE-BUS-SKEW-PB" Name="micBlazeAppTop_bus_skew_routed.pb"/>
+  <File Type="ROUTE-BUS-SKEW-RPX" Name="micBlazeAppTop_bus_skew_routed.rpx"/>
+  <File Type="POSTROUTE-PHYSOPT-DCP" Name="micBlazeAppTop_postroute_physopt.dcp"/>
+  <File Type="POSTROUTE-PHYSOPT-BLACKBOX-DCP" Name="micBlazeAppTop_postroute_physopt_bb.dcp"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING" Name="mb1_block_wrapper_timing_summary_postroute_physopted.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-PB" Name="mb1_block_wrapper_timing_summary_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-TIMING-RPX" Name="mb1_block_wrapper_timing_summary_postroute_physopted.rpx"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW" Name="mb1_block_wrapper_bus_skew_postroute_physopted.rpt"/>
+  <File Type="BG-BIT" Name="micBlazeAppTop.bit"/>
+  <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-PB" Name="mb1_block_wrapper_bus_skew_postroute_physopted.pb"/>
   <File Type="POSTROUTE-PHYSOPT-BUS-SKEW-RPX" Name="mb1_block_wrapper_bus_skew_postroute_physopted.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-PB" Name="mb1_block_wrapper_methodology_drc_routed.pb"/>
-  <File Type="ROUTE-DRC-RPX" Name="mb1_block_wrapper_drc_routed.rpx"/>
-  <File Type="ROUTE-METHODOLOGY-DRC-RPX" Name="mb1_block_wrapper_methodology_drc_routed.rpx"/>
-  <File Type="PDI-FILE" Name="mb1_block_wrapper.pdi"/>
-  <File Type="BOOT-PDI-FILE" Name="mb1_block_wrapper_soc.pdi"/>
-  <File Type="PL-PDI-FILE" Name="mb1_block_wrapper_pld.pdi"/>
-  <File Type="RCFI_FILE" Name="mb1_block_wrapper.rcfi"/>
-  <File Type="CFI_FILE" Name="mb1_block_wrapper.cfi"/>
-  <File Type="RNPI_FILE" Name="mb1_block_wrapper.rnpi"/>
-  <File Type="NPI_FILE" Name="mb1_block_wrapper.npi"/>
-  <File Type="RBD_FILE" Name="mb1_block_wrapper.rbd"/>
-  <File Type="ROUTE-RQS" Name="mb1_block_wrapper_routed.rqs"/>
-  <File Type="POSTROUTE-PHYSOPT-RQS" Name="mb1_block_wrapper_postroute_physopted.rqs"/>
+  <File Type="BITSTR-NKY" Name="micBlazeAppTop.nky"/>
+  <File Type="BITSTR-BMM" Name="micBlazeAppTop_bd.bmm"/>
+  <File Type="PDI-FILE" Name="micBlazeAppTop.pdi"/>
+  <File Type="BOOT-PDI-FILE" Name="micBlazeAppTop_soc.pdi"/>
+  <File Type="PL-PDI-FILE" Name="micBlazeAppTop_pld.pdi"/>
+  <File Type="RCFI_FILE" Name="micBlazeAppTop.rcfi"/>
+  <File Type="CFI_FILE" Name="micBlazeAppTop.cfi"/>
+  <File Type="RNPI_FILE" Name="micBlazeAppTop.rnpi"/>
+  <File Type="NPI_FILE" Name="micBlazeAppTop.npi"/>
+  <File Type="RBD_FILE" Name="micBlazeAppTop.rbd"/>
+  <File Type="BITSTR-LTX" Name="debug_nets.ltx"/>
+  <File Type="BITSTR-LTX" Name="micBlazeAppTop.ltx"/>
+  <File Type="BITSTR-SYSDEF" Name="micBlazeAppTop.sysdef"/>
+  <File Type="BG-BGN" Name="micBlazeAppTop.bgn"/>
+  <File Type="BG-DRC" Name="micBlazeAppTop.drc"/>
+  <File Type="RDI-RDI" Name="micBlazeAppTop.vdi"/>
+  <File Type="WBT-USG" Name="usage_statistics_webtalk.html"/>
+  <File Type="ROUTE-RQS" Name="micBlazeAppTop_routed.rqs"/>
+  <File Type="POSTROUTE-PHYSOPT-RQS" Name="micBlazeAppTop_postroute_physopted.rqs"/>
   <File Type="ROUTE-RQS-RPT" Name="route_report_qor_suggestions_0.rpt"/>
   <File Type="POSTROUTE-PHYSOPT-RQS-RPT" Name="postroute_physopt_report_qor_suggestions_0.rpt"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
@@ -79,14 +93,49 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PGENDIR/sources_1/bd/mb1_block/hdl/mb1_block_wrapper.v">
+    <File Path="$PSRCDIR/sources_1/new/mcu_pwm.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/pwm_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/spi_slave.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/micBlazeAppTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/mb1_block/hdl/mb1_block_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../workspace/ledIntrrupt/Debug/ledIntrrupt.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../workspace_mb_spi/spi_test/Debug/spi_test.elf">
       <FileInfo>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="ScopedToRef" Val="mb1_block"/>
@@ -96,8 +145,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="mb1_block_wrapper"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="micBlazeAppTop"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -137,23 +185,22 @@
     <Step Id="route_design"/>
     <Step Id="post_route_phys_opt_design"/>
     <Step Id="write_bitstream"/>
-    <Step Id="write_device_image"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_v10_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_clk_wiz_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_lmb_bram_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_mdm_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_rst_clk_wiz_1_100M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_timer_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_axi_intc_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_uartlite_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_1_4"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_2_1"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_3_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_quad_spi_0_0"/>
 </GenRun>

@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date         : Tue May 26 12:51:21 2026
+| Date         : Tue May 26 16:46:59 2026
 | Host         : SmST12 running 64-bit major release  (build 9200)
 | Command      : report_utilization -file mb1_block_rst_clk_wiz_1_100M_0_utilization_synth.rpt -pb mb1_block_rst_clk_wiz_1_100M_0_utilization_synth.pb
 | Design       : mb1_block_rst_clk_wiz_1_100M_0

@@ -1,11 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779759648" LaunchIncrCheckpoint="$PPRDIR/../project_mb1_2023/project_mb1.srcs/utils_1/imports/synth_1/mb1_block_wrapper.dcp">
-  <File Type="PA-TCL" Name="mb1_block_wrapper.tcl"/>
-  <File Type="REPORTS-TCL" Name="mb1_block_wrapper_reports.tcl"/>
-  <File Type="RDS-RDS" Name="mb1_block_wrapper.vds"/>
-  <File Type="RDS-UTIL" Name="mb1_block_wrapper_utilization_synth.rpt"/>
-  <File Type="RDS-UTIL-PB" Name="mb1_block_wrapper_utilization_synth.pb"/>
-  <File Type="RDS-DCP" Name="mb1_block_wrapper.dcp"/>
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779781588" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/mb1_block_wrapper.dcp">
+  <File Type="PA-TCL" Name="micBlazeAppTop.tcl"/>
+  <File Type="RDS-PROPCONSTRS" Name="micBlazeAppTop_drc_synth.rpt"/>
+  <File Type="REPORTS-TCL" Name="micBlazeAppTop_reports.tcl"/>
+  <File Type="RDS-RDS" Name="micBlazeAppTop.vds"/>
+  <File Type="RDS-UTIL" Name="micBlazeAppTop_utilization_synth.rpt"/>
+  <File Type="RDS-UTIL-PB" Name="micBlazeAppTop_utilization_synth.pb"/>
+  <File Type="RDS-DCP" Name="micBlazeAppTop.dcp"/>
+  <File Type="VDS-TIMINGSUMMARY" Name="micBlazeAppTop_timing_summary_synth.rpt"/>
+  <File Type="VDS-TIMING-PB" Name="micBlazeAppTop_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/mb1_block/mb1_block.bd">
@@ -15,14 +18,49 @@
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
-    <File Path="$PGENDIR/sources_1/bd/mb1_block/hdl/mb1_block_wrapper.v">
+    <File Path="$PSRCDIR/sources_1/new/mcu_pwm.v">
       <FileInfo>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
       </FileInfo>
     </File>
+    <File Path="$PSRCDIR/sources_1/new/pwm_top.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/spi_slave.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PSRCDIR/sources_1/new/micBlazeAppTop.v">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PGENDIR/sources_1/bd/mb1_block/hdl/mb1_block_wrapper.v">
+      <FileInfo>
+        <Attr Name="AutoDisabled" Val="1"/>
+        <Attr Name="UsedIn" Val="synthesis"/>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
     <File Path="$PPRDIR/../workspace/ledIntrrupt/Debug/ledIntrrupt.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="IsVisible" Val="1"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../workspace_mb_spi/spi_test/Debug/spi_test.elf">
       <FileInfo>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="ScopedToRef" Val="mb1_block"/>
@@ -32,8 +70,7 @@
     </File>
     <Config>
       <Option Name="DesignMode" Val="RTL"/>
-      <Option Name="TopModule" Val="mb1_block_wrapper"/>
-      <Option Name="TopAutoSet" Val="TRUE"/>
+      <Option Name="TopModule" Val="micBlazeAppTop"/>
     </Config>
   </FileSet>
   <FileSet Name="constrs_in" Type="Constrs" RelSrcDir="$PSRCDIR/constrs_1" RelGenDir="$PGENDIR/constrs_1">
@@ -66,21 +103,21 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_v10_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_xbar_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_clk_wiz_1_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_lmb_bram_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_v10_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_mdm_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_bram_if_cntlr_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_rst_clk_wiz_1_100M_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_timer_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_axi_intc_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_uartlite_0_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_1_4"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_2_1"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_3_1"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_xbar_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_quad_spi_0_0"/>
 </GenRun>

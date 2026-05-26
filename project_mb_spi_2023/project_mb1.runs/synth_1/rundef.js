@@ -24,7 +24,7 @@ eval( EAInclude(ISEJScriptLib) );
 
 
 ISEStep( "vivado",
-         "-log mb1_block_wrapper.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source mb1_block_wrapper.tcl" );
+         "-log micBlazeAppTop.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source micBlazeAppTop.tcl" );
 
 
 

@@ -70,6 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "mb1_block_xbar_0_synth_1" START { ROLLUP_AUTO }
+set_param chipscope.maxJobs 5
 set_param project.vivado.isBlockSynthRun true
 set_msg_config -msgmgr_mode ooc_run
 OPTRACE "Creating in-memory project" START { }
@@ -81,14 +82,13 @@ set_param synth.vivado.isSynthRun true
 set_msg_config -source 4 -id {IP_Flow 19-2162} -severity warning -new_severity info
 set_property webtalk.parent_dir D:/vivado_pj/project_mb_spi_2023/project_mb1.cache/wt [current_project]
 set_property parent.project_path D:/vivado_pj/project_mb_spi_2023/project_mb1.xpr [current_project]
-set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
 set_property default_lib xil_defaultlib [current_project]
 set_property target_language Verilog [current_project]
 set_property ip_output_repo d:/vivado_pj/project_mb_spi_2023/project_mb1.cache/ip [current_project]
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
-read_ip -quiet d:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/bd/mb1_block/ip/mb1_block_xbar_0/mb1_block_xbar_0.xci
+read_ip -quiet D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/bd/mb1_block/ip/mb1_block_xbar_0/mb1_block_xbar_0.xci
 set_property used_in_implementation false [get_files -all d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_xbar_0/mb1_block_xbar_0_ooc.xdc]
 
 OPTRACE "Adding files" END { }

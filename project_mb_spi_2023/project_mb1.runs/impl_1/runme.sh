@@ -25,7 +25,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='D:/vivado_pj/project_mb1_2023/project_mb1.runs/impl_1'
+HD_PWD='D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/impl_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log
@@ -42,7 +42,7 @@ EAStep()
 }
 
 # pre-commands:
-/bin/touch .write_bitstream.begin.rst
-EAStep vivado -log mb1_block_wrapper.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source mb1_block_wrapper.tcl -notrace
+/bin/touch .init_design.begin.rst
+EAStep vivado -log micBlazeAppTop.vdi -applog -m64 -product Vivado -messageDb vivado.pb -mode batch -source micBlazeAppTop.tcl -notrace
 
 

@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Tue May 26 12:51:21 2026
+// Date        : Tue May 26 16:46:59 2026
 // Host        : SmST12 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0_stub.v

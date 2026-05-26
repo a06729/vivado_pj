@@ -2,7 +2,7 @@
 // Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 // --------------------------------------------------------------------------------
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-// Date        : Tue May 26 12:50:52 2026
+// Date        : Tue May 26 14:41:49 2026
 // Host        : SmST12 running 64-bit major release  (build 9200)
 // Command     : write_verilog -force -mode synth_stub
 //               d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0_stub.v
@@ -14,11 +14,13 @@
 // This empty module with port declaration file causes synthesis tools to infer a black box for IP.
 // The synthesis directives are for Synopsys Synplify support to prevent IO buffer insertion.
 // Please paste the declaration into a Verilog source file or add the file as an additional source.
-module mb1_block_clk_wiz_1_0(clk_out1, reset, locked, clk_in1)
-/* synthesis syn_black_box black_box_pad_pin="reset,locked,clk_in1" */
-/* synthesis syn_force_seq_prim="clk_out1" */;
+module mb1_block_clk_wiz_1_0(clk_out1, clk_out2, resetn, locked, clk_in1)
+/* synthesis syn_black_box black_box_pad_pin="resetn,locked,clk_in1" */
+/* synthesis syn_force_seq_prim="clk_out1" */
+/* synthesis syn_force_seq_prim="clk_out2" */;
   output clk_out1 /* synthesis syn_isclock = 1 */;
-  input reset;
+  output clk_out2 /* synthesis syn_isclock = 1 */;
+  input resetn;
   output locked;
   input clk_in1;
 endmodule

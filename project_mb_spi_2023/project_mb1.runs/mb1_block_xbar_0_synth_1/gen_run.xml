@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="mb1_block_xbar_0_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779767404">
+<GenRun Id="mb1_block_xbar_0_synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779774110">
   <File Type="PA-TCL" Name="mb1_block_xbar_0.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="mb1_block_xbar_0_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="mb1_block_xbar_0_reports.tcl"/>
@@ -12,6 +12,7 @@
   <FileSet Name="sources" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mb1_block_xbar_0" RelGenDir="$PGENDIR/mb1_block_xbar_0">
     <File Path="$PSRCDIR/sources_1/bd/mb1_block/ip/mb1_block_xbar_0/mb1_block_xbar_0.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -25,6 +26,7 @@
   <FileSet Name="constrs_in" Type="BlockSrcs" RelSrcDir="$PSRCDIR/mb1_block_xbar_0" RelGenDir="$PGENDIR/mb1_block_xbar_0">
     <File Path="$PSRCDIR/sources_1/bd/mb1_block/ip/mb1_block_xbar_0/mb1_block_xbar_0.xci">
       <FileInfo>
+        <Attr Name="Library" Val="xil_defaultlib"/>
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
@@ -50,9 +52,7 @@
     </Config>
   </FileSet>
   <Strategy Version="1" Minor="2">
-    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023">
-      <Desc>Vivado Synthesis Defaults</Desc>
-    </StratHandle>
+    <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2023"/>
     <Step Id="synth_design"/>
   </Strategy>
 </GenRun>
