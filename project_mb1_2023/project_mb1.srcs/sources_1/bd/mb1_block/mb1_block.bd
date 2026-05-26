@@ -1678,7 +1678,7 @@
           "microblaze_0"
         ],
         "UsedIn": [
-          "implementation"
+          "simulation"
         ]
       },
       "file": {

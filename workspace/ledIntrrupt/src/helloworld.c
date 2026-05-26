@@ -201,10 +201,13 @@ int main()
 
     while(1){
 
-    	xil_printf("\r\n rcb:%c",UartRxBuf[UartRxIndex2]);
-    	UartRxIndex2++;
-    	if(UartRxIndex2 >= UART_BUFFER_SIZE){
-    		UartRxIndex2=0;
+
+    	if(UartRxIndex1 != UartRxIndex2){
+    		xil_printf("\r\n rcv: %c", UartRxBuf[UartRxIndex2]);
+    		UartRxIndex2++;
+        	if(UartRxIndex2 >= UART_BUFFER_SIZE){
+        		UartRxIndex2=0;
+        	}
     	}
 
     	if(TimerFlag==1){

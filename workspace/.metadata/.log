@@ -1933,3 +1933,155 @@ java.lang.Error
 	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
 	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:43:15.980
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:43:18.165
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:47:17.145
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:47:24.006
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:47:25.703
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:50:53.861
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:50:53.863
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:50:53.864
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:50:53.865
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-26 10:50:53.866
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace\mb1_block_wrapper\export\mb1_block_wrapper\sw\mb1_block_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:50:53.866
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:50:53.867
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:51:04.436
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:51:04.438
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:51:04.440
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:51:04.441
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-26 10:51:04.441
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace\mb1_block_wrapper\export\mb1_block_wrapper\sw\mb1_block_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:51:04.441
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-12: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:51:04.443
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-12: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:53:05.837
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:53:07.729
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-26 10:55:40.044
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:58:08.893
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:58:08.895
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:58:08.895
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:58:08.897
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/hw/mb1_block_wrapper.xsa D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.0",
+}]. Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-26 10:58:08.898
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace\mb1_block_wrapper\export\mb1_block_wrapper\sw\mb1_block_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:58:08.898
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-18: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 10:58:08.899
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-18: Build Project

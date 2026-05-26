@@ -1,16 +1,11 @@
 Nothing to build in platform 'mb1_block_wrapper'
 
-10:34:04 **** Incremental Build of configuration Debug for project ledIntrrupt ****
+10:58:08 **** Incremental Build of configuration Debug for project ledIntrrupt ****
 make all 
 'Building file: ../src/helloworld.c'
 'Invoking: MicroBlaze gcc compiler'
 mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
 'Finished building: ../src/helloworld.c'
-' '
-'Building file: ../src/platform.c'
-'Invoking: MicroBlaze gcc compiler'
-mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
-'Finished building: ../src/platform.c'
 ' '
 'Building target: ledIntrrupt.elf'
 'Invoking: MicroBlaze gcc linker'
@@ -20,14 +15,6 @@ mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/vivado_pj/workspace/mb1_block_wrapper/e
 'Invoking: MicroBlaze Print Size'
 mb-size ledIntrrupt.elf  |tee "ledIntrrupt.elf.size"
    text	   data	    bss	    dec	    hex	filename
-  17104	    440	   3568	  21112	   5278	ledIntrrupt.elf
+  17128	    440	   3568	  21136	   5290	ledIntrrupt.elf
 'Finished building: ledIntrrupt.elf.size'
 ' '
-Nothing to build in platform 'mb1_block_wrapper'
-
-10:36:06 **** Incremental Build of configuration Debug for project ledIntrrupt ****
-make all 
-make: Nothing to be done for 'all'.
-10:36:06 **** Build of configuration Debug for project ledIntrrupt_system ****
-make all 
-Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

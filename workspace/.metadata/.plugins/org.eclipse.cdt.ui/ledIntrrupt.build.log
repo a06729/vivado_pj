@@ -1,6 +1,21 @@
-10:36:06 **** Incremental Build of configuration Debug for project ledIntrrupt ****
+10:58:08 **** Incremental Build of configuration Debug for project ledIntrrupt ****
 make all 
-make: Nothing to be done for 'all'.
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building target: ledIntrrupt.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/vivado_pj/workspace/mb1_block_wrapper/export/mb1_block_wrapper/sw/mb1_block_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "ledIntrrupt.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: ledIntrrupt.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size ledIntrrupt.elf  |tee "ledIntrrupt.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  17128	    440	   3568	  21136	   5290	ledIntrrupt.elf
+'Finished building: ledIntrrupt.elf.size'
+' '
 
-10:36:06 Build Finished (took 100ms)
+10:58:09 Build Finished (took 609ms)
 
