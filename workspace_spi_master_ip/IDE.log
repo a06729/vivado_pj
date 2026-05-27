@@ -1,0 +1,18 @@
+11:37:51 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace_spi_master_ip/IDE.log'.
+11:38:09 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace_spi_master_ip\temp_xsdb_launch_script.tcl
+11:38:09 INFO  : Registering command handlers for Vitis TCF services
+11:38:11 INFO  : Platform repository initialization has completed.
+11:38:13 INFO  : XSCT server has started successfully.
+11:38:16 INFO  : Successfully done setting XSCT server connection channel  
+11:38:16 INFO  : plnx-install-location is set to ''
+11:38:16 INFO  : Successfully done query RDI_DATADIR 
+11:38:16 INFO  : Successfully done setting workspace for the tool. 
+11:41:19 INFO  : Result from executing command 'getProjects': top
+11:41:19 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:41:20 WARN  : An unexpected exception occurred in the module 'platform project logging'
+11:41:21 INFO  : Platform 'top' is added to custom repositories.
+11:41:23 INFO  : Platform 'top' is added to custom repositories.
+11:56:39 INFO  : Result from executing command 'getProjects': top
+11:56:39 INFO  : Result from executing command 'getPlatforms': top|D:/vivado_pj/workspace_spi_master_ip/top/export/top/top.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+12:04:09 INFO  : Checking for BSP changes to sync application flags for project 'spi_master_pj'...
+12:32:12 INFO  : Checking for BSP changes to sync application flags for project 'spi_master_pj'...

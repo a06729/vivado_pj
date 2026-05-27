@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Runs Version="1" Minor="0">
+	<Run Id="spi_clk_wiz_1_0_synth_1" LaunchDir="D:/vivado_pj/spi_master_ip/spi_master_ip.runs/spi_clk_wiz_1_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="spi_dlmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/vivado_pj/spi_master_ip/spi_master_ip.runs/spi_dlmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="spi_ilmb_bram_if_cntlr_0_synth_1" LaunchDir="D:/vivado_pj/spi_master_ip/spi_master_ip.runs/spi_ilmb_bram_if_cntlr_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="spi_microblaze_0_1_synth_1" LaunchDir="D:/vivado_pj/spi_master_ip/spi_master_ip.runs/spi_microblaze_0_1_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="spi_axi_uartlite_0_0_synth_1" LaunchDir="D:/vivado_pj/spi_master_ip/spi_master_ip.runs/spi_axi_uartlite_0_0_synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado"/>
+	<Run Id="synth_1" LaunchDir="D:/vivado_pj/spi_master_ip/spi_master_ip.runs/synth_1" FlowId="Vivado_Synthesis" FromStepId="vivado" ToStepId="vivado">
+		<Parent Id="spi_clk_wiz_1_0_synth_1"/>
+		<Parent Id="spi_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="spi_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="spi_microblaze_0_1_synth_1"/>
+		<Parent Id="spi_axi_uartlite_0_0_synth_1"/>
+	</Run>
+	<Run Id="impl_1" LaunchDir="D:/vivado_pj/spi_master_ip/spi_master_ip.runs/impl_1" FlowId="Vivado_Implementation" FromStepId="init_design" ToStepId="write_bitstream">
+		<Parent Id="synth_1"/>
+		<Parent Id="spi_clk_wiz_1_0_synth_1"/>
+		<Parent Id="spi_dlmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="spi_ilmb_bram_if_cntlr_0_synth_1"/>
+		<Parent Id="spi_microblaze_0_1_synth_1"/>
+		<Parent Id="spi_axi_uartlite_0_0_synth_1"/>
+	</Run>
+	<Parameters>
+		<Parameter Name="runs.monitorLSFJobs" Val="true" Type="bool"/>
+		<Parameter Name="runs.enableClusterConf" Val="true" Type="bool"/>
+	</Parameters>
+</Runs>
+
