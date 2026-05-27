@@ -1551,3 +1551,918 @@ java.lang.Error
 
 !ENTRY com.xilinx.sdk.utils 0 0 2026-05-26 16:53:55.519
 !MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop2.xsa}], Result: [null, ]. Thread: Worker-21: Updating hardware platform
+!SESSION 2026-05-27 08:58:43.214 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2026-05-27 08:59:36.768
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:44.634
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:44.634
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-24
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:44.648
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:48.170
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:48.171
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-24
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:48.171
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:48.171
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:48.172
+!MESSAGE XSCT Command: [setws D:/vivado_pj/workspace_mb_spi], Thread: Thread-24
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:48.172
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, G:/Xilinx/SharedData/2023.1/data;G:/Xilinx/Vitis/2023.1/data]. Thread: Worker-6: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 08:59:48.172
+!MESSAGE XSCT command with result: [setws D:/vivado_pj/workspace_mb_spi], Result: [null, ]. Thread: Thread-24
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.180
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.367
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.372
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.384
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.385
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.388
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:00:00.390
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.392
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-4: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:00:00.395
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-4: Build Project
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-27 09:00:02.066
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-27 09:00:02.067
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-05-27 09:00:02.067
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:30.533
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:30.535
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Tue May 26 16:46:26 2026",
+"vivado_version": "2023.1",
+"part": "xc7a35tcpg236-1",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:30.538
+!MESSAGE XSCT Command: [::hsi::utils::get_addr_tag_info -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa ], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:30.542
+!MESSAGE XSCT command with result: [::hsi::utils::get_addr_tag_info -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa ], Result: [null, {"microblaze_0": "system_i/microblaze_0:system_i/microblaze_0",
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:30.542
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa], Thread: main
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:30.545
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_3": {"hier_name": "axi_gpio_3",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_quad_spi_0": {"hier_name": "axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: main
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:01:37.185
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: fpga_elf_mem_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:01:37.185
+!MESSAGE Preference loaded using local preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:01:37.185
+!MESSAGE Workspace path used is: D:\vivado_pj\workspace_mb_spi
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:41.850
+!MESSAGE XSCT Command: [::hsi::utils::get_bram_blocks D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa ], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:41.852
+!MESSAGE XSCT command with result: [::hsi::utils::get_bram_blocks D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa ], Result: [null, microblaze_0_local_memory_dlmb_bram_if_cntlr microblaze_0_local_memory_ilmb_bram_if_cntlr]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:41.852
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_param_value D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa microblaze_0 C_BASE_VECTORS], Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:01:41.854
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_param_value D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop2.xsa microblaze_0 C_BASE_VECTORS], Result: [null, 0x0000000000000000]. Thread: ModalContext
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:02.220
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Thread: Worker-14: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:02.422
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Result: [null, ]. Thread: Worker-14: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:02.454
+!MESSAGE XSCT Command: [platform active {micBlazeAppTop}], Thread: Worker-14: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:02.454
+!MESSAGE XSCT command with result: [platform active {micBlazeAppTop}], Result: [null, ]. Thread: Worker-14: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:26:05.114
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:26:05.115
+!MESSAGE Preference loaded using local preference: D:\vivado_pj\project_mb_spi_2023
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:07.989
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop3.xsa}], Thread: Worker-13: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:08.290
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop3.xsa}], Result: [null, ]. Thread: Worker-13: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.337
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.471
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.471
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.474
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.474
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.476
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:26:30.476
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.476
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:30.476
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2026-05-27 09:26:30.923
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.275
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.275
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.277
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\workspace_mb_spi\spi_test\_ide\bitstream}], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.295
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\workspace_mb_spi\spi_test\_ide\bitstream}], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.296
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.297
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Tue May 26 16:46:26 2026",
+"vivado_version": "2023.1",
+"part": "xc7a35tcpg236-1",
+}]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.298
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:31.311
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_3": {"hier_name": "axi_gpio_3",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_quad_spi_0": {"hier_name": "axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:54.228
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:54.241
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:54.242
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:54.243
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:26:54.243
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:54.243
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:26:54.257
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-15: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2026-05-27 09:26:54.622
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:27:26.659
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:27:26.661
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:27:26.661
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:27:26.664
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:27:26.664
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:27:26.664
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:27:26.665
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdx.core 1 0 2026-05-27 09:27:27.156
+!MESSAGE Build step failed, canceling full build chain.
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:19.717
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:19.720
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:19.721
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:19.722
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:30:19.724
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:19.724
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:19.732
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:30:21.302
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:29.385
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:29.387
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:29.388
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:29.389
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop3.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:30:29.390
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:29.390
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:30:29.408
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:30:29.864
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '2'
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:31:06.488
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:31:06.489
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:31:06.489
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:31:10.840
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:31:10.840
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:31:10.841
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:40:58.179
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:40:58.180
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 09:40:58.180
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:48:32.935
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Thread: Worker-13: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:48:33.099
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Result: [null, ]. Thread: Worker-13: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:48:35.378
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:48:35.379
+!MESSAGE Preference loaded using local preference: D:\vivado_pj\project_mb_spi_2023
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:48:38.673
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}], Thread: Worker-15: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:48:38.689
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}], Result: [{Format=Error: Hw specification provided does not have the HwDb, please check: D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa, Time=1779842918689, Code=1}, ]. Thread: Worker-15: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:48:56.223
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Thread: Worker-20: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:48:56.378
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Result: [null, ]. Thread: Worker-20: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:48:58.578
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:48:58.579
+!MESSAGE Preference loaded using local preference: D:\vivado_pj\project_mb_spi_2023
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:49:01.022
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}], Thread: Worker-13: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:49:01.038
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}], Result: [{Format=Error: Hw specification provided does not have the HwDb, please check: D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa, Time=1779842941037, Code=1}, ]. Thread: Worker-13: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:51:57.142
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Thread: Worker-15: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:51:57.297
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/platform.spr}], Result: [null, ]. Thread: Worker-15: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:51:59.226
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:51:59.226
+!MESSAGE Preference loaded using local preference: D:\vivado_pj\project_mb_spi_2023
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:02.326
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}], Thread: Worker-20: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:02.629
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}], Result: [null, ]. Thread: Worker-20: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.188
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.325
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.326
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.328
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.328
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.329
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:52:21.330
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.330
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:21.331
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.598
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.600
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.601
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\workspace_mb_spi\spi_test\_ide\bitstream}], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.608
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\workspace_mb_spi\spi_test\_ide\bitstream}], Result: [null, ]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.610
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.611
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Tue May 26 16:46:26 2026",
+"vivado_version": "2023.1",
+"part": "xc7a35tcpg236-1",
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.612
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:22.620
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa], Result: [null, {"axi_gpio_0": {"hier_name": "axi_gpio_0",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_1": {"hier_name": "axi_gpio_1",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_2": {"hier_name": "axi_gpio_2",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_gpio_3": {"hier_name": "axi_gpio_3",
+"type": "axi_gpio",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_quad_spi_0": {"hier_name": "axi_quad_spi_0",
+"type": "axi_quad_spi",
+"version": "3.2",
+"ip_type": "MEMORY_CNTLR",
+},
+"axi_timer_0": {"hier_name": "axi_timer_0",
+"type": "axi_timer",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_intc": {"hier_name": "microblaze_0_axi_intc",
+"type": "axi_intc",
+"version": "4.1",
+"ip_type": "INTERRUPT_CNTLR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"microblaze_0_xlconcat": {"hier_name": "microblaze_0_xlconcat",
+"type": "xlconcat",
+"version": "2.1",
+"ip_type": "PERIPHERAL",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-20: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:52:22.736
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:28.937
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:28.948
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:28.948
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:28.951
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/hw/micBlazeAppTop4.xsa D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:52:28.951
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\workspace_mb_spi\micBlazeAppTop\export\micBlazeAppTop\sw\micBlazeAppTop\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:28.952
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-05-27 09:52:28.964
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/sw/micBlazeAppTop/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-14: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-05-27 09:52:30.207
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '4'
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:13:33.816
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:13:33.842
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:13:33.842
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:13:33.843
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:14:52.093
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:14:52.094
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:14:52.095
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-05-27 10:14:52.095
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)

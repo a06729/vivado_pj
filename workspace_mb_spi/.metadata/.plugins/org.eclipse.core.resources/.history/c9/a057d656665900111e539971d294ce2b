@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="ASCII"?>
+<sdkproject:SdkProject xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:sdkproject="http://www.xilinx.com/sdkproject" name="spi_test" location="D:/vivado_pj/workspace_mb_spi/spi_test" platform="D:/vivado_pj/workspace_mb_spi/micBlazeAppTop/export/micBlazeAppTop/micBlazeAppTop.xpfm" platformUID="xilinx:basys3::0.0(custom)" systemProject="spi_test_system" sysConfig="micBlazeAppTop" runtime="cpp" cpu="standalone_microblaze_0" cpuInstance="microblaze_0" os="standalone" mssSignature="098e7e8218af3acf5ea9bd6d4dad6fbb">
+  <configuration name="Debug" id="xilinx.gnu.mb.exe.debug.90549592">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+    <lastBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <configuration name="Release" id="xilinx.gnu.mb.exe.release.1873592622" dirty="true">
+    <configBuildOptions xsi:type="sdkproject:SdkOptions"/>
+  </configuration>
+  <template appTemplateName="hello_world"/>
+</sdkproject:SdkProject>

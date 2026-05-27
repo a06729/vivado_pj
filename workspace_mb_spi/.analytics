@@ -15,3 +15,25 @@ timestamp=[2026-05-26 16:27:26], mode=BUILD, duration=0:00:00.595, duration_ms=5
 timestamp=[2026-05-26 16:27:37], mode=BUILD, duration=0:00:00.099, duration_ms=99, data={name=spi_test, configuration=Debug, clean_build=false}
 timestamp=[2026-05-26 16:27:38], mode=BUILD, duration=0:00:00.108, duration_ms=108, data={name=spi_test_system, configuration=Debug, clean_build=false}
 timestamp=[2026-05-26 16:54:11], mode=PLATFORM_GENERATION, duration=0:00:04.674, duration_ms=4674, data={name=micBlazeAppTop}
+timestamp=[2026-05-27 08:59:44], mode=WORKBENCH_START, duration=0:00:10.245, duration_ms=10245, data={}
+timestamp=[2026-05-27 08:59:44], mode=WORKBENCH_UI_INIT, duration=0:00:00.133, duration_ms=133, data={editors_count=3, platform_editors_count=0, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,micBlazeAppTop,spi_test,spi_test_system}
+timestamp=[2026-05-27 08:59:44], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.290, duration_ms=1290, data={}
+timestamp=[2026-05-27 09:00:03], mode=BUILD, duration=0:00:03.381, duration_ms=3381, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:26:22], mode=PLATFORM_GENERATION, duration=0:00:07.662, duration_ms=7662, data={name=micBlazeAppTop}
+timestamp=[2026-05-27 09:26:30], mode=BUILD, duration=0:00:00.422, duration_ms=422, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:26:54], mode=BUILD, duration=0:00:00.223, duration_ms=223, data={name=spi_test, configuration=Debug, clean_build=true}
+timestamp=[2026-05-27 09:26:54], mode=BUILD, duration=0:00:00.359, duration_ms=359, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:27:17], mode=PLATFORM_GENERATION, duration=0:00:02.702, duration_ms=2702, data={name=micBlazeAppTop}
+timestamp=[2026-05-27 09:27:17], mode=BUILD, duration=0:00:00.165, duration_ms=165, data={name=spi_test, configuration=Debug, clean_build=true}
+timestamp=[2026-05-27 09:27:26], mode=PLATFORM_GENERATION, duration=0:00:03.652, duration_ms=3652, data={name=micBlazeAppTop}
+timestamp=[2026-05-27 09:27:27], mode=BUILD, duration=0:00:00.481, duration_ms=481, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:30:20], mode=BUILD, duration=0:00:01.171, duration_ms=1171, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:30:21], mode=BUILD, duration=0:00:00.169, duration_ms=169, data={name=spi_test_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:30:29], mode=BUILD, duration=0:00:00.107, duration_ms=107, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:30:29], mode=BUILD, duration=0:00:00.112, duration_ms=112, data={name=spi_test_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:52:15], mode=PLATFORM_GENERATION, duration=0:00:04.642, duration_ms=4642, data={name=micBlazeAppTop}
+timestamp=[2026-05-27 09:52:22], mode=BUILD, duration=0:00:01.051, duration_ms=1051, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:52:22], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=spi_test_system, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:52:28], mode=BUILD, duration=0:00:00.164, duration_ms=164, data={name=spi_test, configuration=Debug, clean_build=true}
+timestamp=[2026-05-27 09:52:29], mode=BUILD, duration=0:00:00.922, duration_ms=922, data={name=spi_test, configuration=Debug, clean_build=false}
+timestamp=[2026-05-27 09:52:30], mode=BUILD, duration=0:00:00.097, duration_ms=97, data={name=spi_test_system, configuration=Debug, clean_build=false}

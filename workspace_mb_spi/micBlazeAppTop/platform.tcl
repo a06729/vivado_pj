@@ -20,3 +20,12 @@ platform generate -quick
 platform generate
 platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop2.xsa}
 platform generate -domains 
+platform active {micBlazeAppTop}
+platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop3.xsa}
+platform generate -domains 
+platform clean
+platform generate
+platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}
+platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}
+platform config -updatehw {D:/vivado_pj/project_mb_spi_2023/micBlazeAppTop4.xsa}
+platform generate -domains 

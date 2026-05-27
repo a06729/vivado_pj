@@ -1893,20 +1893,20 @@
       "file": {
         "name": "..\\..\\..\\..\\..\\workspace_mb_spi\\spi_test\\Debug\\spi_test.elf",
         "type": "ELF",
-        "checksum": "1135798995",
+        "checksum": "3903242305",
         "IsVisible": "1",
         "ScopedToRef": "mb1_block",
         "ScopedToCell": [
           "microblaze_0"
         ],
         "UsedIn": [
-          "simulation"
+          "implementation"
         ]
       },
       "file": {
         "name": "..\\..\\..\\..\\..\\workspace_mb_spi\\spi_test\\Debug\\spi_test.elf",
         "type": "ELF",
-        "checksum": "1135798995",
+        "checksum": "3903242305",
         "IsVisible": "1",
         "ScopedToRef": "mb1_block",
         "ScopedToCell": [

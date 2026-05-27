@@ -29,46 +29,45 @@ INFO: [Designutils 20-5440] No compile time benefit to using incremental synthes
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
 INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
-INFO: [Synth 8-7075] Helper process launched with PID 26304
+INFO: [Synth 8-7075] Helper process launched with PID 24988
 WARNING: [Synth 8-11121] redeclaration of ANSI port 'out' is not allowed [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/mcu_pwm.v:24]
 WARNING: [Synth 8-11121] redeclaration of ANSI port 'pwm_out1' is not allowed [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/pwm_top.v:11]
 WARNING: [Synth 8-11121] redeclaration of ANSI port 'pwm_out2' is not allowed [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/pwm_top.v:21]
 WARNING: [Synth 8-11121] redeclaration of ANSI port 'pwm_out3' is not allowed [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/pwm_top.v:31]
 WARNING: [Synth 8-11121] redeclaration of ANSI port 'pwm_out4' is not allowed [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/pwm_top.v:41]
-INFO: [Synth 8-11241] undeclared symbol 'spi_moso', assumed default net type 'wire' [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/micBlazeAppTop.v:36]
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2313.820 ; gain = 409.449
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2316.875 ; gain = 411.789
 ---------------------------------------------------------------------------------
 INFO: [Synth 8-6157] synthesizing module 'micBlazeAppTop' [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/micBlazeAppTop.v:3]
 INFO: [Synth 8-6157] synthesizing module 'mb1_block' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1069]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_0_1' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_0_1' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_0_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_1_4' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_1_4_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_1_4' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_1_4_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_2_1' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_2_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_2_1' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_2_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_3_1' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_3_1_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_3_1' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_gpio_3_1_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_quad_spi_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_quad_spi_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_quad_spi_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_quad_spi_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_0_1' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_0_1' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_0_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_1_4' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_1_4_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_1_4' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_1_4_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_2_1' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_2_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_2_1' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_2_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_gpio_3_1' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_3_1_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_gpio_3_1' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_gpio_3_1_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_quad_spi_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_quad_spi_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_quad_spi_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_quad_spi_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'ip2intc_irpt' of module 'mb1_block_axi_quad_spi_0_0' is unconnected for instance 'axi_quad_spi_0' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1440]
 WARNING: [Synth 8-7023] instance 'axi_quad_spi_0' of module 'mb1_block_axi_quad_spi_0_0' has 33 connections declared, but only 32 given [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1440]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_timer_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_timer_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_timer_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_timer_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_timer_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_timer_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_timer_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_timer_0_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'generateout0' of module 'mb1_block_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1473]
 WARNING: [Synth 8-7071] port 'generateout1' of module 'mb1_block_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1473]
 WARNING: [Synth 8-7071] port 'pwm0' of module 'mb1_block_axi_timer_0_0' is unconnected for instance 'axi_timer_0' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1473]
 WARNING: [Synth 8-7023] instance 'axi_timer_0' of module 'mb1_block_axi_timer_0_0' has 26 connections declared, but only 23 given [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1473]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_uartlite_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_uartlite_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_axi_uartlite_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_clk_wiz_1_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_clk_wiz_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_clk_wiz_1_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_clk_wiz_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_mdm_1_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_mdm_1_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_mdm_1_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_microblaze_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_microblaze_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_microblaze_0_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_microblaze_0_axi_intc_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_microblaze_0_axi_intc_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_microblaze_0_axi_intc_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_microblaze_0_axi_intc_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_axi_uartlite_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_axi_uartlite_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_axi_uartlite_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_clk_wiz_1_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_clk_wiz_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_clk_wiz_1_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_clk_wiz_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_mdm_1_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_mdm_1_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_mdm_1_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_microblaze_0_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_microblaze_0_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_microblaze_0_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_microblaze_0_axi_intc_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_microblaze_0_axi_intc_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_microblaze_0_axi_intc_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_microblaze_0_axi_intc_0_stub.v:6]
 INFO: [Synth 8-6157] synthesizing module 'mb1_block_microblaze_0_axi_periph_0' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1833]
 INFO: [Synth 8-6157] synthesizing module 'm00_couplers_imp_YWF9I' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:13]
 INFO: [Synth 8-6155] done synthesizing module 'm00_couplers_imp_YWF9I' (0#1) [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:13]
@@ -88,27 +87,27 @@ INFO: [Synth 8-6157] synthesizing module 'm07_couplers_imp_KBPN2L' [d:/vivado_pj
 INFO: [Synth 8-6155] done synthesizing module 'm07_couplers_imp_KBPN2L' (0#1) [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:937]
 INFO: [Synth 8-6157] synthesizing module 's00_couplers_imp_173L1CQ' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3285]
 INFO: [Synth 8-6155] done synthesizing module 's00_couplers_imp_173L1CQ' (0#1) [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3285]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_xbar_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_xbar_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_xbar_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_xbar_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_xbar_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_xbar_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_xbar_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_xbar_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'm_axi_awprot' of module 'mb1_block_xbar_0' is unconnected for instance 'xbar' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3010]
 WARNING: [Synth 8-7071] port 'm_axi_arprot' of module 'mb1_block_xbar_0' is unconnected for instance 'xbar' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3010]
 WARNING: [Synth 8-7023] instance 'xbar' of module 'mb1_block_xbar_0' has 40 connections declared, but only 38 given [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3010]
 INFO: [Synth 8-6155] done synthesizing module 'mb1_block_microblaze_0_axi_periph_0' (0#1) [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1833]
 INFO: [Synth 8-6157] synthesizing module 'microblaze_0_local_memory_imp_VNPKKU' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3051]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_dlmb_bram_if_cntlr_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_dlmb_bram_if_cntlr_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_dlmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_dlmb_v10_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_dlmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_dlmb_v10_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_dlmb_bram_if_cntlr_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_dlmb_bram_if_cntlr_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_dlmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_dlmb_v10_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_dlmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_dlmb_v10_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_dlmb_v10_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb1_block_dlmb_v10_0' is unconnected for instance 'dlmb_v10' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3197]
 WARNING: [Synth 8-7023] instance 'dlmb_v10' of module 'mb1_block_dlmb_v10_0' has 25 connections declared, but only 24 given [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3197]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_ilmb_bram_if_cntlr_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_ilmb_bram_if_cntlr_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_ilmb_bram_if_cntlr_0_stub.v:6]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_ilmb_v10_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_ilmb_v10_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_ilmb_v10_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_ilmb_bram_if_cntlr_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_ilmb_bram_if_cntlr_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_ilmb_bram_if_cntlr_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_ilmb_v10_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_ilmb_v10_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_ilmb_v10_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_ilmb_v10_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'LMB_Rst' of module 'mb1_block_ilmb_v10_0' is unconnected for instance 'ilmb_v10' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3243]
 WARNING: [Synth 8-7023] instance 'ilmb_v10' of module 'mb1_block_ilmb_v10_0' has 25 connections declared, but only 24 given [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3243]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_lmb_bram_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_lmb_bram_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_lmb_bram_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_lmb_bram_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_lmb_bram_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_lmb_bram_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_lmb_bram_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'rsta_busy' of module 'mb1_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3268]
 WARNING: [Synth 8-7071] port 'rstb_busy' of module 'mb1_block_lmb_bram_0' is unconnected for instance 'lmb_bram' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3268]
 WARNING: [Synth 8-7023] instance 'lmb_bram' of module 'mb1_block_lmb_bram_0' has 16 connections declared, but only 14 given [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:3268]
@@ -117,8 +116,8 @@ INFO: [Synth 8-6157] synthesizing module 'mb1_block_microblaze_0_xlconcat_0' [d:
 INFO: [Synth 8-6157] synthesizing module 'xlconcat_v2_1_4_xlconcat' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'xlconcat_v2_1_4_xlconcat' (0#1) [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/ipshared/4b67/hdl/xlconcat_v2_1_vl_rfs.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'mb1_block_microblaze_0_xlconcat_0' (0#1) [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/ip/mb1_block_microblaze_0_xlconcat_0/synth/mb1_block_microblaze_0_xlconcat_0.v:53]
-INFO: [Synth 8-6157] synthesizing module 'mb1_block_rst_clk_wiz_1_100M_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_rst_clk_wiz_1_100M_0_stub.v:6]
-INFO: [Synth 8-6155] done synthesizing module 'mb1_block_rst_clk_wiz_1_100M_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-12040-SmST12/realtime/mb1_block_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-6157] synthesizing module 'mb1_block_rst_clk_wiz_1_100M_0' [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_rst_clk_wiz_1_100M_0_stub.v:6]
+INFO: [Synth 8-6155] done synthesizing module 'mb1_block_rst_clk_wiz_1_100M_0' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/.Xil/Vivado-29116-SmST12/realtime/mb1_block_rst_clk_wiz_1_100M_0_stub.v:6]
 WARNING: [Synth 8-7071] port 'peripheral_reset' of module 'mb1_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1822]
 WARNING: [Synth 8-7071] port 'interconnect_aresetn' of module 'mb1_block_rst_clk_wiz_1_100M_0' is unconnected for instance 'rst_clk_wiz_1_100M' [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1822]
 WARNING: [Synth 8-7023] instance 'rst_clk_wiz_1_100M' of module 'mb1_block_rst_clk_wiz_1_100M_0' has 10 connections declared, but only 8 given [d:/vivado_pj/project_mb_spi_2023/project_mb1.gen/sources_1/bd/mb1_block/synth/mb1_block.v:1822]
@@ -129,10 +128,7 @@ INFO: [Synth 8-6155] done synthesizing module 'mcu_pwm' (0#1) [D:/vivado_pj/proj
 INFO: [Synth 8-6155] done synthesizing module 'pwm_top' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/pwm_top.v:3]
 INFO: [Synth 8-6157] synthesizing module 'spi_slave' [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/spi_slave.v:14]
 INFO: [Synth 8-6155] done synthesizing module 'spi_slave' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/spi_slave.v:14]
-WARNING: [Synth 8-7071] port 'mosi' of module 'spi_slave' is unconnected for instance 'u_spi_slave' [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/micBlazeAppTop.v:73]
-WARNING: [Synth 8-7023] instance 'u_spi_slave' of module 'spi_slave' has 14 connections declared, but only 13 given [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/micBlazeAppTop.v:73]
 INFO: [Synth 8-6155] done synthesizing module 'micBlazeAppTop' (0#1) [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/micBlazeAppTop.v:3]
-WARNING: [Synth 8-3848] Net spi_moso in module/entity micBlazeAppTop does not have driver. [D:/vivado_pj/project_mb_spi_2023/project_mb1.srcs/sources_1/new/micBlazeAppTop.v:36]
 WARNING: [Synth 8-7129] Port In4[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In5[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 WARNING: [Synth 8-7129] Port In6[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
@@ -235,18 +231,18 @@ WARNING: [Synth 8-7129] Port In102[0] in module xlconcat_v2_1_4_xlconcat is eith
 WARNING: [Synth 8-7129] Port In103[0] in module xlconcat_v2_1_4_xlconcat is either unconnected or has no load
 INFO: [Common 17-14] Message 'Synth 8-7129' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2425.461 ; gain = 521.090
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2428.812 ; gain = 523.727
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2443.359 ; gain = 538.988
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2446.715 ; gain = 541.629
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2443.359 ; gain = 538.988
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2446.715 ; gain = 541.629
 ---------------------------------------------------------------------------------
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.028 . Memory (MB): peak = 2443.359 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.029 . Memory (MB): peak = 2446.715 ; gain = 0.000
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
@@ -295,24 +291,24 @@ Parsing XDC File [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/dont
 Finished Parsing XDC File [D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/dont_touch.xdc]
 Completed Processing XDC Constraints
 
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2556.098 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2559.438 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2556.098 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.006 . Memory (MB): peak = 2559.438 ; gain = 0.000
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'system_i/axi_quad_spi_0' at clock pin 'ext_spi_clk' is different from the actual clock period '10.000', this can lead to different synthesis results.
 WARNING: [Timing 38-316] Clock period '20.000' specified during out-of-context synthesis of instance 'system_i/microblaze_0_local_memory/lmb_bram' at clock pin 'clka' is different from the actual clock period '10.000', this can lead to different synthesis results.
 INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
 INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Constraint Validation : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
@@ -341,10 +337,10 @@ Applied set_property KEEP_HIERARCHY = SOFT for system_i/microblaze_0_axi_periph.
 Applied set_property KEEP_HIERARCHY = SOFT for system_i/rst_clk_wiz_1_100M. (constraint file  auto generated constraint).
 Applied set_property KEEP_HIERARCHY = SOFT for system_i/axi_quad_spi_0. (constraint file  auto generated constraint).
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:09 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:09 ; elapsed = 00:00:10 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start RTL Component Statistics 
@@ -391,25 +387,25 @@ Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
 WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Timing Optimization
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:18 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start IO Insertion
@@ -427,37 +423,37 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished IO Insertion : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -509,36 +505,39 @@ Report Cell Usage:
 |16    |mb1_block_microblaze_0_axi_intc |     1|
 |17    |mb1_block_rst_clk_wiz_1_100M    |     1|
 |18    |mb1_block_xbar                  |     1|
-|19    |CARRY4                          |    28|
+|19    |CARRY4                          |    24|
 |20    |LUT1                            |     1|
-|21    |LUT2                            |   132|
-|22    |LUT5                            |     4|
-|23    |LUT6                            |    44|
-|24    |FDCE                            |    96|
-|25    |IBUF                            |     6|
-|26    |OBUF                            |    13|
+|21    |LUT2                            |    88|
+|22    |LUT3                            |    26|
+|23    |LUT4                            |   105|
+|24    |LUT5                            |    40|
+|25    |LUT6                            |   153|
+|26    |FDCE                            |   256|
+|27    |FDPE                            |    24|
+|28    |IBUF                            |     6|
+|29    |OBUF                            |    13|
 +------+--------------------------------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 19 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2556.098 ; gain = 538.988
-Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2556.098 ; gain = 651.727
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:13 ; elapsed = 00:00:20 . Memory (MB): peak = 2559.438 ; gain = 541.629
+Synthesis Optimization Complete : Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2559.438 ; gain = 654.352
 INFO: [Project 1-571] Translating synthesized netlist
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.014 . Memory (MB): peak = 2556.098 ; gain = 0.000
-INFO: [Netlist 29-17] Analyzing 28 Unisim elements for replacement
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.018 . Memory (MB): peak = 2559.438 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 24 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
-Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2556.098 ; gain = 0.000
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2559.438 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Synth Design complete | Checksum: b1970131
+Synth Design complete | Checksum: c977d62a
 INFO: [Common 17-83] Releasing license: Synthesis
-100 Infos, 130 Warnings, 0 Critical Warnings and 0 Errors encountered.
+99 Infos, 127 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:21 . Memory (MB): peak = 2556.098 ; gain = 1034.750
+synth_design: Time (s): cpu = 00:00:22 ; elapsed = 00:00:24 . Memory (MB): peak = 2559.438 ; gain = 1036.250
 INFO: [Common 17-1381] The checkpoint 'D:/vivado_pj/project_mb_spi_2023/project_mb1.runs/synth_1/micBlazeAppTop.dcp' has been generated.
 INFO: [runtcl-4] Executing : report_utilization -file micBlazeAppTop_utilization_synth.rpt -pb micBlazeAppTop_utilization_synth.pb
-INFO: [Common 17-206] Exiting Vivado at Tue May 26 16:47:31 2026...
+INFO: [Common 17-206] Exiting Vivado at Wed May 27 09:40:27 2026...

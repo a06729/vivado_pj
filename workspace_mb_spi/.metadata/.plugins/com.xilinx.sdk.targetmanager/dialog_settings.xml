@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="spi_test_system-bitFile" value="${project_loc:spi_test}/_ide/bitstream/micBlazeAppTop.bit"/>
+	<item key="spi_test_system-bmmFile" value="${project_loc:spi_test}/_ide/bitstream/micBlazeAppTop.mmi"/>
+	<item key="spi_test_system-target" value="Local"/>
+	<item key="spi_test_system-device" value="Auto Detect"/>
+	<item key="spi_test_system-partial_bit" value="false"/>
+	<item key="spi_test_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="spi_test_system"/>
+	<item key="spi_test_system-microblaze_0-initElf" value="D:\vivado_pj\workspace_mb_spi\spi_test\Debug\spi_test.elf"/>
+</section>

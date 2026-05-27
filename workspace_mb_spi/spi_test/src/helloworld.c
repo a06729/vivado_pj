@@ -212,7 +212,6 @@ int main()
     while(1){
 
     	if(UartRxIndex1 != UartRxIndex2){
-
     		comm_decode(UartRxBuf[UartRxIndex2]);
     		UartRxIndex2++;
     		if(UartRxIndex2 >= UART_BUFFER_SIZE){
@@ -221,7 +220,6 @@ int main()
     	}
 
     	if(TimerFlag == 1){
-
     		TimerFlag=0;
 
     	}

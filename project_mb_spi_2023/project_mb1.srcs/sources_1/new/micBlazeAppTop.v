@@ -33,7 +33,7 @@ module micBlazeAppTop(
         .spi_io0_i(1'b0),
         .spi_io0_o(spi_mosi),
         .spi_io0_t( ),
-        .spi_io1_i(spi_moso),
+        .spi_io1_i(spi_miso),
         .spi_io1_o( ),
         .spi_io1_t( ),
         .spi_sck_i(1'b0),
@@ -75,6 +75,7 @@ module micBlazeAppTop(
         .clock(mclk),
         .ss(spi_ss),
         .sck(spi_sck),
+        .mosi(spi_mosi),
         .miso(spi_miso),
         
         .pwm_freq1(pwm_freq1),

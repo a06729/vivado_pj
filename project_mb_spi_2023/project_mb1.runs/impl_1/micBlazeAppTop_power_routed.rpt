@@ -1,7 +1,7 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Tue May 26 16:48:38 2026
+| Date             : Wed May 27 09:41:35 2026
 | Host             : SmST12 running 64-bit major release  (build 9200)
 | Command          : report_power -file micBlazeAppTop_power_routed.rpt -pb micBlazeAppTop_power_summary_routed.pb -rpx micBlazeAppTop_power_routed.rpx
 | Design           : micBlazeAppTop
@@ -52,19 +52,19 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.015 |       12 |       --- |             --- |
-| Slice Logic              |     0.006 |     6992 |       --- |             --- |
-|   LUT as Logic           |     0.005 |     2513 |     20800 |           12.08 |
+| Clocks                   |     0.014 |       12 |       --- |             --- |
+| Slice Logic              |     0.007 |     7410 |       --- |             --- |
+|   LUT as Logic           |     0.005 |     2691 |     20800 |           12.94 |
 |   LUT as Distributed RAM |    <0.001 |      108 |      9600 |            1.13 |
-|   Register               |    <0.001 |     2707 |     41600 |            6.51 |
-|   CARRY4                 |    <0.001 |      114 |      8150 |            1.40 |
+|   Register               |    <0.001 |     2895 |     41600 |            6.96 |
+|   CARRY4                 |    <0.001 |      110 |      8150 |            1.35 |
 |   F7/F8 Muxes            |    <0.001 |      109 |     32600 |            0.33 |
 |   LUT as Shift Register  |    <0.001 |       74 |      9600 |            0.77 |
-|   Others                 |    <0.001 |      624 |       --- |             --- |
-| Signals                  |     0.007 |     4570 |       --- |             --- |
+|   Others                 |    <0.001 |      626 |       --- |             --- |
+| Signals                  |     0.007 |     4882 |       --- |             --- |
 | Block RAM                |     0.002 |        8 |        50 |           16.00 |
 | MMCM                     |     0.106 |        1 |         5 |           20.00 |
-| I/O                      |     0.002 |       20 |       106 |           18.87 |
+| I/O                      |     0.003 |       20 |       106 |           18.87 |
 | Static Power             |     0.072 |          |           |                 |
 | Total                    |     0.211 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
@@ -155,7 +155,7 @@ Table of Contents
 | Name                          | Power (W) |
 +-------------------------------+-----------+
 | micBlazeAppTop                |     0.139 |
-|   system_i                    |     0.135 |
+|   system_i                    |     0.134 |
 |     axi_quad_spi_0            |     0.004 |
 |       U0                      |     0.004 |
 |     axi_timer_0               |     0.004 |
@@ -164,13 +164,14 @@ Table of Contents
 |       inst                    |     0.107 |
 |     microblaze_0              |     0.011 |
 |       U0                      |     0.011 |
-|     microblaze_0_axi_intc     |     0.002 |
-|       U0                      |     0.002 |
+|     microblaze_0_axi_intc     |     0.001 |
+|       U0                      |     0.001 |
 |     microblaze_0_axi_periph   |     0.001 |
 |       xbar                    |     0.001 |
 |     microblaze_0_local_memory |     0.002 |
 |       lmb_bram                |     0.002 |
-|   u_pwn_top                   |     0.002 |
+|   u_pwn_top                   |     0.001 |
+|   u_spi_slave                 |     0.002 |
 +-------------------------------+-----------+
 
 
