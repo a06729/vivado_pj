@@ -1,14 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1779842391" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/mb1_block_wrapper.dcp">
   <File Type="PA-TCL" Name="micBlazeAppTop.tcl"/>
-  <File Type="RDS-PROPCONSTRS" Name="micBlazeAppTop_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="micBlazeAppTop_reports.tcl"/>
   <File Type="RDS-RDS" Name="micBlazeAppTop.vds"/>
   <File Type="RDS-UTIL" Name="micBlazeAppTop_utilization_synth.rpt"/>
   <File Type="RDS-UTIL-PB" Name="micBlazeAppTop_utilization_synth.pb"/>
   <File Type="RDS-DCP" Name="micBlazeAppTop.dcp"/>
-  <File Type="VDS-TIMINGSUMMARY" Name="micBlazeAppTop_timing_summary_synth.rpt"/>
-  <File Type="VDS-TIMING-PB" Name="micBlazeAppTop_timing_summary_synth.pb"/>
   <FileSet Name="sources" Type="DesignSrcs" RelSrcDir="$PSRCDIR/sources_1" RelGenDir="$PGENDIR/sources_1">
     <Filter Type="Srcs"/>
     <File Path="$PSRCDIR/sources_1/bd/mb1_block/mb1_block.bd">
@@ -103,14 +100,14 @@
     <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2022"/>
     <Step Id="synth_design"/>
   </Strategy>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_clk_wiz_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_v10_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_mdm_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_clk_wiz_1_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_v10_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_axi_gpio_0_1"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_dlmb_bram_if_cntlr_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_v10_0"/>
-  <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_mdm_1_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_axi_intc_0"/>
+  <BlockFileSet Type="BlockSrcs" Name="mb1_block_microblaze_0_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_ilmb_bram_if_cntlr_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_lmb_bram_0"/>
   <BlockFileSet Type="BlockSrcs" Name="mb1_block_rst_clk_wiz_1_100M_0"/>

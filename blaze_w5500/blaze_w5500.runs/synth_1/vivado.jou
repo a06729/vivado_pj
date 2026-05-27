@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Wed May 27 16:57:49 2026
+# Process ID: 31304
+# Current directory: D:/vivado_pj/blaze_w5500/blaze_w5500.runs/synth_1
+# Command line: vivado.exe -log blaze_W5500Top.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source blaze_W5500Top.tcl
+# Log file: D:/vivado_pj/blaze_w5500/blaze_w5500.runs/synth_1/blaze_W5500Top.vds
+# Journal file: D:/vivado_pj/blaze_w5500/blaze_w5500.runs/synth_1\vivado.jou
+# Running On: SmST12, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 14, Host memory: 34116 MB
+#-----------------------------------------------------------
+source blaze_W5500Top.tcl -notrace

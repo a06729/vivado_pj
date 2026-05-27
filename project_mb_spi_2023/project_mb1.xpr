@@ -96,56 +96,56 @@
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_dlmb_bram_if_cntlr_0/mb1_block_dlmb_bram_if_cntlr_0.xci">
-          <Proxy FileSetName="mb1_block_dlmb_bram_if_cntlr_0"/>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0.xci">
+          <Proxy FileSetName="mb1_block_microblaze_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_quad_spi_0_0/mb1_block_axi_quad_spi_0_0.xci">
+          <Proxy FileSetName="mb1_block_axi_quad_spi_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_xbar_0/mb1_block_xbar_0.xci">
+          <Proxy FileSetName="mb1_block_xbar_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0.xci">
+          <Proxy FileSetName="mb1_block_rst_clk_wiz_1_100M_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0.xci">
+          <Proxy FileSetName="mb1_block_clk_wiz_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_mdm_1_0/mb1_block_mdm_1_0.xci">
+          <Proxy FileSetName="mb1_block_mdm_1_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_timer_0_0/mb1_block_axi_timer_0_0.xci">
+          <Proxy FileSetName="mb1_block_axi_timer_0_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1.xci">
+          <Proxy FileSetName="mb1_block_axi_gpio_3_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1.xci">
+          <Proxy FileSetName="mb1_block_axi_gpio_0_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0.xci">
+          <Proxy FileSetName="mb1_block_axi_uartlite_0_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_gpio_2_1/mb1_block_axi_gpio_2_1.xci">
           <Proxy FileSetName="mb1_block_axi_gpio_2_1"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_lmb_bram_0/mb1_block_lmb_bram_0.xci">
+          <Proxy FileSetName="mb1_block_lmb_bram_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_ilmb_v10_0/mb1_block_ilmb_v10_0.xci">
+          <Proxy FileSetName="mb1_block_ilmb_v10_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_dlmb_bram_if_cntlr_0/mb1_block_dlmb_bram_if_cntlr_0.xci">
+          <Proxy FileSetName="mb1_block_dlmb_bram_if_cntlr_0"/>
+        </CompFileExtendedInfo>
+        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_dlmb_v10_0/mb1_block_dlmb_v10_0.xci">
+          <Proxy FileSetName="mb1_block_dlmb_v10_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_microblaze_0_axi_intc_0/mb1_block_microblaze_0_axi_intc_0.xci">
           <Proxy FileSetName="mb1_block_microblaze_0_axi_intc_0"/>
         </CompFileExtendedInfo>
         <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_ilmb_bram_if_cntlr_0/mb1_block_ilmb_bram_if_cntlr_0.xci">
           <Proxy FileSetName="mb1_block_ilmb_bram_if_cntlr_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_lmb_bram_0/mb1_block_lmb_bram_0.xci">
-          <Proxy FileSetName="mb1_block_lmb_bram_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_gpio_0_1/mb1_block_axi_gpio_0_1.xci">
-          <Proxy FileSetName="mb1_block_axi_gpio_0_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_clk_wiz_1_0/mb1_block_clk_wiz_1_0.xci">
-          <Proxy FileSetName="mb1_block_clk_wiz_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_microblaze_0_0/mb1_block_microblaze_0_0.xci">
-          <Proxy FileSetName="mb1_block_microblaze_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_xbar_0/mb1_block_xbar_0.xci">
-          <Proxy FileSetName="mb1_block_xbar_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_uartlite_0_0/mb1_block_axi_uartlite_0_0.xci">
-          <Proxy FileSetName="mb1_block_axi_uartlite_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_mdm_1_0/mb1_block_mdm_1_0.xci">
-          <Proxy FileSetName="mb1_block_mdm_1_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_gpio_3_1/mb1_block_axi_gpio_3_1.xci">
-          <Proxy FileSetName="mb1_block_axi_gpio_3_1"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_timer_0_0/mb1_block_axi_timer_0_0.xci">
-          <Proxy FileSetName="mb1_block_axi_timer_0_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_ilmb_v10_0/mb1_block_ilmb_v10_0.xci">
-          <Proxy FileSetName="mb1_block_ilmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_dlmb_v10_0/mb1_block_dlmb_v10_0.xci">
-          <Proxy FileSetName="mb1_block_dlmb_v10_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_rst_clk_wiz_1_100M_0/mb1_block_rst_clk_wiz_1_100M_0.xci">
-          <Proxy FileSetName="mb1_block_rst_clk_wiz_1_100M_0"/>
-        </CompFileExtendedInfo>
-        <CompFileExtendedInfo CompFileName="mb1_block.bd" FileRelPathName="ip/mb1_block_axi_quad_spi_0_0/mb1_block_axi_quad_spi_0_0.xci">
-          <Proxy FileSetName="mb1_block_axi_quad_spi_0_0"/>
         </CompFileExtendedInfo>
       </File>
       <File Path="$PSRCDIR/sources_1/new/mcu_pwm.v">
@@ -182,12 +182,6 @@
           <Attr Name="UsedIn" Val="synthesis"/>
           <Attr Name="UsedIn" Val="implementation"/>
           <Attr Name="UsedIn" Val="simulation"/>
-        </FileInfo>
-      </File>
-      <File Path="$PPRDIR/../workspace/ledIntrrupt/Debug/ledIntrrupt.elf">
-        <FileInfo>
-          <Attr Name="UsedIn" Val="implementation"/>
-          <Attr Name="IsVisible" Val="1"/>
         </FileInfo>
       </File>
       <File Path="$PPRDIR/../workspace_mb_spi/spi_test/Debug/spi_test.elf">

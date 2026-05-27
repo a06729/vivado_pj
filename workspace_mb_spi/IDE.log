@@ -65,3 +65,12 @@ Reason: Failed to execute command 'platform config -updatehw {D:/vivado_pj/proje
 09:52:22 INFO  : The file 'D:\vivado_pj\workspace_mb_spi\spi_test\_ide\bitstream\micBlazeAppTop3.mmi' stored in project is removed.
 09:52:22 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\workspace_mb_spi\spi_test\_ide\bitstream' in project 'spi_test'.
 09:52:28 INFO  : Checking for BSP changes to sync application flags for project 'spi_test'...
+14:22:08 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace_mb_spi/IDE.log'.
+14:22:08 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace_mb_spi\temp_xsdb_launch_script.tcl
+14:22:10 INFO  : Registering command handlers for Vitis TCF services
+14:22:10 INFO  : XSCT server has started successfully.
+14:22:10 INFO  : Successfully done setting XSCT server connection channel  
+14:22:10 INFO  : plnx-install-location is set to ''
+14:22:10 INFO  : Successfully done query RDI_DATADIR 
+14:22:10 INFO  : Successfully done setting workspace for the tool. 
+14:22:10 INFO  : Platform repository initialization has completed.
