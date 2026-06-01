@@ -1,0 +1,5 @@
+Nothing to build in platform 'bram02'
+
+17:01:51 **** Incremental Build of configuration Debug for project bram_02 ****
+make all 
+make: Nothing to be done for 'all'.
