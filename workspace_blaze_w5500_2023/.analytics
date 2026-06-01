@@ -1,0 +1,14 @@
+timestamp=[2026-06-01 14:14:53], mode=WORKBENCH_START, duration=0:00:05.055, duration_ms=5055, data={}
+timestamp=[2026-06-01 14:14:53], mode=WORKBENCH_UI_INIT, duration=0:00:00.007, duration_ms=7, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-06-01 14:14:54], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.831, duration_ms=831, data={}
+timestamp=[2026-06-01 14:16:30], mode=APP_CREATION, duration=0:00:05.131, duration_ms=5131, data={name=blaze_w5500, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=blaze_W5500Top_2023, application_type=application}
+timestamp=[2026-06-01 14:19:53], mode=PLATFORM_GENERATION, duration=0:00:03.306, duration_ms=3306, data={name=blaze_W5500Top_2023}
+timestamp=[2026-06-01 14:20:22], mode=PLATFORM_GENERATION, duration=0:00:03.219, duration_ms=3219, data={name=blaze_W5500Top_2023}
+timestamp=[2026-06-01 14:20:30], mode=PLATFORM_GENERATION, duration=0:00:02.777, duration_ms=2777, data={name=blaze_W5500Top_2023}
+timestamp=[2026-06-01 14:20:35], mode=PLATFORM_GENERATION, duration=0:00:01.830, duration_ms=1830, data={name=blaze_W5500Top_2023}
+timestamp=[2026-06-01 14:20:41], mode=PLATFORM_GENERATION, duration=0:00:03.655, duration_ms=3655, data={name=blaze_W5500Top_2023}
+timestamp=[2026-06-01 14:20:46], mode=BUILD, duration=0:00:02.180, duration_ms=2180, data={name=blaze_w5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-01 14:20:46], mode=BUILD, duration=0:00:00.105, duration_ms=105, data={name=blaze_w5500_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-01 15:13:29], mode=WORKBENCH_START, duration=0:00:04.489, duration_ms=4489, data={}
+timestamp=[2026-06-01 15:13:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.485, duration_ms=485, data={editors_count=1, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=true, projects=RemoteSystemsTempFiles,blaze_W5500Top_2023,blaze_w5500,blaze_w5500_system}
+timestamp=[2026-06-01 15:13:41], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.843, duration_ms=843, data={}
