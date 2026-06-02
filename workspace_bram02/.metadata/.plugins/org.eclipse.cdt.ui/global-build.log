@@ -1,5 +1,8 @@
-Nothing to build in platform 'bram02'
+Nothing to build in platform 'system1_wrapper'
 
-17:01:51 **** Incremental Build of configuration Debug for project bram_02 ****
+10:20:28 **** Incremental Build of configuration Debug for project bram02 ****
 make all 
 make: Nothing to be done for 'all'.
+10:20:28 **** Incremental Build of configuration Debug for project bram02_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

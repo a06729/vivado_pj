@@ -1,20 +1,19 @@
-16:53:26 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace_bram02/IDE.log'.
-16:53:31 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace_bram02\temp_xsdb_launch_script.tcl
-16:53:31 INFO  : Registering command handlers for Vitis TCF services
-16:53:33 INFO  : Platform repository initialization has completed.
-16:53:33 INFO  : XSCT server has started successfully.
-16:53:33 INFO  : plnx-install-location is set to ''
-16:53:33 INFO  : Successfully done setting XSCT server connection channel  
-16:53:33 INFO  : Successfully done query RDI_DATADIR 
-16:53:33 INFO  : Successfully done setting workspace for the tool. 
-16:54:03 INFO  : Result from executing command 'getProjects': bram02
-16:54:03 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
-16:54:04 WARN  : An unexpected exception occurred in the module 'platform project logging'
-16:54:05 INFO  : Platform 'bram02' is added to custom repositories.
-16:54:07 INFO  : Platform 'bram02' is added to custom repositories.
-16:59:29 INFO  : Result from executing command 'getProjects': bram02
-16:59:29 INFO  : Result from executing command 'getPlatforms': bram02|D:/vivado_pj/workspace_bram02/bram02/export/bram02/bram02.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
-16:59:30 INFO  : Checking for BSP changes to sync application flags for project 'bram_02'...
-17:00:06 INFO  : Checking for BSP changes to sync application flags for project 'bram_02'...
-17:01:42 INFO  : Checking for BSP changes to sync application flags for project 'bram_02'...
-17:01:51 INFO  : Checking for BSP changes to sync application flags for project 'bram_02'...
+10:05:32 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace_bram02/IDE.log'.
+10:05:38 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace_bram02\temp_xsdb_launch_script.tcl
+10:05:38 INFO  : Registering command handlers for Vitis TCF services
+10:05:39 INFO  : Platform repository initialization has completed.
+10:05:40 INFO  : XSCT server has started successfully.
+10:05:40 INFO  : Successfully done setting XSCT server connection channel  
+10:05:40 INFO  : plnx-install-location is set to ''
+10:05:40 INFO  : Successfully done setting workspace for the tool. 
+10:05:40 INFO  : Successfully done query RDI_DATADIR 
+10:06:42 INFO  : Result from executing command 'getProjects': system1_wrapper
+10:06:42 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+10:06:43 WARN  : An unexpected exception occurred in the module 'platform project logging'
+10:06:44 INFO  : Platform 'system1_wrapper' is added to custom repositories.
+10:06:47 INFO  : Platform 'system1_wrapper' is added to custom repositories.
+10:20:06 INFO  : Result from executing command 'getProjects': system1_wrapper
+10:20:06 INFO  : Result from executing command 'getPlatforms': system1_wrapper|D:/vivado_pj/workspace_bram02/system1_wrapper/export/system1_wrapper/system1_wrapper.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+10:20:07 INFO  : Checking for BSP changes to sync application flags for project 'bram02'...
+10:20:23 INFO  : Checking for BSP changes to sync application flags for project 'bram02'...
+10:20:28 INFO  : Checking for BSP changes to sync application flags for project 'bram02'...
