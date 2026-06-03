@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Thu Jun  4 00:32:54 2026
+# Process ID: 30968
+# Current directory: D:/vivado_pj/userMap/userMap.runs/synth_1
+# Command line: vivado.exe -log userMapTop.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source userMapTop.tcl
+# Log file: D:/vivado_pj/userMap/userMap.runs/synth_1/userMapTop.vds
+# Journal file: D:/vivado_pj/userMap/userMap.runs/synth_1\vivado.jou
+# Running On: DESKTOP-A2AGG41, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 17039 MB
+#-----------------------------------------------------------
+source userMapTop.tcl -notrace

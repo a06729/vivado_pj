@@ -1,0 +1,121 @@
+22:11:57 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.
+22:12:04 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\userMap2023\temp_xsdb_launch_script.tcl
+22:12:05 INFO  : Registering command handlers for Vitis TCF services
+22:12:06 INFO  : Platform repository initialization has completed.
+22:12:09 INFO  : XSCT server has started successfully.
+22:12:12 INFO  : Successfully done setting XSCT server connection channel  
+22:12:12 INFO  : plnx-install-location is set to ''
+22:12:12 INFO  : Successfully done query RDI_DATADIR 
+22:12:12 INFO  : Successfully done setting workspace for the tool. 
+22:13:20 INFO  : Result from executing command 'getProjects': userMapTop
+22:13:20 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:13:21 WARN  : An unexpected exception occurred in the module 'platform project logging'
+22:13:22 INFO  : Platform 'userMapTop' is added to custom repositories.
+22:13:26 INFO  : Platform 'userMapTop' is added to custom repositories.
+22:13:38 INFO  : Result from executing command 'getProjects': userMapTop
+22:13:38 INFO  : Result from executing command 'getPlatforms': userMapTop|D:/vivado_pj/userMap2023/userMapTop/export/userMapTop/userMapTop.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:26:30 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+22:26:37 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+22:30:47 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+22:31:39 INFO  : Result from executing command 'removePlatformRepo': 
+22:31:47 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+22:31:57 INFO  : Result from executing command 'getProjects': userMapTop
+22:31:57 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:31:58 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+22:38:05 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+22:38:50 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.
+22:38:50 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\userMap2023\temp_xsdb_launch_script.tcl
+22:38:53 INFO  : XSCT server has started successfully.
+22:38:53 INFO  : plnx-install-location is set to ''
+22:38:53 INFO  : Successfully done setting XSCT server connection channel  
+22:38:53 INFO  : Successfully done setting workspace for the tool. 
+22:38:54 INFO  : Registering command handlers for Vitis TCF services
+22:38:54 INFO  : Successfully done query RDI_DATADIR 
+22:38:55 INFO  : Platform repository initialization has completed.
+22:40:02 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.
+22:40:02 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\userMap2023\temp_xsdb_launch_script.tcl
+22:40:05 INFO  : XSCT server has started successfully.
+22:40:05 INFO  : Successfully done setting XSCT server connection channel  
+22:40:05 INFO  : plnx-install-location is set to ''
+22:40:05 INFO  : Successfully done setting workspace for the tool. 
+22:40:05 INFO  : Registering command handlers for Vitis TCF services
+22:40:05 INFO  : Successfully done query RDI_DATADIR 
+22:40:06 INFO  : Platform repository initialization has completed.
+22:40:48 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.
+22:40:48 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\userMap2023\temp_xsdb_launch_script.tcl
+22:40:51 INFO  : XSCT server has started successfully.
+22:40:51 INFO  : Successfully done setting XSCT server connection channel  
+22:40:51 INFO  : plnx-install-location is set to ''
+22:40:51 INFO  : Successfully done setting workspace for the tool. 
+22:40:51 INFO  : Registering command handlers for Vitis TCF services
+22:40:51 INFO  : Successfully done query RDI_DATADIR 
+22:40:53 INFO  : Platform repository initialization has completed.
+22:41:59 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.
+22:42:00 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\userMap2023\temp_xsdb_launch_script.tcl
+22:42:03 INFO  : XSCT server has started successfully.
+22:42:03 INFO  : Successfully done setting XSCT server connection channel  
+22:42:03 INFO  : plnx-install-location is set to ''
+22:42:03 INFO  : Successfully done setting workspace for the tool. 
+22:42:03 INFO  : Registering command handlers for Vitis TCF services
+22:42:03 INFO  : Successfully done query RDI_DATADIR 
+22:42:04 INFO  : Platform repository initialization has completed.
+22:56:19 INFO  : Result from executing command 'getProjects': userMapTop
+22:56:19 INFO  : Result from executing command 'getPlatforms': userMapTop|D:/vivado_pj/userMap2023/userMapTop/export/userMapTop/userMapTop.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+22:56:20 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+23:21:43 INFO  : Hardware specification for platform project 'userMapTop' is updated.
+23:21:53 INFO  : Result from executing command 'getProjects': userMapTop
+23:21:53 INFO  : Result from executing command 'getPlatforms': userMapTop|D:/vivado_pj/userMap2023/userMapTop/export/userMapTop/userMapTop.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:21:54 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+23:21:56 INFO  : The hardware specification used by project 'userMap' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+23:21:56 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop.bit' stored in project is removed.
+23:21:56 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop.mmi' stored in project is removed.
+23:21:56 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream' in project 'userMap'.
+23:33:23 INFO  : Hardware specification for platform project 'userMapTop' is updated.
+23:33:34 INFO  : Result from executing command 'getProjects': userMapTop
+23:33:34 INFO  : Result from executing command 'getPlatforms': userMapTop|D:/vivado_pj/userMap2023/userMapTop/export/userMapTop/userMapTop.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:33:35 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+23:34:31 INFO  : Result from executing command 'getProjects': userMapTop
+23:34:31 INFO  : Result from executing command 'getPlatforms': userMapTop|D:/vivado_pj/userMap2023/userMapTop/export/userMapTop/userMapTop.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:34:32 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+23:45:40 INFO  : Hardware specification for platform project 'userMapTop' is updated.
+23:45:48 INFO  : Result from executing command 'removePlatformRepo': 
+23:45:57 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+23:46:06 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+23:46:22 INFO  : Result from executing command 'getProjects': userMapTop
+23:46:22 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:46:32 INFO  : Result from executing command 'removePlatformRepo': 
+23:46:42 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+23:46:58 INFO  : Result from executing command 'getProjects': userMapTop
+23:46:58 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+23:46:59 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+23:47:01 INFO  : The hardware specification used by project 'userMap' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+23:47:01 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop2.bit' stored in project is removed.
+23:47:01 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop2.mmi' stored in project is removed.
+23:47:01 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream' in project 'userMap'.
+23:47:30 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+00:09:17 INFO  : Hardware specification for platform project 'userMapTop' is updated.
+00:09:26 INFO  : Result from executing command 'removePlatformRepo': 
+00:09:30 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+00:09:43 INFO  : Result from executing command 'getProjects': userMapTop
+00:09:43 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:09:48 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+00:09:50 INFO  : The hardware specification used by project 'userMap' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+00:09:50 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop3.bit' stored in project is removed.
+00:09:50 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop3.mmi' stored in project is removed.
+00:09:50 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream' in project 'userMap'.
+00:27:43 INFO  : Result from executing command 'getProjects': userMapTop;userMapTop4
+00:27:43 INFO  : Result from executing command 'getPlatforms': userMapTop|D:/vivado_pj/userMap2023/userMapTop/export/userMapTop/userMapTop.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:27:45 INFO  : Platform 'userMapTop4' is added to custom repositories.
+00:27:48 INFO  : Platform 'userMapTop4' is added to custom repositories.
+00:28:00 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+00:36:08 ERROR : An unexpected exception occurred in the module 'reading platform'
+00:36:25 INFO  : Hardware specification for platform project 'userMapTop' is updated.
+00:36:35 INFO  : Result from executing command 'getProjects': userMapTop
+00:36:35 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:36:46 INFO  : Hardware specification for platform project 'userMapTop' is updated.
+00:36:55 INFO  : Result from executing command 'getProjects': userMapTop
+00:36:55 INFO  : Result from executing command 'getPlatforms': userMapTop|D:/vivado_pj/userMap2023/userMapTop/export/userMapTop/userMapTop.xpfm;xilinx_vck190_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|D:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+00:37:00 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+00:37:02 INFO  : The hardware specification used by project 'userMap' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+00:37:02 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop4.bit' stored in project is removed.
+00:37:02 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream' in project 'userMap'.

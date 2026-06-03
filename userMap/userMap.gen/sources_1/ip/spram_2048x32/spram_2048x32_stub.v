@@ -4,8 +4,8 @@
 // Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
 // Date        : Tue Jun  2 16:45:41 2026
 // Host        : SmST12 running 64-bit major release  (build 9200)
-// Command     : write_verilog -force -mode synth_stub
-//               d:/vivado_pj/userMap/userMap.gen/sources_1/ip/spram_2048x32/spram_2048x32_stub.v
+// Command     : write_verilog -force -mode synth_stub -rename_top spram_2048x32 -prefix
+//               spram_2048x32_ spram_2048x32_stub.v
 // Design      : spram_2048x32
 // Purpose     : Stub declaration of top-level module interface
 // Device      : xc7a35tcpg236-1

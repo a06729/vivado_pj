@@ -274,8 +274,8 @@
     "components": {
       "microblaze_0": {
         "vlnv": "xilinx.com:ip:microblaze:11.0",
-        "xci_name": "system_microblaze_0_0",
-        "xci_path": "ip\\system_microblaze_0_0\\system_microblaze_0_0.xci",
+        "xci_name": "system_microblaze_0_1",
+        "xci_path": "ip\\system_microblaze_0_1\\system_microblaze_0_1.xci",
         "inst_hier_path": "microblaze_0",
         "parameters": {
           "C_DEBUG_ENABLED": {
@@ -348,8 +348,8 @@
       },
       "axi_uartlite_0": {
         "vlnv": "xilinx.com:ip:axi_uartlite:2.0",
-        "xci_name": "system_axi_uartlite_0_0",
-        "xci_path": "ip\\system_axi_uartlite_0_0\\system_axi_uartlite_0_0.xci",
+        "xci_name": "system_axi_uartlite_0_1",
+        "xci_path": "ip\\system_axi_uartlite_0_1\\system_axi_uartlite_0_1.xci",
         "inst_hier_path": "axi_uartlite_0",
         "parameters": {
           "C_BAUDRATE": {
@@ -365,8 +365,8 @@
       },
       "axi_gpio_0": {
         "vlnv": "xilinx.com:ip:axi_gpio:2.0",
-        "xci_name": "system_axi_gpio_0_0",
-        "xci_path": "ip\\system_axi_gpio_0_0\\system_axi_gpio_0_0.xci",
+        "xci_name": "system_axi_gpio_0_1",
+        "xci_path": "ip\\system_axi_gpio_0_1\\system_axi_gpio_0_1.xci",
         "inst_hier_path": "axi_gpio_0",
         "parameters": {
           "C_ALL_INPUTS": {
@@ -388,23 +388,46 @@
       },
       "axi_bram_ctrl_0": {
         "vlnv": "xilinx.com:ip:axi_bram_ctrl:4.1",
-        "xci_name": "system_axi_bram_ctrl_0_0",
-        "xci_path": "ip\\system_axi_bram_ctrl_0_0\\system_axi_bram_ctrl_0_0.xci",
+        "xci_name": "system_axi_bram_ctrl_0_1",
+        "xci_path": "ip\\system_axi_bram_ctrl_0_1\\system_axi_bram_ctrl_0_1.xci",
         "inst_hier_path": "axi_bram_ctrl_0",
         "parameters": {
+          "DATA_WIDTH": {
+            "value": "32"
+          },
           "SINGLE_PORT_BRAM": {
             "value": "1"
+          }
+        },
+        "hdl_attributes": {
+          "BMM_INFO_ADDRESS_SPACE": {
+            "value": "byte  0xC0000000 32 > system axi_bram_ctrl_0_bram",
+            "value_src": "default"
+          },
+          "KEEP_HIERARCHY": {
+            "value": "yes",
+            "value_src": "default"
           }
         }
       },
       "axi_bram_ctrl_1": {
         "vlnv": "xilinx.com:ip:axi_bram_ctrl:4.1",
-        "xci_name": "system_axi_bram_ctrl_1_0",
-        "xci_path": "ip\\system_axi_bram_ctrl_1_0\\system_axi_bram_ctrl_1_0.xci",
+        "xci_name": "system_axi_bram_ctrl_1_1",
+        "xci_path": "ip\\system_axi_bram_ctrl_1_1\\system_axi_bram_ctrl_1_1.xci",
         "inst_hier_path": "axi_bram_ctrl_1",
         "parameters": {
           "SINGLE_PORT_BRAM": {
             "value": "1"
+          }
+        },
+        "hdl_attributes": {
+          "BMM_INFO_ADDRESS_SPACE": {
+            "value": "byte  0xC2000000 32 > system axi_bram_ctrl_1_bram",
+            "value_src": "default"
+          },
+          "KEEP_HIERARCHY": {
+            "value": "yes",
+            "value_src": "default"
           }
         }
       },
@@ -434,8 +457,8 @@
         "components": {
           "dlmb_v10": {
             "vlnv": "xilinx.com:ip:lmb_v10:3.0",
-            "xci_name": "system_dlmb_v10_0",
-            "xci_path": "ip\\system_dlmb_v10_0\\system_dlmb_v10_0.xci",
+            "xci_name": "system_dlmb_v10_1",
+            "xci_path": "ip\\system_dlmb_v10_1\\system_dlmb_v10_1.xci",
             "inst_hier_path": "microblaze_0_local_memory/dlmb_v10",
             "interface_ports": {
               "LMB_M": {
@@ -449,8 +472,8 @@
           },
           "ilmb_v10": {
             "vlnv": "xilinx.com:ip:lmb_v10:3.0",
-            "xci_name": "system_ilmb_v10_0",
-            "xci_path": "ip\\system_ilmb_v10_0\\system_ilmb_v10_0.xci",
+            "xci_name": "system_ilmb_v10_1",
+            "xci_path": "ip\\system_ilmb_v10_1\\system_ilmb_v10_1.xci",
             "inst_hier_path": "microblaze_0_local_memory/ilmb_v10",
             "interface_ports": {
               "LMB_M": {
@@ -464,8 +487,8 @@
           },
           "dlmb_bram_if_cntlr": {
             "vlnv": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-            "xci_name": "system_dlmb_bram_if_cntlr_0",
-            "xci_path": "ip\\system_dlmb_bram_if_cntlr_0\\system_dlmb_bram_if_cntlr_0.xci",
+            "xci_name": "system_dlmb_bram_if_cntlr_1",
+            "xci_path": "ip\\system_dlmb_bram_if_cntlr_1\\system_dlmb_bram_if_cntlr_1.xci",
             "inst_hier_path": "microblaze_0_local_memory/dlmb_bram_if_cntlr",
             "parameters": {
               "C_ECC": {
@@ -485,8 +508,8 @@
           },
           "ilmb_bram_if_cntlr": {
             "vlnv": "xilinx.com:ip:lmb_bram_if_cntlr:4.0",
-            "xci_name": "system_ilmb_bram_if_cntlr_0",
-            "xci_path": "ip\\system_ilmb_bram_if_cntlr_0\\system_ilmb_bram_if_cntlr_0.xci",
+            "xci_name": "system_ilmb_bram_if_cntlr_1",
+            "xci_path": "ip\\system_ilmb_bram_if_cntlr_1\\system_ilmb_bram_if_cntlr_1.xci",
             "inst_hier_path": "microblaze_0_local_memory/ilmb_bram_if_cntlr",
             "parameters": {
               "C_ECC": {
@@ -496,8 +519,8 @@
           },
           "lmb_bram": {
             "vlnv": "xilinx.com:ip:blk_mem_gen:8.4",
-            "xci_name": "system_lmb_bram_0",
-            "xci_path": "ip\\system_lmb_bram_0\\system_lmb_bram_0.xci",
+            "xci_name": "system_lmb_bram_1",
+            "xci_path": "ip\\system_lmb_bram_1\\system_lmb_bram_1.xci",
             "inst_hier_path": "microblaze_0_local_memory/lmb_bram",
             "parameters": {
               "Memory_Type": {
@@ -570,9 +593,9 @@
       },
       "microblaze_0_axi_periph": {
         "vlnv": "xilinx.com:ip:axi_interconnect:2.1",
-        "xci_path": "ip\\system_microblaze_0_axi_periph_0\\system_microblaze_0_axi_periph_0.xci",
+        "xci_path": "ip\\system_microblaze_0_axi_periph_1\\system_microblaze_0_axi_periph_1.xci",
         "inst_hier_path": "microblaze_0_axi_periph",
-        "xci_name": "system_microblaze_0_axi_periph_0",
+        "xci_name": "system_microblaze_0_axi_periph_1",
         "parameters": {
           "NUM_MI": {
             "value": "5"
@@ -724,8 +747,8 @@
         "components": {
           "xbar": {
             "vlnv": "xilinx.com:ip:axi_crossbar:2.1",
-            "xci_name": "system_xbar_0",
-            "xci_path": "ip\\system_xbar_0\\system_xbar_0.xci",
+            "xci_name": "system_xbar_1",
+            "xci_path": "ip\\system_xbar_1\\system_xbar_1.xci",
             "inst_hier_path": "microblaze_0_axi_periph/xbar",
             "parameters": {
               "NUM_MI": {
@@ -1294,8 +1317,8 @@
       },
       "microblaze_0_axi_intc": {
         "vlnv": "xilinx.com:ip:axi_intc:4.1",
-        "xci_name": "system_microblaze_0_axi_intc_0",
-        "xci_path": "ip\\system_microblaze_0_axi_intc_0\\system_microblaze_0_axi_intc_0.xci",
+        "xci_name": "system_microblaze_0_axi_intc_1",
+        "xci_path": "ip\\system_microblaze_0_axi_intc_1\\system_microblaze_0_axi_intc_1.xci",
         "inst_hier_path": "microblaze_0_axi_intc",
         "parameters": {
           "C_HAS_FAST": {
@@ -1305,20 +1328,20 @@
       },
       "microblaze_0_xlconcat": {
         "vlnv": "xilinx.com:ip:xlconcat:2.1",
-        "xci_name": "system_microblaze_0_xlconcat_0",
-        "xci_path": "ip\\system_microblaze_0_xlconcat_0\\system_microblaze_0_xlconcat_0.xci",
+        "xci_name": "system_microblaze_0_xlconcat_1",
+        "xci_path": "ip\\system_microblaze_0_xlconcat_1\\system_microblaze_0_xlconcat_1.xci",
         "inst_hier_path": "microblaze_0_xlconcat"
       },
       "mdm_1": {
         "vlnv": "xilinx.com:ip:mdm:3.2",
-        "xci_name": "system_mdm_1_0",
-        "xci_path": "ip\\system_mdm_1_0\\system_mdm_1_0.xci",
+        "xci_name": "system_mdm_1_1",
+        "xci_path": "ip\\system_mdm_1_1\\system_mdm_1_1.xci",
         "inst_hier_path": "mdm_1"
       },
       "clk_wiz_1": {
         "vlnv": "xilinx.com:ip:clk_wiz:6.0",
-        "xci_name": "system_clk_wiz_1_0",
-        "xci_path": "ip\\system_clk_wiz_1_0\\system_clk_wiz_1_0.xci",
+        "xci_name": "system_clk_wiz_1_1",
+        "xci_path": "ip\\system_clk_wiz_1_1\\system_clk_wiz_1_1.xci",
         "inst_hier_path": "clk_wiz_1",
         "parameters": {
           "CLK_IN1_BOARD_INTERFACE": {
@@ -1343,8 +1366,8 @@
       },
       "rst_clk_wiz_1_100M": {
         "vlnv": "xilinx.com:ip:proc_sys_reset:5.0",
-        "xci_name": "system_rst_clk_wiz_1_100M_0",
-        "xci_path": "ip\\system_rst_clk_wiz_1_100M_0\\system_rst_clk_wiz_1_100M_0.xci",
+        "xci_name": "system_rst_clk_wiz_1_100M_1",
+        "xci_path": "ip\\system_rst_clk_wiz_1_100M_1\\system_rst_clk_wiz_1_100M_1.xci",
         "inst_hier_path": "rst_clk_wiz_1_100M",
         "parameters": {
           "RESET_BOARD_INTERFACE": {
@@ -1561,7 +1584,7 @@
               "SEG_dlmb_bram_if_cntlr_Mem": {
                 "address_block": "/microblaze_0_local_memory/dlmb_bram_if_cntlr/SLMB/Mem",
                 "offset": "0x00000000",
-                "range": "64K",
+                "range": "128K",
                 "offset_high_param": "C_HIGHADDR"
               },
               "SEG_microblaze_0_axi_intc_Reg": {
@@ -1576,12 +1599,40 @@
               "SEG_ilmb_bram_if_cntlr_Mem": {
                 "address_block": "/microblaze_0_local_memory/ilmb_bram_if_cntlr/SLMB/Mem",
                 "offset": "0x00000000",
-                "range": "64K",
+                "range": "128K",
                 "offset_high_param": "C_HIGHADDR"
               }
             }
           }
         }
+      }
+    },
+    "elf_association": {
+      "file": {
+        "name": "..\\..\\..\\..\\..\\userMap2023\\userMap\\Debug\\userMap.elf",
+        "type": "ELF",
+        "checksum": "1983559872",
+        "IsVisible": "1",
+        "ScopedToRef": "system",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "implementation"
+        ]
+      },
+      "file": {
+        "name": "..\\..\\..\\..\\..\\userMap2023\\userMap\\Debug\\userMap.elf",
+        "type": "ELF",
+        "checksum": "1983559872",
+        "IsVisible": "1",
+        "ScopedToRef": "system",
+        "ScopedToCell": [
+          "microblaze_0"
+        ],
+        "UsedIn": [
+          "simulation"
+        ]
       }
     }
   }

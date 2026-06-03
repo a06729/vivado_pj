@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<item key="userMap_system-bitFile" value="${project_loc:userMap}/_ide/bitstream/userMapTop.bit"/>
+	<item key="userMap_system-bmmFile" value="${project_loc:userMap}/_ide/bitstream/userMapTop.mmi"/>
+	<item key="userMap_system-target" value="Local"/>
+	<item key="userMap_system-device" value="Auto Detect"/>
+	<item key="userMap_system-partial_bit" value="false"/>
+	<item key="userMap_system-skip_rev_check" value="false"/>
+	<item key="programfpga.sdxproject" value="userMap_system"/>
+	<item key="userMap_system-microblaze_0-initElf" value="D:\vivado_pj\userMap2023\userMap\Debug\userMap.elf"/>
+</section>

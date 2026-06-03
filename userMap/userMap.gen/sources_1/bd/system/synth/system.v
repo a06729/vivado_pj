@@ -2,8 +2,8 @@
 //Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 //--------------------------------------------------------------------------------
 //Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-//Date        : Tue Jun  2 16:42:56 2026
-//Host        : SmST12 running 64-bit major release  (build 9200)
+//Date        : Thu Jun  4 00:25:33 2026
+//Host        : DESKTOP-A2AGG41 running 64-bit major release  (build 9200)
 //Command     : generate_target system.bd
 //Design      : system
 //Purpose     : IP block netlist
@@ -1071,7 +1071,7 @@ module microblaze_0_local_memory_imp_OGE0N8
   assign microblaze_0_ilmb_READSTROBE = ILMB_readstrobe;
   (* BMM_INFO_ADDRESS_SPACE = "byte  0x00000000 32 > system microblaze_0_local_memory/lmb_bram" *) 
   (* KEEP_HIERARCHY = "yes" *) 
-  system_dlmb_bram_if_cntlr_0 dlmb_bram_if_cntlr
+  system_dlmb_bram_if_cntlr_1 dlmb_bram_if_cntlr
        (.BRAM_Addr_A(microblaze_0_dlmb_cntlr_ADDR),
         .BRAM_Clk_A(microblaze_0_dlmb_cntlr_CLK),
         .BRAM_Din_A({microblaze_0_dlmb_cntlr_DOUT[31],microblaze_0_dlmb_cntlr_DOUT[30],microblaze_0_dlmb_cntlr_DOUT[29],microblaze_0_dlmb_cntlr_DOUT[28],microblaze_0_dlmb_cntlr_DOUT[27],microblaze_0_dlmb_cntlr_DOUT[26],microblaze_0_dlmb_cntlr_DOUT[25],microblaze_0_dlmb_cntlr_DOUT[24],microblaze_0_dlmb_cntlr_DOUT[23],microblaze_0_dlmb_cntlr_DOUT[22],microblaze_0_dlmb_cntlr_DOUT[21],microblaze_0_dlmb_cntlr_DOUT[20],microblaze_0_dlmb_cntlr_DOUT[19],microblaze_0_dlmb_cntlr_DOUT[18],microblaze_0_dlmb_cntlr_DOUT[17],microblaze_0_dlmb_cntlr_DOUT[16],microblaze_0_dlmb_cntlr_DOUT[15],microblaze_0_dlmb_cntlr_DOUT[14],microblaze_0_dlmb_cntlr_DOUT[13],microblaze_0_dlmb_cntlr_DOUT[12],microblaze_0_dlmb_cntlr_DOUT[11],microblaze_0_dlmb_cntlr_DOUT[10],microblaze_0_dlmb_cntlr_DOUT[9],microblaze_0_dlmb_cntlr_DOUT[8],microblaze_0_dlmb_cntlr_DOUT[7],microblaze_0_dlmb_cntlr_DOUT[6],microblaze_0_dlmb_cntlr_DOUT[5],microblaze_0_dlmb_cntlr_DOUT[4],microblaze_0_dlmb_cntlr_DOUT[3],microblaze_0_dlmb_cntlr_DOUT[2],microblaze_0_dlmb_cntlr_DOUT[1],microblaze_0_dlmb_cntlr_DOUT[0]}),
@@ -1092,7 +1092,7 @@ module microblaze_0_local_memory_imp_OGE0N8
         .Sl_Ready(microblaze_0_dlmb_bus_READY),
         .Sl_UE(microblaze_0_dlmb_bus_UE),
         .Sl_Wait(microblaze_0_dlmb_bus_WAIT));
-  system_dlmb_v10_0 dlmb_v10
+  system_dlmb_v10_1 dlmb_v10
        (.LMB_ABus(microblaze_0_dlmb_bus_ABUS),
         .LMB_AddrStrobe(microblaze_0_dlmb_bus_ADDRSTROBE),
         .LMB_BE(microblaze_0_dlmb_bus_BE),
@@ -1117,7 +1117,7 @@ module microblaze_0_local_memory_imp_OGE0N8
         .Sl_Ready(microblaze_0_dlmb_bus_READY),
         .Sl_UE(microblaze_0_dlmb_bus_UE),
         .Sl_Wait(microblaze_0_dlmb_bus_WAIT));
-  system_ilmb_bram_if_cntlr_0 ilmb_bram_if_cntlr
+  system_ilmb_bram_if_cntlr_1 ilmb_bram_if_cntlr
        (.BRAM_Addr_A(microblaze_0_ilmb_cntlr_ADDR),
         .BRAM_Clk_A(microblaze_0_ilmb_cntlr_CLK),
         .BRAM_Din_A({microblaze_0_ilmb_cntlr_DOUT[31],microblaze_0_ilmb_cntlr_DOUT[30],microblaze_0_ilmb_cntlr_DOUT[29],microblaze_0_ilmb_cntlr_DOUT[28],microblaze_0_ilmb_cntlr_DOUT[27],microblaze_0_ilmb_cntlr_DOUT[26],microblaze_0_ilmb_cntlr_DOUT[25],microblaze_0_ilmb_cntlr_DOUT[24],microblaze_0_ilmb_cntlr_DOUT[23],microblaze_0_ilmb_cntlr_DOUT[22],microblaze_0_ilmb_cntlr_DOUT[21],microblaze_0_ilmb_cntlr_DOUT[20],microblaze_0_ilmb_cntlr_DOUT[19],microblaze_0_ilmb_cntlr_DOUT[18],microblaze_0_ilmb_cntlr_DOUT[17],microblaze_0_ilmb_cntlr_DOUT[16],microblaze_0_ilmb_cntlr_DOUT[15],microblaze_0_ilmb_cntlr_DOUT[14],microblaze_0_ilmb_cntlr_DOUT[13],microblaze_0_ilmb_cntlr_DOUT[12],microblaze_0_ilmb_cntlr_DOUT[11],microblaze_0_ilmb_cntlr_DOUT[10],microblaze_0_ilmb_cntlr_DOUT[9],microblaze_0_ilmb_cntlr_DOUT[8],microblaze_0_ilmb_cntlr_DOUT[7],microblaze_0_ilmb_cntlr_DOUT[6],microblaze_0_ilmb_cntlr_DOUT[5],microblaze_0_ilmb_cntlr_DOUT[4],microblaze_0_ilmb_cntlr_DOUT[3],microblaze_0_ilmb_cntlr_DOUT[2],microblaze_0_ilmb_cntlr_DOUT[1],microblaze_0_ilmb_cntlr_DOUT[0]}),
@@ -1138,7 +1138,7 @@ module microblaze_0_local_memory_imp_OGE0N8
         .Sl_Ready(microblaze_0_ilmb_bus_READY),
         .Sl_UE(microblaze_0_ilmb_bus_UE),
         .Sl_Wait(microblaze_0_ilmb_bus_WAIT));
-  system_ilmb_v10_0 ilmb_v10
+  system_ilmb_v10_1 ilmb_v10
        (.LMB_ABus(microblaze_0_ilmb_bus_ABUS),
         .LMB_AddrStrobe(microblaze_0_ilmb_bus_ADDRSTROBE),
         .LMB_BE(microblaze_0_ilmb_bus_BE),
@@ -1163,7 +1163,7 @@ module microblaze_0_local_memory_imp_OGE0N8
         .Sl_Ready(microblaze_0_ilmb_bus_READY),
         .Sl_UE(microblaze_0_ilmb_bus_UE),
         .Sl_Wait(microblaze_0_ilmb_bus_WAIT));
-  system_lmb_bram_0 lmb_bram
+  system_lmb_bram_1 lmb_bram
        (.addra({microblaze_0_dlmb_cntlr_ADDR[0],microblaze_0_dlmb_cntlr_ADDR[1],microblaze_0_dlmb_cntlr_ADDR[2],microblaze_0_dlmb_cntlr_ADDR[3],microblaze_0_dlmb_cntlr_ADDR[4],microblaze_0_dlmb_cntlr_ADDR[5],microblaze_0_dlmb_cntlr_ADDR[6],microblaze_0_dlmb_cntlr_ADDR[7],microblaze_0_dlmb_cntlr_ADDR[8],microblaze_0_dlmb_cntlr_ADDR[9],microblaze_0_dlmb_cntlr_ADDR[10],microblaze_0_dlmb_cntlr_ADDR[11],microblaze_0_dlmb_cntlr_ADDR[12],microblaze_0_dlmb_cntlr_ADDR[13],microblaze_0_dlmb_cntlr_ADDR[14],microblaze_0_dlmb_cntlr_ADDR[15],microblaze_0_dlmb_cntlr_ADDR[16],microblaze_0_dlmb_cntlr_ADDR[17],microblaze_0_dlmb_cntlr_ADDR[18],microblaze_0_dlmb_cntlr_ADDR[19],microblaze_0_dlmb_cntlr_ADDR[20],microblaze_0_dlmb_cntlr_ADDR[21],microblaze_0_dlmb_cntlr_ADDR[22],microblaze_0_dlmb_cntlr_ADDR[23],microblaze_0_dlmb_cntlr_ADDR[24],microblaze_0_dlmb_cntlr_ADDR[25],microblaze_0_dlmb_cntlr_ADDR[26],microblaze_0_dlmb_cntlr_ADDR[27],microblaze_0_dlmb_cntlr_ADDR[28],microblaze_0_dlmb_cntlr_ADDR[29],microblaze_0_dlmb_cntlr_ADDR[30],microblaze_0_dlmb_cntlr_ADDR[31]}),
         .addrb({microblaze_0_ilmb_cntlr_ADDR[0],microblaze_0_ilmb_cntlr_ADDR[1],microblaze_0_ilmb_cntlr_ADDR[2],microblaze_0_ilmb_cntlr_ADDR[3],microblaze_0_ilmb_cntlr_ADDR[4],microblaze_0_ilmb_cntlr_ADDR[5],microblaze_0_ilmb_cntlr_ADDR[6],microblaze_0_ilmb_cntlr_ADDR[7],microblaze_0_ilmb_cntlr_ADDR[8],microblaze_0_ilmb_cntlr_ADDR[9],microblaze_0_ilmb_cntlr_ADDR[10],microblaze_0_ilmb_cntlr_ADDR[11],microblaze_0_ilmb_cntlr_ADDR[12],microblaze_0_ilmb_cntlr_ADDR[13],microblaze_0_ilmb_cntlr_ADDR[14],microblaze_0_ilmb_cntlr_ADDR[15],microblaze_0_ilmb_cntlr_ADDR[16],microblaze_0_ilmb_cntlr_ADDR[17],microblaze_0_ilmb_cntlr_ADDR[18],microblaze_0_ilmb_cntlr_ADDR[19],microblaze_0_ilmb_cntlr_ADDR[20],microblaze_0_ilmb_cntlr_ADDR[21],microblaze_0_ilmb_cntlr_ADDR[22],microblaze_0_ilmb_cntlr_ADDR[23],microblaze_0_ilmb_cntlr_ADDR[24],microblaze_0_ilmb_cntlr_ADDR[25],microblaze_0_ilmb_cntlr_ADDR[26],microblaze_0_ilmb_cntlr_ADDR[27],microblaze_0_ilmb_cntlr_ADDR[28],microblaze_0_ilmb_cntlr_ADDR[29],microblaze_0_ilmb_cntlr_ADDR[30],microblaze_0_ilmb_cntlr_ADDR[31]}),
         .clka(microblaze_0_dlmb_cntlr_CLK),
@@ -1326,7 +1326,7 @@ module s00_couplers_imp_1LZPV07
   assign s00_couplers_to_s00_couplers_WVALID = S_AXI_wvalid[0];
 endmodule
 
-(* CORE_GENERATION_INFO = "system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=26,numReposBlks=18,numNonXlnxBlks=0,numHierBlks=8,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=4,da_board_cnt=9,da_bram_cntlr_cnt=4,da_mb_cnt=1,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "system.hwdef" *) 
+(* CORE_GENERATION_INFO = "system,IP_Integrator,{x_ipVendor=xilinx.com,x_ipLibrary=BlockDiagram,x_ipName=system,x_ipVersion=1.00.a,x_ipLanguage=VERILOG,numBlks=26,numReposBlks=18,numNonXlnxBlks=0,numHierBlks=8,maxHierDepth=1,numSysgenBlks=0,numHlsBlks=0,numHdlrefBlks=0,numPkgbdBlks=0,bdsource=USER,da_axi4_cnt=8,da_board_cnt=21,da_bram_cntlr_cnt=8,da_mb_cnt=2,synth_mode=OOC_per_IP}" *) (* HW_HANDOFF = "system.hwdef" *) 
 module system
    (BRAM1_addr,
     BRAM1_clk,
@@ -1580,7 +1580,9 @@ module system
   assign reset_1 = reset;
   assign sys_clock_1 = sys_clock;
   assign uart_txd = axi_uartlite_0_UART_TxD;
-  system_axi_bram_ctrl_0_0 axi_bram_ctrl_0
+  (* BMM_INFO_ADDRESS_SPACE = "byte  0xC0000000 32 > system axi_bram_ctrl_0_bram" *) 
+  (* KEEP_HIERARCHY = "yes" *) 
+  system_axi_bram_ctrl_0_1 axi_bram_ctrl_0
        (.bram_addr_a(axi_bram_ctrl_0_BRAM_PORTA_ADDR),
         .bram_clk_a(axi_bram_ctrl_0_BRAM_PORTA_CLK),
         .bram_en_a(axi_bram_ctrl_0_BRAM_PORTA_EN),
@@ -1621,7 +1623,9 @@ module system
         .s_axi_wready(microblaze_0_axi_periph_M01_AXI_WREADY),
         .s_axi_wstrb(microblaze_0_axi_periph_M01_AXI_WSTRB),
         .s_axi_wvalid(microblaze_0_axi_periph_M01_AXI_WVALID));
-  system_axi_bram_ctrl_1_0 axi_bram_ctrl_1
+  (* BMM_INFO_ADDRESS_SPACE = "byte  0xC2000000 32 > system axi_bram_ctrl_1_bram" *) 
+  (* KEEP_HIERARCHY = "yes" *) 
+  system_axi_bram_ctrl_1_1 axi_bram_ctrl_1
        (.bram_addr_a(axi_bram_ctrl_1_BRAM_PORTA_ADDR),
         .bram_clk_a(axi_bram_ctrl_1_BRAM_PORTA_CLK),
         .bram_en_a(axi_bram_ctrl_1_BRAM_PORTA_EN),
@@ -1662,7 +1666,7 @@ module system
         .s_axi_wready(microblaze_0_axi_periph_M02_AXI_WREADY),
         .s_axi_wstrb(microblaze_0_axi_periph_M02_AXI_WSTRB),
         .s_axi_wvalid(microblaze_0_axi_periph_M02_AXI_WVALID));
-  system_axi_gpio_0_0 axi_gpio_0
+  system_axi_gpio_0_1 axi_gpio_0
        (.gpio_io_o(axi_gpio_0_GPIO_TRI_O),
         .s_axi_aclk(microblaze_0_Clk),
         .s_axi_araddr(microblaze_0_axi_periph_M03_AXI_ARADDR[8:0]),
@@ -1683,7 +1687,7 @@ module system
         .s_axi_wready(microblaze_0_axi_periph_M03_AXI_WREADY),
         .s_axi_wstrb(microblaze_0_axi_periph_M03_AXI_WSTRB),
         .s_axi_wvalid(microblaze_0_axi_periph_M03_AXI_WVALID));
-  system_axi_uartlite_0_0 axi_uartlite_0
+  system_axi_uartlite_0_1 axi_uartlite_0
        (.interrupt(axi_uartlite_0_interrupt),
         .rx(axi_uartlite_0_UART_RxD),
         .s_axi_aclk(microblaze_0_Clk),
@@ -1706,12 +1710,12 @@ module system
         .s_axi_wstrb(microblaze_0_axi_periph_M04_AXI_WSTRB),
         .s_axi_wvalid(microblaze_0_axi_periph_M04_AXI_WVALID),
         .tx(axi_uartlite_0_UART_TxD));
-  system_clk_wiz_1_0 clk_wiz_1
+  system_clk_wiz_1_1 clk_wiz_1
        (.clk_in1(sys_clock_1),
         .clk_out1(microblaze_0_Clk),
         .locked(clk_wiz_1_locked),
         .resetn(reset_1));
-  system_mdm_1_0 mdm_1
+  system_mdm_1_1 mdm_1
        (.Dbg_Capture_0(microblaze_0_debug_CAPTURE),
         .Dbg_Clk_0(microblaze_0_debug_CLK),
         .Dbg_Disable_0(microblaze_0_debug_DISABLE),
@@ -1724,7 +1728,7 @@ module system
         .Debug_SYS_Rst(mdm_1_debug_sys_rst));
   (* BMM_INFO_PROCESSOR = "microblaze-le > system microblaze_0_local_memory/dlmb_bram_if_cntlr" *) 
   (* KEEP_HIERARCHY = "yes" *) 
-  system_microblaze_0_0 microblaze_0
+  system_microblaze_0_1 microblaze_0
        (.Byte_Enable(microblaze_0_dlmb_1_BE),
         .Clk(microblaze_0_Clk),
         .DCE(microblaze_0_dlmb_1_CE),
@@ -1777,7 +1781,7 @@ module system
         .Read_Strobe(microblaze_0_dlmb_1_READSTROBE),
         .Reset(rst_clk_wiz_1_100M_mb_reset),
         .Write_Strobe(microblaze_0_dlmb_1_WRITESTROBE));
-  system_microblaze_0_axi_intc_0 microblaze_0_axi_intc
+  system_microblaze_0_axi_intc_1 microblaze_0_axi_intc
        (.interrupt_address(microblaze_0_interrupt_ADDRESS),
         .intr(microblaze_0_intr),
         .irq(microblaze_0_interrupt_INTERRUPT),
@@ -1803,7 +1807,7 @@ module system
         .s_axi_wready(microblaze_0_intc_axi_WREADY),
         .s_axi_wstrb(microblaze_0_intc_axi_WSTRB),
         .s_axi_wvalid(microblaze_0_intc_axi_WVALID));
-  system_microblaze_0_axi_periph_0 microblaze_0_axi_periph
+  system_microblaze_0_axi_periph_1 microblaze_0_axi_periph
        (.ACLK(microblaze_0_Clk),
         .ARESETN(rst_clk_wiz_1_100M_peripheral_aresetn),
         .M00_ACLK(microblaze_0_Clk),
@@ -1972,11 +1976,11 @@ module system
         .ILMB_wait(microblaze_0_ilmb_1_WAIT),
         .LMB_Clk(microblaze_0_Clk),
         .SYS_Rst(rst_clk_wiz_1_100M_bus_struct_reset));
-  system_microblaze_0_xlconcat_0 microblaze_0_xlconcat
+  system_microblaze_0_xlconcat_1 microblaze_0_xlconcat
        (.In0(axi_uartlite_0_interrupt),
         .In1(1'b0),
         .dout(microblaze_0_intr));
-  system_rst_clk_wiz_1_100M_0 rst_clk_wiz_1_100M
+  system_rst_clk_wiz_1_100M_1 rst_clk_wiz_1_100M
        (.aux_reset_in(1'b1),
         .bus_struct_reset(rst_clk_wiz_1_100M_bus_struct_reset),
         .dcm_locked(clk_wiz_1_locked),
@@ -1987,7 +1991,7 @@ module system
         .slowest_sync_clk(microblaze_0_Clk));
 endmodule
 
-module system_microblaze_0_axi_periph_0
+module system_microblaze_0_axi_periph_1
    (ACLK,
     ARESETN,
     M00_ACLK,
@@ -2930,7 +2934,7 @@ module system_microblaze_0_axi_periph_0
         .S_AXI_wready(microblaze_0_axi_periph_to_s00_couplers_WREADY),
         .S_AXI_wstrb(microblaze_0_axi_periph_to_s00_couplers_WSTRB),
         .S_AXI_wvalid(microblaze_0_axi_periph_to_s00_couplers_WVALID));
-  system_xbar_0 xbar
+  system_xbar_1 xbar
        (.aclk(microblaze_0_axi_periph_ACLK_net),
         .aresetn(microblaze_0_axi_periph_ARESETN_net),
         .m_axi_araddr({xbar_to_m04_couplers_ARADDR,xbar_to_m03_couplers_ARADDR,xbar_to_m02_couplers_ARADDR,xbar_to_m01_couplers_ARADDR,xbar_to_m00_couplers_ARADDR}),
