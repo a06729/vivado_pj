@@ -1,0 +1,6 @@
+11:13:29 **** Build of configuration Debug for project my_led_ip_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+11:13:29 Build Finished (took 102ms)
+

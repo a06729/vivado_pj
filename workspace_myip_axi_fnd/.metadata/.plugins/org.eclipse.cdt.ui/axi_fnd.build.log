@@ -1,0 +1,26 @@
+16:08:34 **** Build of configuration Debug for project axi_fnd ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/vivado_pj/workspace_myip_axi_fnd/axi_fnd_wrapper/export/axi_fnd_wrapper/sw/axi_fnd_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/vivado_pj/workspace_myip_axi_fnd/axi_fnd_wrapper/export/axi_fnd_wrapper/sw/axi_fnd_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: axi_fnd.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/vivado_pj/workspace_myip_axi_fnd/axi_fnd_wrapper/export/axi_fnd_wrapper/sw/axi_fnd_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "axi_fnd.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: axi_fnd.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size axi_fnd.elf  |tee "axi_fnd.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   3164	    272	   3108	   6544	   1990	axi_fnd.elf
+'Finished building: axi_fnd.elf.size'
+' '
+
+16:08:35 Build Finished (took 784ms)
+

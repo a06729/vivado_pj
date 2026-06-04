@@ -1,0 +1,85 @@
+14:06:06 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace_myip_axi_fnd/IDE.log'.
+14:06:11 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace_myip_axi_fnd\temp_xsdb_launch_script.tcl
+14:06:11 INFO  : Registering command handlers for Vitis TCF services
+14:06:13 INFO  : Platform repository initialization has completed.
+14:06:15 INFO  : XSCT server has started successfully.
+14:06:15 INFO  : plnx-install-location is set to ''
+14:06:15 INFO  : Successfully done setting XSCT server connection channel  
+14:06:18 INFO  : Successfully done setting workspace for the tool. 
+14:06:18 INFO  : Successfully done query RDI_DATADIR 
+14:06:53 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+14:06:53 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:06:54 WARN  : An unexpected exception occurred in the module 'platform project logging'
+14:06:55 INFO  : Platform 'axi_fnd_wrapper' is added to custom repositories.
+14:06:57 INFO  : Platform 'axi_fnd_wrapper' is added to custom repositories.
+14:13:48 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+14:13:48 INFO  : Result from executing command 'getPlatforms': axi_fnd_wrapper|D:/vivado_pj/workspace_myip_axi_fnd/axi_fnd_wrapper/export/axi_fnd_wrapper/axi_fnd_wrapper.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+14:13:49 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+14:13:59 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+14:15:12 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+14:15:15 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+14:15:22 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+15:21:23 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace_myip_axi_fnd/IDE.log'.
+15:21:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace_myip_axi_fnd\temp_xsdb_launch_script.tcl
+15:21:25 INFO  : XSCT server has started successfully.
+15:21:25 INFO  : plnx-install-location is set to ''
+15:21:25 INFO  : Successfully done setting XSCT server connection channel  
+15:21:25 INFO  : Successfully done setting workspace for the tool. 
+15:21:26 INFO  : Successfully done query RDI_DATADIR 
+15:21:26 INFO  : Registering command handlers for Vitis TCF services
+15:21:26 INFO  : Platform repository initialization has completed.
+15:21:43 INFO  : Hardware specification for platform project 'axi_fnd_wrapper' is updated.
+15:21:52 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+15:21:52 INFO  : Result from executing command 'getPlatforms': axi_fnd_wrapper|D:/vivado_pj/workspace_myip_axi_fnd/axi_fnd_wrapper/export/axi_fnd_wrapper/axi_fnd_wrapper.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:28:51 DEBUG : Logs will be stored at 'D:/vivado_pj/workspace_myip_axi_fnd/IDE.log'.
+15:28:52 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\workspace_myip_axi_fnd\temp_xsdb_launch_script.tcl
+15:28:55 INFO  : Registering command handlers for Vitis TCF services
+15:28:56 INFO  : XSCT server has started successfully.
+15:28:56 INFO  : plnx-install-location is set to ''
+15:28:56 INFO  : Platform repository initialization has completed.
+15:29:00 INFO  : Successfully done setting XSCT server connection channel  
+15:29:00 INFO  : Successfully done query RDI_DATADIR 
+15:29:00 INFO  : Successfully done setting workspace for the tool. 
+15:29:08 INFO  : Hardware specification for platform project 'axi_fnd_wrapper' is updated.
+15:29:18 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+15:29:18 INFO  : Result from executing command 'getPlatforms': axi_fnd_wrapper|D:/vivado_pj/workspace_myip_axi_fnd/axi_fnd_wrapper/export/axi_fnd_wrapper/axi_fnd_wrapper.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:29:53 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+15:29:55 INFO  : The hardware specification used by project 'axi_fnd' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:29:55 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper.bit' stored in project is removed.
+15:29:55 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper.mmi' stored in project is removed.
+15:29:55 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream' in project 'axi_fnd'.
+15:34:54 INFO  : Result from executing command 'removePlatformRepo': 
+15:35:03 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+15:35:03 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:44:09 INFO  : Hardware specification for platform project 'axi_fnd_wrapper' is updated.
+15:44:19 INFO  : Result from executing command 'removePlatformRepo': 
+15:44:28 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+15:44:28 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:44:34 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+15:44:35 INFO  : The hardware specification used by project 'axi_fnd' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:44:35 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper2.bit' stored in project is removed.
+15:44:35 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper2.mmi' stored in project is removed.
+15:44:35 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream' in project 'axi_fnd'.
+15:58:58 INFO  : Hardware specification for platform project 'axi_fnd_wrapper' is updated.
+15:59:10 INFO  : Result from executing command 'removePlatformRepo': 
+15:59:12 ERROR : Error from executing command 'removePlatformRepo': ERROR: No valid directory exists at given path.
+15:59:20 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+15:59:20 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:59:21 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+15:59:22 INFO  : The hardware specification used by project 'axi_fnd' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+15:59:22 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper3.bit' stored in project is removed.
+15:59:22 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper3.mmi' stored in project is removed.
+15:59:22 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream' in project 'axi_fnd'.
+15:59:35 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+16:07:34 INFO  : Hardware specification for platform project 'axi_fnd_wrapper' is updated.
+16:07:46 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+16:07:46 INFO  : Result from executing command 'getPlatforms': axi_fnd_wrapper|D:/vivado_pj/workspace_myip_axi_fnd/axi_fnd_wrapper/export/axi_fnd_wrapper/axi_fnd_wrapper.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:07:57 INFO  : Result from executing command 'removePlatformRepo': 
+16:08:06 INFO  : Hardware specification for platform project 'axi_fnd_wrapper' is updated.
+16:08:17 INFO  : Result from executing command 'getProjects': axi_fnd_wrapper
+16:08:17 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:08:34 INFO  : Checking for BSP changes to sync application flags for project 'axi_fnd'...
+16:08:35 INFO  : The hardware specification used by project 'axi_fnd' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+16:08:35 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper5.bit' stored in project is removed.
+16:08:35 INFO  : The file 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream\axi_fnd_wrapper5.mmi' stored in project is removed.
+16:08:35 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\workspace_myip_axi_fnd\axi_fnd\_ide\bitstream' in project 'axi_fnd'.

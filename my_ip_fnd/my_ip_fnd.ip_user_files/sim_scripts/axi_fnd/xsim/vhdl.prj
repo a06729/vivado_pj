@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/axi_fnd/ip/axi_fnd_microblaze_0_0/sim/axi_fnd_microblaze_0_0.vhd" \
+"../../../bd/axi_fnd/ip/axi_fnd_axi_uartlite_0_0/sim/axi_fnd_axi_uartlite_0_0.vhd" \
+"../../../bd/axi_fnd/ip/axi_fnd_dlmb_v10_0/sim/axi_fnd_dlmb_v10_0.vhd" \
+"../../../bd/axi_fnd/ip/axi_fnd_ilmb_v10_0/sim/axi_fnd_ilmb_v10_0.vhd" \
+"../../../bd/axi_fnd/ip/axi_fnd_dlmb_bram_if_cntlr_0/sim/axi_fnd_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/axi_fnd/ip/axi_fnd_ilmb_bram_if_cntlr_0/sim/axi_fnd_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/axi_fnd/ip/axi_fnd_mdm_1_0/sim/axi_fnd_mdm_1_0.vhd" \
+"../../../bd/axi_fnd/ip/axi_fnd_rst_clk_wiz_1_100M_0/sim/axi_fnd_rst_clk_wiz_1_100M_0.vhd" \
+
+# Do not sort compile order
+nosort
