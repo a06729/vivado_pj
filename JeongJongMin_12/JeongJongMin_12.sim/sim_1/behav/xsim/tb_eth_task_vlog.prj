@@ -1,0 +1,11 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../JeongJongMin_12.gen/sources_1/bd/system/ipshared/ec67/hdl" --include "../../../../JeongJongMin_12.gen/sources_1/bd/system/ipshared/30ef" \
+"../../../../JeongJongMin_12.gen/sources_1/ip/spram_2048x32/sim/spram_2048x32.v" \
+"../../../../JeongJongMin_12.srcs/sources_1/new/eth_task.v" \
+"../../../../JeongJongMin_12.srcs/sim_1/new/tb_eth_task.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

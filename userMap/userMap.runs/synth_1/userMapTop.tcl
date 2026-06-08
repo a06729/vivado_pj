@@ -70,7 +70,7 @@ proc create_report { reportName command } {
   }
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
-set_param chipscope.maxJobs 4
+set_param chipscope.maxJobs 5
 set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
@@ -89,11 +89,14 @@ set_property ip_output_repo d:/vivado_pj/userMap/userMap.cache/ip [current_proje
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+add_files D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf
+set_property SCOPED_TO_REF system [get_files -all D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf]
+set_property SCOPED_TO_CELLS microblaze_0 [get_files -all D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf]
 read_verilog -library xil_defaultlib {
   D:/vivado_pj/userMap/userMap.srcs/sources_1/new/ax_reg.v
   D:/vivado_pj/userMap/userMap.srcs/sources_1/new/mcu_pwm.v
   D:/vivado_pj/userMap/userMap.srcs/sources_1/new/pwm_top.v
-  d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/hdl/system_wrapper.v
+  D:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/hdl/system_wrapper.v
   D:/vivado_pj/userMap/userMap.srcs/sources_1/new/userMapTop.v
 }
 read_ip -quiet D:/vivado_pj/userMap/userMap.srcs/sources_1/ip/spram_2048x32/spram_2048x32.xci
@@ -117,6 +120,8 @@ set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/u
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_ilmb_bram_if_cntlr_1/system_ilmb_bram_if_cntlr_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_lmb_bram_1/system_lmb_bram_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_xbar_1/system_xbar_1_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc]
+set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_microblaze_0_axi_intc_1/system_microblaze_0_axi_intc_1.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_microblaze_0_axi_intc_1/system_microblaze_0_axi_intc_1_clocks.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_microblaze_0_axi_intc_1/system_microblaze_0_axi_intc_1_ooc.xdc]
@@ -128,8 +133,6 @@ set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/u
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_1/system_rst_clk_wiz_1_100M_1_board.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_1/system_rst_clk_wiz_1_100M_1.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_rst_clk_wiz_1_100M_1/system_rst_clk_wiz_1_100M_1_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_auto_pc_0/system_auto_pc_0_ooc.xdc]
-set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_auto_pc_1/system_auto_pc_1_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/system_ooc.xdc]
 set_property used_in_implementation false [get_files -all d:/vivado_pj/userMap/userMap.gen/sources_1/bd/system/ip/system_microblaze_0_1/data/mb_bootloop_le.elf]
 

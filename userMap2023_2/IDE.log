@@ -1,0 +1,107 @@
+16:48:42 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023_2/IDE.log'.
+16:48:46 INFO  : Registering command handlers for Vitis TCF services
+16:48:46 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\userMap2023_2\temp_xsdb_launch_script.tcl
+16:48:47 INFO  : Platform repository initialization has completed.
+16:48:49 INFO  : XSCT server has started successfully.
+16:48:49 INFO  : plnx-install-location is set to ''
+16:48:52 INFO  : Successfully done setting XSCT server connection channel  
+16:48:52 INFO  : Successfully done query RDI_DATADIR 
+16:48:52 INFO  : Successfully done setting workspace for the tool. 
+16:49:23 INFO  : Result from executing command 'getProjects': userMapTop1
+16:49:23 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:49:24 WARN  : An unexpected exception occurred in the module 'platform project logging'
+16:49:25 INFO  : Platform 'userMapTop1' is added to custom repositories.
+16:49:27 INFO  : Platform 'userMapTop1' is added to custom repositories.
+16:52:06 INFO  : Result from executing command 'getProjects': userMapTop1
+16:52:06 INFO  : Result from executing command 'getPlatforms': userMapTop1|D:/vivado_pj/userMap2023_2/userMapTop1/export/userMapTop1/userMapTop1.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:52:14 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+16:52:25 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:52:26 INFO  : Jtag cable 'Digilent Basys3 210183B9A60EA' is selected.
+16:52:26 INFO  : 'jtag frequency' command is executed.
+16:52:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A60EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B9A60EA-0362d093-0"}' command is executed.
+16:52:26 INFO  : Device configured successfully with "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit"
+16:52:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:52:26 INFO  : Hardware design and registers information is loaded from 'D:/vivado_pj/userMap2023_2/userMapTop1/export/userMapTop1/hw/userMapTop1.xsa'.
+16:52:26 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:52:26 INFO  : Context for processor 'microblaze_0' is selected.
+16:52:26 INFO  : System reset is completed.
+16:52:29 INFO  : 'after 3000' command is executed.
+16:52:30 INFO  : Context for processor 'microblaze_0' is selected.
+16:52:30 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+16:52:30 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A60EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B9A60EA-0362d093-0"}
+fpga -file D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_pj/userMap2023_2/userMapTop1/export/userMapTop1/hw/userMapTop1.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf
+----------------End of Script----------------
+
+16:52:30 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+16:52:48 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+16:52:48 INFO  : Jtag cable 'Digilent Basys3 210183B9A60EA' is selected.
+16:52:48 INFO  : 'jtag frequency' command is executed.
+16:52:48 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A60EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B9A60EA-0362d093-0"}' command is executed.
+16:52:49 INFO  : Device configured successfully with "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit"
+16:52:49 INFO  : Context for processor 'microblaze_0' is selected.
+16:52:49 INFO  : Hardware design and registers information is loaded from 'D:/vivado_pj/userMap2023_2/userMapTop1/export/userMapTop1/hw/userMapTop1.xsa'.
+16:52:49 INFO  : 'configparams mdm-detect-bscan-mask 2' command is executed.
+16:52:49 INFO  : Context for processor 'microblaze_0' is selected.
+16:52:49 INFO  : System reset is completed.
+16:52:52 INFO  : 'after 3000' command is executed.
+16:52:52 INFO  : Context for processor 'microblaze_0' is selected.
+16:52:52 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+16:52:52 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A60EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B9A60EA-0362d093-0"}
+fpga -file D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+loadhw -hw D:/vivado_pj/userMap2023_2/userMapTop1/export/userMapTop1/hw/userMapTop1.xsa -regs
+configparams mdm-detect-bscan-mask 2
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+rst -system
+after 3000
+targets -set -nocase -filter {name =~ "*microblaze*#0" && bscan=="USER2" }
+dow D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf
+----------------End of Script----------------
+
+16:52:52 ERROR : Cannot stop MicroBlaze. MicroBlaze is held in reset
+16:53:00 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+17:05:55 INFO  : Hardware specification for platform project 'userMapTop1' is updated.
+17:06:04 INFO  : Result from executing command 'getProjects': userMapTop1
+17:06:04 INFO  : Result from executing command 'getPlatforms': userMapTop1|D:/vivado_pj/userMap2023_2/userMapTop1/export/userMapTop1/userMapTop1.xpfm;xilinx_vck190_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|G:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+17:06:05 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+17:06:06 INFO  : The hardware specification used by project 'userMap' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+17:06:06 INFO  : The file 'D:\vivado_pj\userMap2023_2\userMap\_ide\bitstream\userMapTop1.bit' stored in project is removed.
+17:06:06 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\userMap2023_2\userMap\_ide\bitstream' in project 'userMap'.
+17:06:18 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...
+17:06:26 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:26 INFO  : Jtag cable 'Digilent Basys3 210183B9A60EA' is selected.
+17:06:26 INFO  : 'jtag frequency' command is executed.
+17:06:26 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A60EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B9A60EA-0362d093-0"}' command is executed.
+17:06:26 ERROR : couldn't open "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit": no such file or directory
+17:06:26 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: couldn't open "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit": no such file or directory
+17:06:26 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+17:06:26 ERROR : couldn't open "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit": no such file or directory
+17:06:31 INFO  : Connected to target on host '127.0.0.1' and port '3121'.
+17:06:31 INFO  : Jtag cable 'Digilent Basys3 210183B9A60EA' is selected.
+17:06:31 INFO  : 'jtag frequency' command is executed.
+17:06:31 INFO  : 'targets -set -filter {jtag_cable_name =~ "Digilent Basys3 210183B9A60EA" && level==0 && jtag_device_ctx=="jsn-Basys3-210183B9A60EA-0362d093-0"}' command is executed.
+17:06:31 ERROR : couldn't open "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit": no such file or directory
+17:06:31 ERROR : Exception occured while running Program Device.
+java.lang.RuntimeException: couldn't open "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit": no such file or directory
+17:06:31 INFO  : ----------------XSDB Script----------------
+connect -url tcp:127.0.0.1:3121
+----------------End of Script----------------
+
+17:06:31 ERROR : couldn't open "D:/vivado_pj/userMap2023_2/userMap/_ide/bitstream/userMapTop1.bit": no such file or directory
+17:06:34 INFO  : Checking for BSP changes to sync application flags for project 'userMap'...

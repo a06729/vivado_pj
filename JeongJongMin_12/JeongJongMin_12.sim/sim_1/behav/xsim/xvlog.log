@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/JeongJongMin_12/JeongJongMin_12.gen/sources_1/ip/spram_2048x32/sim/spram_2048x32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spram_2048x32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/JeongJongMin_12/JeongJongMin_12.srcs/sources_1/new/eth_task.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module eth_task
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/JeongJongMin_12/JeongJongMin_12.srcs/sim_1/new/tb_eth_task.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_eth_task

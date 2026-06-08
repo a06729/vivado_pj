@@ -1,0 +1,21 @@
+12:41:45 **** Incremental Build of configuration Debug for project bramW5500 ****
+make all 
+'Building file: ../src/w5500_loopback.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/w5500_loopback.o" -ID:/JeongJongMin_12/workspace_bramW5500/bramW5500Top/export/bramW5500Top/sw/bramW5500Top/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/w5500_loopback.d" -MT"src/w5500_loopback.o" -o "src/w5500_loopback.o" "../src/w5500_loopback.c"
+'Finished building: ../src/w5500_loopback.c'
+' '
+'Building target: bramW5500.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/JeongJongMin_12/workspace_bramW5500/bramW5500Top/export/bramW5500Top/sw/bramW5500Top/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "bramW5500.elf"  ./src/helloworld.o ./src/platform.o ./src/w5500.o ./src/w5500_loopback.o ./src/w5500_socket.o ./src/w5500_task.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: bramW5500.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size bramW5500.elf  |tee "bramW5500.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+  19748	    360	   7244	  27352	   6ad8	bramW5500.elf
+'Finished building: bramW5500.elf.size'
+' '
+
+12:41:46 Build Finished (took 600ms)
+

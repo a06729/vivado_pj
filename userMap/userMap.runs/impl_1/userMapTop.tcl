@@ -123,18 +123,18 @@ start_step write_bitstream
 set ACTIVE_STEP write_bitstream
 set rc [catch {
   create_msg_db write_bitstream.pb
-  set_param chipscope.maxJobs 4
+  set_param chipscope.maxJobs 5
   set_param xicom.use_bs_reader 1
-  set_param runs.launchOptions { -jobs 8  }
+  set_param runs.launchOptions { -jobs 10  }
   open_checkpoint userMapTop_routed.dcp
   set_property webtalk.parent_dir D:/vivado_pj/userMap/userMap.cache/wt [current_project]
 set_property TOP userMapTop [current_fileset]
 OPTRACE "read constraints: write_bitstream" START { }
 OPTRACE "read constraints: write_bitstream" END { }
   set_property XPM_LIBRARIES {XPM_CDC XPM_MEMORY} [current_project]
-  add_files D:/vivado_pj/userMap2023/userMap/Debug/userMap.elf
-  set_property SCOPED_TO_REF system [get_files -all D:/vivado_pj/userMap2023/userMap/Debug/userMap.elf]
-  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all D:/vivado_pj/userMap2023/userMap/Debug/userMap.elf]
+  add_files D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf
+  set_property SCOPED_TO_REF system [get_files -all D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf]
+  set_property SCOPED_TO_CELLS microblaze_0 [get_files -all D:/vivado_pj/userMap2023_2/userMap/Debug/userMap.elf]
   catch { write_mem_info -force -no_partial_mmi userMapTop.mmi }
   catch { write_bmm -force userMapTop_bd.bmm }
 OPTRACE "write_bitstream setup" END { }

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1780500765" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/userMapTop.dcp">
+<GenRun Id="synth_1" LaunchPart="xc7a35tcpg236-1" LaunchTime="1780560161" LaunchIncrCheckpoint="$PSRCDIR/utils_1/imports/synth_1/userMapTop.dcp">
   <File Type="PA-TCL" Name="userMapTop.tcl"/>
   <File Type="RDS-PROPCONSTRS" Name="userMapTop_drc_synth.rpt"/>
   <File Type="REPORTS-TCL" Name="userMapTop_reports.tcl"/>
@@ -58,6 +58,14 @@
         <Attr Name="UsedIn" Val="synthesis"/>
         <Attr Name="UsedIn" Val="implementation"/>
         <Attr Name="UsedIn" Val="simulation"/>
+      </FileInfo>
+    </File>
+    <File Path="$PPRDIR/../userMap2023_2/userMap/Debug/userMap.elf">
+      <FileInfo>
+        <Attr Name="UsedIn" Val="implementation"/>
+        <Attr Name="ScopedToRef" Val="system"/>
+        <Attr Name="ScopedToCell" Val="microblaze_0"/>
+        <Attr Name="IsVisible" Val="1"/>
       </FileInfo>
     </File>
     <Config>

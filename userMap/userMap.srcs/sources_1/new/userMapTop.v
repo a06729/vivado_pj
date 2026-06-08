@@ -82,7 +82,7 @@ module userMapTop(
     wire [6:0] pwm_duty2;
     wire [6:0] pwm_duty3;
     wire [6:0] pwm_duty4;
-    wire ax_reg_rst = ~(BRAM2_rst);
+    wire ax_reg_rst = ~BRAM2_rst;
     
     ax_reg ax_reg(
         .reset (ax_reg_rst),
@@ -117,6 +117,11 @@ module userMapTop(
       .pwm_freq3(pwm_freq3),
       .pwm_freq4(pwm_freq4),
       
+      .pwm_duty1(pwm_duty1), 
+      .pwm_duty2(pwm_duty2),  
+      .pwm_duty3(pwm_duty3), 
+      .pwm_duty4(pwm_duty4), 
+            
       .pwm_out1 (pwm_out1),
       .pwm_out2 (pwm_out2),
       .pwm_out3 (pwm_out3),

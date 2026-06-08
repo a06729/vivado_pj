@@ -119,3 +119,6 @@
 00:37:02 INFO  : The hardware specification used by project 'userMap' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
 00:37:02 INFO  : The file 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream\userMapTop4.bit' stored in project is removed.
 00:37:02 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\userMap2023\userMap\_ide\bitstream' in project 'userMap'.
+16:45:27 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.
+16:46:32 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.
+16:48:12 DEBUG : Logs will be stored at 'D:/vivado_pj/userMap2023/IDE.log'.

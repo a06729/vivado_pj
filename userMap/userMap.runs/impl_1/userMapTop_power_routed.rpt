@@ -1,8 +1,8 @@
 Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 ----------------------------------------------------------------------------------------------------------------------------------------------------
 | Tool Version     : Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
-| Date             : Thu Jun  4 00:35:16 2026
-| Host             : DESKTOP-A2AGG41 running 64-bit major release  (build 9200)
+| Date             : Thu Jun  4 17:04:26 2026
+| Host             : SmST12 running 64-bit major release  (build 9200)
 | Command          : report_power -file userMapTop_power_routed.rpt -pb userMapTop_power_summary_routed.pb -rpx userMapTop_power_routed.rpx
 | Design           : userMapTop
 | Device           : xc7a35tcpg236-1
@@ -30,7 +30,7 @@ Table of Contents
 ----------
 
 +--------------------------+--------------+
-| Total On-Chip Power (W)  | 0.203        |
+| Total On-Chip Power (W)  | 0.202        |
 | Design Power Budget (W)  | Unspecified* |
 | Power Budget Margin (W)  | NA           |
 | Dynamic (W)              | 0.129        |
@@ -52,21 +52,21 @@ Table of Contents
 +--------------------------+-----------+----------+-----------+-----------------+
 | On-Chip                  | Power (W) | Used     | Available | Utilization (%) |
 +--------------------------+-----------+----------+-----------+-----------------+
-| Clocks                   |     0.012 |       10 |       --- |             --- |
-| Slice Logic              |     0.004 |     5276 |       --- |             --- |
-|   LUT as Logic           |     0.003 |     1823 |     20800 |            8.76 |
+| Clocks                   |     0.011 |       10 |       --- |             --- |
+| Slice Logic              |     0.004 |     5623 |       --- |             --- |
+|   LUT as Logic           |     0.003 |     1984 |     20800 |            9.54 |
 |   LUT as Distributed RAM |    <0.001 |       96 |      9600 |            1.00 |
-|   Register               |    <0.001 |     2006 |     41600 |            4.82 |
-|   CARRY4                 |    <0.001 |       38 |      8150 |            0.47 |
+|   CARRY4                 |    <0.001 |       62 |      8150 |            0.76 |
+|   Register               |    <0.001 |     2102 |     41600 |            5.05 |
 |   F7/F8 Muxes            |    <0.001 |      111 |     32600 |            0.34 |
 |   LUT as Shift Register  |    <0.001 |       75 |      9600 |            0.78 |
-|   Others                 |     0.000 |      562 |       --- |             --- |
-| Signals                  |     0.007 |     3664 |       --- |             --- |
+|   Others                 |     0.000 |      569 |       --- |             --- |
+| Signals                  |     0.007 |     3835 |       --- |             --- |
 | Block RAM                |    <0.001 |       34 |        50 |           68.00 |
 | MMCM                     |     0.106 |        1 |         5 |           20.00 |
 | I/O                      |    <0.001 |       12 |       106 |           11.32 |
 | Static Power             |     0.074 |          |           |                 |
-| Total                    |     0.203 |          |           |                 |
+| Total                    |     0.202 |          |           |                 |
 +--------------------------+-----------+----------+-----------+-----------------+
 
 
@@ -76,7 +76,7 @@ Table of Contents
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
 | Source    | Voltage (V) | Total (A) | Dynamic (A) | Static (A) | Powerup (A) | Budget (A)  | Margin (A) |
 +-----------+-------------+-----------+-------------+------------+-------------+-------------+------------+
-| Vccint    |       1.000 |     0.034 |       0.024 |      0.011 |       NA    | Unspecified | NA         |
+| Vccint    |       1.000 |     0.034 |       0.023 |      0.011 |       NA    | Unspecified | NA         |
 | Vccaux    |       1.800 |     0.071 |       0.059 |      0.013 |       NA    | Unspecified | NA         |
 | Vcco33    |       3.300 |     0.001 |       0.000 |      0.001 |       NA    | Unspecified | NA         |
 | Vcco25    |       2.500 |     0.000 |       0.000 |      0.000 |       NA    | Unspecified | NA         |
@@ -153,12 +153,12 @@ Table of Contents
 | Name                          | Power (W) |
 +-------------------------------+-----------+
 | userMapTop                    |     0.129 |
-|   system_wrapper              |     0.128 |
-|     system_i                  |     0.128 |
+|   pwm_top                     |     0.001 |
+|   system_wrapper              |     0.126 |
+|     system_i                  |     0.126 |
 |       axi_bram_ctrl_0         |     0.001 |
-|       axi_bram_ctrl_1         |     0.001 |
 |       clk_wiz_1               |     0.106 |
-|       microblaze_0            |     0.014 |
+|       microblaze_0            |     0.013 |
 |       microblaze_0_axi_intc   |     0.001 |
 |       microblaze_0_axi_periph |     0.001 |
 +-------------------------------+-----------+

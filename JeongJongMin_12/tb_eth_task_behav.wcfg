@@ -1,0 +1,367 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<wave_config>
+   <wave_state>
+   </wave_state>
+   <db_ref_list>
+      <db_ref path="tb_eth_task_behav.wdb" id="1">
+         <top_modules>
+            <top_module name="glbl" />
+            <top_module name="tb_eth_task" />
+         </top_modules>
+      </db_ref>
+   </db_ref_list>
+   <zoom_setting>
+      <ZoomStartTime time="3.060000 us"></ZoomStartTime>
+      <ZoomEndTime time="119.160001 us"></ZoomEndTime>
+      <Cursor1Time time="22.410000 us"></Cursor1Time>
+   </zoom_setting>
+   <column_width_setting>
+      <NameColumnWidth column_width="276"></NameColumnWidth>
+      <ValueColumnWidth column_width="120"></ValueColumnWidth>
+   </column_width_setting>
+   <WVObjectSize size="86" />
+   <wvobject fp_name="/tb_eth_task/mclk" type="logic">
+      <obj_property name="ElementShortName">mclk</obj_property>
+      <obj_property name="ObjectShortName">mclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/cnt" type="array">
+      <obj_property name="ElementShortName">cnt[19:0]</obj_property>
+      <obj_property name="ObjectShortName">cnt[19:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_ram_sel" type="logic">
+      <obj_property name="ElementShortName">eth_ram_sel</obj_property>
+      <obj_property name="ObjectShortName">eth_ram_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/mb_en" type="logic">
+      <obj_property name="ElementShortName">mb_en</obj_property>
+      <obj_property name="ObjectShortName">mb_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/mb_we" type="array">
+      <obj_property name="ElementShortName">mb_we[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_we[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/mb_addr" type="array">
+      <obj_property name="ElementShortName">mb_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_addr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/spi_data1" type="array">
+      <obj_property name="ElementShortName">spi_data1[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_data1[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/spi_data2" type="array">
+      <obj_property name="ElementShortName">spi_data2[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_data2[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/spi_data3" type="array">
+      <obj_property name="ElementShortName">spi_data3[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_data3[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/mb_din" type="array">
+      <obj_property name="ElementShortName">mb_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/start" type="logic">
+      <obj_property name="ElementShortName">start</obj_property>
+      <obj_property name="ObjectShortName">start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_addr" type="array">
+      <obj_property name="ElementShortName">eth_addr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_addr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_sclk" type="logic">
+      <obj_property name="ElementShortName">eth_sclk</obj_property>
+      <obj_property name="ObjectShortName">eth_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_sclk_1d" type="logic">
+      <obj_property name="ElementShortName">eth_sclk_1d</obj_property>
+      <obj_property name="ObjectShortName">eth_sclk_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_sclk_nedge" type="logic">
+      <obj_property name="ElementShortName">eth_sclk_nedge</obj_property>
+      <obj_property name="ObjectShortName">eth_sclk_nedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/sclk_cnt" type="array">
+      <obj_property name="ElementShortName">sclk_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sclk_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_miso" type="logic">
+      <obj_property name="ElementShortName">eth_miso</obj_property>
+      <obj_property name="ObjectShortName">eth_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/mb_rst" type="logic">
+      <obj_property name="ElementShortName">mb_rst</obj_property>
+      <obj_property name="ObjectShortName">mb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/mb_dout" type="array">
+      <obj_property name="ElementShortName">mb_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_scsn" type="logic">
+      <obj_property name="ElementShortName">eth_scsn</obj_property>
+      <obj_property name="ObjectShortName">eth_scsn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_mosi" type="logic">
+      <obj_property name="ElementShortName">eth_mosi</obj_property>
+      <obj_property name="ObjectShortName">eth_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_done" type="logic">
+      <obj_property name="ElementShortName">eth_done</obj_property>
+      <obj_property name="ObjectShortName">eth_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/reset" type="logic">
+      <obj_property name="ElementShortName">reset</obj_property>
+      <obj_property name="ObjectShortName">reset</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/mclk" type="logic">
+      <obj_property name="ElementShortName">mclk</obj_property>
+      <obj_property name="ObjectShortName">mclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/mb_rst" type="logic">
+      <obj_property name="ElementShortName">mb_rst</obj_property>
+      <obj_property name="ObjectShortName">mb_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_ram_sel" type="logic">
+      <obj_property name="ElementShortName">eth_ram_sel</obj_property>
+      <obj_property name="ObjectShortName">eth_ram_sel</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_addr" type="array">
+      <obj_property name="ElementShortName">eth_addr[23:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_addr[23:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_size" type="array">
+      <obj_property name="ElementShortName">eth_size[12:0]</obj_property>
+      <obj_property name="ObjectShortName">eth_size[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_start" type="logic">
+      <obj_property name="ElementShortName">eth_start</obj_property>
+      <obj_property name="ObjectShortName">eth_start</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/mb_we" type="array">
+      <obj_property name="ElementShortName">mb_we[3:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_we[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/mb_en" type="logic">
+      <obj_property name="ElementShortName">mb_en</obj_property>
+      <obj_property name="ObjectShortName">mb_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/mb_addr" type="array">
+      <obj_property name="ElementShortName">mb_addr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_addr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/mb_din" type="array">
+      <obj_property name="ElementShortName">mb_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/m_state" type="array">
+      <obj_property name="ElementShortName">m_state[2:0]</obj_property>
+      <obj_property name="ObjectShortName">m_state[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/s_idle" type="logic">
+      <obj_property name="ElementShortName">s_idle</obj_property>
+      <obj_property name="ObjectShortName">s_idle</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/s_ready" type="logic">
+      <obj_property name="ElementShortName">s_ready</obj_property>
+      <obj_property name="ObjectShortName">s_ready</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/s_addr" type="logic">
+      <obj_property name="ElementShortName">s_addr</obj_property>
+      <obj_property name="ObjectShortName">s_addr</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/s_write" type="logic">
+      <obj_property name="ElementShortName">s_write</obj_property>
+      <obj_property name="ObjectShortName">s_write</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/s_read" type="logic">
+      <obj_property name="ElementShortName">s_read</obj_property>
+      <obj_property name="ObjectShortName">s_read</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/s_done" type="logic">
+      <obj_property name="ElementShortName">s_done</obj_property>
+      <obj_property name="ObjectShortName">s_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_scsn" type="logic">
+      <obj_property name="ElementShortName">eth_scsn</obj_property>
+      <obj_property name="ObjectShortName">eth_scsn</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_sclk" type="logic">
+      <obj_property name="ElementShortName">eth_sclk</obj_property>
+      <obj_property name="ObjectShortName">eth_sclk</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_mosi" type="logic">
+      <obj_property name="ElementShortName">eth_mosi</obj_property>
+      <obj_property name="ObjectShortName">eth_mosi</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_miso" type="logic">
+      <obj_property name="ElementShortName">eth_miso</obj_property>
+      <obj_property name="ObjectShortName">eth_miso</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_done" type="logic">
+      <obj_property name="ElementShortName">eth_done</obj_property>
+      <obj_property name="ObjectShortName">eth_done</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/ready_cnt" type="array">
+      <obj_property name="ElementShortName">ready_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">ready_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/addr_cnt" type="array">
+      <obj_property name="ElementShortName">addr_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/write_cnt" type="array">
+      <obj_property name="ElementShortName">write_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">write_cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/read_cnt" type="array">
+      <obj_property name="ElementShortName">read_cnt[5:0]</obj_property>
+      <obj_property name="ObjectShortName">read_cnt[5:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/done_cnt" type="array">
+      <obj_property name="ElementShortName">done_cnt[1:0]</obj_property>
+      <obj_property name="ObjectShortName">done_cnt[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_start_1d" type="logic">
+      <obj_property name="ElementShortName">eth_start_1d</obj_property>
+      <obj_property name="ObjectShortName">eth_start_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_start_nedge" type="logic">
+      <obj_property name="ElementShortName">eth_start_nedge</obj_property>
+      <obj_property name="ObjectShortName">eth_start_nedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_dir" type="logic">
+      <obj_property name="ElementShortName">eth_dir</obj_property>
+      <obj_property name="ObjectShortName">eth_dir</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/addr_packet" type="array">
+      <obj_property name="ElementShortName">addr_packet[1:0]</obj_property>
+      <obj_property name="ObjectShortName">addr_packet[1:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/write_packet" type="array">
+      <obj_property name="ElementShortName">write_packet[12:0]</obj_property>
+      <obj_property name="ObjectShortName">write_packet[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/read_packet" type="array">
+      <obj_property name="ElementShortName">read_packet[12:0]</obj_property>
+      <obj_property name="ObjectShortName">read_packet[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_sclk_1d" type="logic">
+      <obj_property name="ElementShortName">eth_sclk_1d</obj_property>
+      <obj_property name="ObjectShortName">eth_sclk_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/sclk_cnt" type="array">
+      <obj_property name="ElementShortName">sclk_cnt[7:0]</obj_property>
+      <obj_property name="ObjectShortName">sclk_cnt[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/sclk_pedge" type="logic">
+      <obj_property name="ElementShortName">sclk_pedge</obj_property>
+      <obj_property name="ObjectShortName">sclk_pedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_scsn_1d" type="logic">
+      <obj_property name="ElementShortName">eth_scsn_1d</obj_property>
+      <obj_property name="ObjectShortName">eth_scsn_1d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_scsn_2d" type="logic">
+      <obj_property name="ElementShortName">eth_scsn_2d</obj_property>
+      <obj_property name="ObjectShortName">eth_scsn_2d</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/eth_scsn_pedge" type="logic">
+      <obj_property name="ElementShortName">eth_scsn_pedge</obj_property>
+      <obj_property name="ObjectShortName">eth_scsn_pedge</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spram_dout" type="array">
+      <obj_property name="ElementShortName">spram_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spram_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spix_raddr" type="array">
+      <obj_property name="ElementShortName">spix_raddr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">spix_raddr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spi_wdata" type="array">
+      <obj_property name="ElementShortName">spi_wdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_wdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spi_rdata" type="array">
+      <obj_property name="ElementShortName">spi_rdata[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spi_rdata[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spix_wdata0" type="array">
+      <obj_property name="ElementShortName">spix_wdata0[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spix_wdata0[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spix_wdata1" type="array">
+      <obj_property name="ElementShortName">spix_wdata1[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spix_wdata1[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spix_wdata2" type="array">
+      <obj_property name="ElementShortName">spix_wdata2[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spix_wdata2[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spix_wdata3" type="array">
+      <obj_property name="ElementShortName">spix_wdata3[7:0]</obj_property>
+      <obj_property name="ObjectShortName">spix_wdata3[7:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spix_wen" type="logic">
+      <obj_property name="ElementShortName">spix_wen</obj_property>
+      <obj_property name="ObjectShortName">spix_wen</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spix_waddr" type="array">
+      <obj_property name="ElementShortName">spix_waddr[12:0]</obj_property>
+      <obj_property name="ObjectShortName">spix_waddr[12:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spram_rst" type="logic">
+      <obj_property name="ElementShortName">spram_rst</obj_property>
+      <obj_property name="ObjectShortName">spram_rst</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spram_en" type="logic">
+      <obj_property name="ElementShortName">spram_en</obj_property>
+      <obj_property name="ObjectShortName">spram_en</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spram_we" type="array">
+      <obj_property name="ElementShortName">spram_we[3:0]</obj_property>
+      <obj_property name="ObjectShortName">spram_we[3:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spram_addr" type="array">
+      <obj_property name="ElementShortName">spram_addr[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spram_addr[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spram_din" type="array">
+      <obj_property name="ElementShortName">spram_din[31:0]</obj_property>
+      <obj_property name="ObjectShortName">spram_din[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/mb_dout" type="array">
+      <obj_property name="ElementShortName">mb_dout[31:0]</obj_property>
+      <obj_property name="ObjectShortName">mb_dout[31:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/spram_busy" type="logic">
+      <obj_property name="ElementShortName">spram_busy</obj_property>
+      <obj_property name="ObjectShortName">spram_busy</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/M_IDLE" type="array">
+      <obj_property name="ElementShortName">M_IDLE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_IDLE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/M_READY" type="array">
+      <obj_property name="ElementShortName">M_READY[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_READY[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/M_ADDR" type="array">
+      <obj_property name="ElementShortName">M_ADDR[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_ADDR[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/M_WRITE" type="array">
+      <obj_property name="ElementShortName">M_WRITE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_WRITE[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/M_READ" type="array">
+      <obj_property name="ElementShortName">M_READ[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_READ[2:0]</obj_property>
+   </wvobject>
+   <wvobject fp_name="/tb_eth_task/eth_task/M_DONE" type="array">
+      <obj_property name="ElementShortName">M_DONE[2:0]</obj_property>
+      <obj_property name="ObjectShortName">M_DONE[2:0]</obj_property>
+   </wvobject>
+</wave_config>

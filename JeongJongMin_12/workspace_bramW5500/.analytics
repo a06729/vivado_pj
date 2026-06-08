@@ -1,0 +1,20 @@
+timestamp=[2026-06-08 11:26:56], mode=WORKBENCH_START, duration=0:00:08.154, duration_ms=8154, data={}
+timestamp=[2026-06-08 11:26:56], mode=WORKBENCH_UI_INIT, duration=0:00:00.004, duration_ms=4, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-06-08 11:26:58], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.343, duration_ms=1343, data={}
+timestamp=[2026-06-08 11:27:31], mode=APP_CREATION, duration=0:00:05.318, duration_ms=5318, data={name=bramW5500, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=bramW5500Top, application_type=application}
+timestamp=[2026-06-08 11:28:59], mode=PLATFORM_GENERATION, duration=0:00:04.466, duration_ms=4466, data={name=bramW5500Top}
+timestamp=[2026-06-08 11:29:00], mode=BUILD, duration=0:00:00.696, duration_ms=696, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:39:05], mode=BUILD, duration=0:00:00.225, duration_ms=225, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:40:36], mode=BUILD, duration=0:00:00.227, duration_ms=227, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:41:16], mode=BUILD, duration=0:00:00.238, duration_ms=238, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:41:37], mode=BUILD, duration=0:00:00.232, duration_ms=232, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:42:08], mode=BUILD, duration=0:00:01.735, duration_ms=1735, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:58:35], mode=BUILD, duration=0:00:00.609, duration_ms=609, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:58:36], mode=BUILD, duration=0:00:00.098, duration_ms=98, data={name=bramW5500_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:58:43], mode=BUILD, duration=0:00:00.101, duration_ms=101, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 11:58:44], mode=BUILD, duration=0:00:00.110, duration_ms=110, data={name=bramW5500_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 12:21:46], mode=BUILD, duration=0:00:00.241, duration_ms=241, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 12:22:03], mode=BUILD, duration=0:00:00.796, duration_ms=796, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 12:22:08], mode=BUILD, duration=0:00:00.104, duration_ms=104, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 12:41:46], mode=BUILD, duration=0:00:00.606, duration_ms=606, data={name=bramW5500, configuration=Debug, clean_build=false}
+timestamp=[2026-06-08 12:41:46], mode=BUILD, duration=0:00:00.096, duration_ms=96, data={name=bramW5500_system, configuration=Debug, clean_build=false}
