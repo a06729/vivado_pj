@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/lcd_test/ip/lcd_test_microblaze_0_0/sim/lcd_test_microblaze_0_0.vhd" \
+"../../../bd/lcd_test/ip/lcd_test_axi_uartlite_0_0/sim/lcd_test_axi_uartlite_0_0.vhd" \
+"../../../bd/lcd_test/ip/lcd_test_dlmb_v10_0/sim/lcd_test_dlmb_v10_0.vhd" \
+"../../../bd/lcd_test/ip/lcd_test_ilmb_v10_0/sim/lcd_test_ilmb_v10_0.vhd" \
+"../../../bd/lcd_test/ip/lcd_test_dlmb_bram_if_cntlr_0/sim/lcd_test_dlmb_bram_if_cntlr_0.vhd" \
+"../../../bd/lcd_test/ip/lcd_test_ilmb_bram_if_cntlr_0/sim/lcd_test_ilmb_bram_if_cntlr_0.vhd" \
+"../../../bd/lcd_test/ip/lcd_test_mdm_1_0/sim/lcd_test_mdm_1_0.vhd" \
+"../../../bd/lcd_test/ip/lcd_test_rst_clk_wiz_1_100M_0/sim/lcd_test_rst_clk_wiz_1_100M_0.vhd" \
+
+# Do not sort compile order
+nosort
