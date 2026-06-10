@@ -1,0 +1,228 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jun  9 15:36:59 2026
+# Process ID: 27800
+# Current directory: D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1
+# Command line: vivado.exe -log pwm_test_ilmb_v10_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pwm_test_ilmb_v10_0.tcl
+# Log file: D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1/pwm_test_ilmb_v10_0.vds
+# Journal file: D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1\vivado.jou
+# Running On: SmST12, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 14, Host memory: 34116 MB
+#-----------------------------------------------------------
+source pwm_test_ilmb_v10_0.tcl -notrace
+create_project: Time (s): cpu = 00:00:05 ; elapsed = 00:00:05 . Memory (MB): peak = 1459.668 ; gain = 160.625
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1700] Loaded user IP repository 'h:/Xilinx/my_ip_folder/my_fnd_ip'.
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'H:/Xilinx/Vivado/2023.1/data/ip'.
+WARNING: [IP_Flow 19-1663] Duplicate IP found for 'xilinx.com:user:pwm_axi_v1_0:1.0'. The one found in IP location 'h:/Xilinx/my_ip_folder/my_fnd_ip/ip_repo_3' will take precedence over the same IP in location h:/Xilinx/my_ip_folder/my_fnd_ip/managed_ip_project/managed_ip_project.tmp/pwm_axi_v1_0_project
+INFO: [IP_Flow 19-6924] IPCACHE: Running cache check for IP inst: pwm_test_ilmb_v10_0
+Command: synth_design -top pwm_test_ilmb_v10_0 -part xc7a35tcpg236-1 -incremental_mode off -mode out_of_context
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 18336
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 2284.547 ; gain = 410.246
+---------------------------------------------------------------------------------
+INFO: [Synth 8-638] synthesizing module 'pwm_test_ilmb_v10_0' [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ip/pwm_test_ilmb_v10_0/synth/pwm_test_ilmb_v10_0.vhd:89]
+	Parameter C_LMB_NUM_SLAVES bound to: 1 - type: integer 
+	Parameter C_LMB_DWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_AWIDTH bound to: 32 - type: integer 
+	Parameter C_LMB_PROTOCOL bound to: 0 - type: integer 
+	Parameter C_EXT_RESET_HIGH bound to: 1 - type: integer 
+INFO: [Synth 8-3491] module 'lmb_v10' declared at 'd:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:92' bound to instance 'U0' of component 'lmb_v10' [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ip/pwm_test_ilmb_v10_0/synth/pwm_test_ilmb_v10_0.vhd:165]
+INFO: [Synth 8-638] synthesizing module 'lmb_v10' [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+INFO: [Synth 8-3491] module 'FDS' declared at 'H:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39271' bound to instance 'POR_FF_I' of component 'FDS' [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:171]
+INFO: [Synth 8-6157] synthesizing module 'FDS' [H:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39271]
+INFO: [Synth 8-6155] done synthesizing module 'FDS' (0#1) [H:/Xilinx/Vivado/2023.1/scripts/rt/data/unisim_comp.v:39271]
+INFO: [Synth 8-256] done synthesizing module 'lmb_v10' (0#1) [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ipshared/cd1d/hdl/lmb_v10_v3_0_vh_rfs.vhd:141]
+INFO: [Synth 8-256] done synthesizing module 'pwm_test_ilmb_v10_0' (0#1) [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ip/pwm_test_ilmb_v10_0/synth/pwm_test_ilmb_v10_0.vhd:89]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2377.543 ; gain = 503.242
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2395.457 ; gain = 521.156
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:07 . Memory (MB): peak = 2395.457 ; gain = 521.156
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2407.512 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ip/pwm_test_ilmb_v10_0/pwm_test_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Finished Parsing XDC File [d:/vivado_pj/pwm_my_ip/pwm_my_ip.gen/sources_1/bd/pwm_test/ip/pwm_test_ilmb_v10_0/pwm_test_ilmb_v10_0_ooc.xdc] for cell 'U0'
+Parsing XDC File [D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1/dont_touch.xdc]
+Finished Parsing XDC File [D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1/dont_touch.xdc]
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2424.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.024 . Memory (MB): peak = 2424.344 ; gain = 0.000
+INFO: [Designutils 20-5008] Incremental synthesis strategy off
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+Applied set_property KEEP_HIERARCHY = SOFT for U0. (constraint file  D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1/dont_touch.xdc, line 9).
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:12 ; elapsed = 00:00:13 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:12 ; elapsed = 00:00:14 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:13 ; elapsed = 00:00:15 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:17 ; elapsed = 00:00:19 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-----+------+
+|      |Cell |Count |
++------+-----+------+
+|1     |FDS  |     1|
++------+-----+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 1 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:12 ; elapsed = 00:00:21 . Memory (MB): peak = 2424.344 ; gain = 521.156
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 2424.344 ; gain = 550.043
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2424.344 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 1 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2424.344 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+  A total of 1 instances were transformed.
+  FDS => FDSE: 1 instance 
+
+Synth Design complete | Checksum: 1fe09d54
+INFO: [Common 17-83] Releasing license: Synthesis
+29 Infos, 2 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:23 ; elapsed = 00:00:27 . Memory (MB): peak = 2424.344 ; gain = 930.746
+INFO: [Common 17-1381] The checkpoint 'D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1/pwm_test_ilmb_v10_0.dcp' has been generated.
+INFO: [Coretcl 2-1648] Added synthesis output to IP cache for IP pwm_test_ilmb_v10_0, cache-ID = a6ae77d68e75f10b
+INFO: [Common 17-1381] The checkpoint 'D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_ilmb_v10_0_synth_1/pwm_test_ilmb_v10_0.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file pwm_test_ilmb_v10_0_utilization_synth.rpt -pb pwm_test_ilmb_v10_0_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Tue Jun  9 15:37:38 2026...

@@ -1,0 +1,12 @@
+vhdl xil_defaultlib  \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_microblaze_0_2/sim/rtc_fnd_axi_microblaze_0_2.vhd" \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_axi_uartlite_0_2/sim/rtc_fnd_axi_axi_uartlite_0_2.vhd" \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_dlmb_v10_2/sim/rtc_fnd_axi_dlmb_v10_2.vhd" \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_ilmb_v10_2/sim/rtc_fnd_axi_ilmb_v10_2.vhd" \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_dlmb_bram_if_cntlr_2/sim/rtc_fnd_axi_dlmb_bram_if_cntlr_2.vhd" \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_ilmb_bram_if_cntlr_2/sim/rtc_fnd_axi_ilmb_bram_if_cntlr_2.vhd" \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_mdm_1_2/sim/rtc_fnd_axi_mdm_1_2.vhd" \
+"../../../bd/rtc_fnd_axi/ip/rtc_fnd_axi_rst_clk_wiz_1_100M_2/sim/rtc_fnd_axi_rst_clk_wiz_1_100M_2.vhd" \
+
+# Do not sort compile order
+nosort

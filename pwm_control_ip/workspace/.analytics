@@ -1,0 +1,15 @@
+timestamp=[2026-06-09 22:27:11], mode=WORKBENCH_UI_INIT, duration=0:00:00.003, duration_ms=3, data={editors_count=0, platform_editors_count=0, projects_count=0, platform_projects_count=0, active_platform_editor=false, projects=}
+timestamp=[2026-06-09 22:27:11], mode=WORKBENCH_START, duration=0:00:10.271, duration_ms=10271, data={}
+timestamp=[2026-06-09 22:27:14], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:01.801, duration_ms=1801, data={}
+timestamp=[2026-06-09 22:27:46], mode=APP_CREATION, duration=0:00:08.045, duration_ms=8045, data={name=pwm_test, project_type=sdk, os=standalone, processor=microblaze, runtime=cpp, platform=pwm_test_wrapper, application_type=application}
+timestamp=[2026-06-09 22:28:51], mode=PLATFORM_GENERATION, duration=0:00:07.851, duration_ms=7851, data={name=pwm_test_wrapper}
+timestamp=[2026-06-09 22:36:32], mode=BUILD, duration=0:00:01.691, duration_ms=1691, data={name=pwm_test, configuration=Debug, clean_build=false}
+timestamp=[2026-06-09 22:36:33], mode=BUILD, duration=0:00:00.131, duration_ms=131, data={name=pwm_test_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-09 22:36:40], mode=BUILD, duration=0:00:00.130, duration_ms=130, data={name=pwm_test, configuration=Debug, clean_build=false}
+timestamp=[2026-06-09 22:36:40], mode=BUILD, duration=0:00:00.119, duration_ms=119, data={name=pwm_test_system, configuration=Debug, clean_build=false}
+timestamp=[2026-06-10 10:08:28], mode=WORKBENCH_START, duration=0:00:04.194, duration_ms=4194, data={}
+timestamp=[2026-06-10 10:08:29], mode=WORKBENCH_UI_INIT, duration=0:00:00.484, duration_ms=484, data={editors_count=4, platform_editors_count=1, projects_count=4, platform_projects_count=1, active_platform_editor=false, projects=RemoteSystemsTempFiles,pwm_test,pwm_test_system,pwm_test_wrapper}
+timestamp=[2026-06-10 10:08:30], mode=PLATFORM_REPOSITORY_INIT, duration=0:00:00.875, duration_ms=875, data={}
+timestamp=[2026-06-10 10:09:14], mode=PLATFORM_GENERATION, duration=0:00:05.686, duration_ms=5686, data={name=pwm_test_wrapper}
+timestamp=[2026-06-10 10:09:19], mode=BUILD, duration=0:00:00.810, duration_ms=810, data={name=pwm_test, configuration=Debug, clean_build=false}
+timestamp=[2026-06-10 10:09:19], mode=BUILD, duration=0:00:00.120, duration_ms=120, data={name=pwm_test_system, configuration=Debug, clean_build=false}

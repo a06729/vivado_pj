@@ -1,0 +1,20 @@
+verilog xil_defaultlib --include "../../../../pwm_control_ip.gen/sources_1/bd/pwm_test/ipshared/ec67/hdl" --include "../../../../pwm_control_ip.gen/sources_1/bd/pwm_test/ipshared/30ef" \
+"../../../bd/pwm_test/sim/pwm_test.v" \
+"../../../bd/pwm_test/ipshared/7d01/pwm_axi_1_0/src/Run_Control.v" \
+"../../../bd/pwm_test/ipshared/7d01/src/clockdivider_pwm.v" \
+"../../../bd/pwm_test/ipshared/7d01/pwm_axi_1_0/src/compare.v" \
+"../../../bd/pwm_test/ipshared/7d01/pwm_axi_1_0/src/counter.v" \
+"../../../bd/pwm_test/ipshared/7d01/pwm_axi_1_0/hdl/pwm_axi_v1_0_S00_pwm_AXI.v" \
+"../../../bd/pwm_test/ipshared/7d01/pwm_axi_1_0/src/top_pwm.v" \
+"../../../bd/pwm_test/ipshared/7d01/pwm_axi_1_0/hdl/pwm_axi_v1_0.v" \
+"../../../bd/pwm_test/ip/pwm_test_pwm_axi_v1_0_0_1/sim/pwm_test_pwm_axi_v1_0_0_1.v" \
+"../../../bd/pwm_test/ip/pwm_test_lmb_bram_1/sim/pwm_test_lmb_bram_1.v" \
+"../../../bd/pwm_test/ip/pwm_test_xbar_1/sim/pwm_test_xbar_1.v" \
+"../../../bd/pwm_test/ip/pwm_test_microblaze_0_xlconcat_1/sim/pwm_test_microblaze_0_xlconcat_1.v" \
+"../../../bd/pwm_test/ip/pwm_test_clk_wiz_1_1/pwm_test_clk_wiz_1_1_clk_wiz.v" \
+"../../../bd/pwm_test/ip/pwm_test_clk_wiz_1_1/pwm_test_clk_wiz_1_1.v" \
+
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

@@ -1,0 +1,32 @@
+Nothing to build in platform 'rtc_fnd_axi_wrapper'
+
+12:50:34 **** Clean-only build of configuration Debug for project rtc_fnd ****
+make clean 
+rm -rf  ./src/helloworld.o ./src/platform.o  ./src/helloworld.d ./src/platform.d  rtc_fnd.elf.size  rtc_fnd.elf
+' '
+12:50:34 **** Incremental Build of configuration Debug for project rtc_fnd ****
+make all 
+'Building file: ../src/helloworld.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/helloworld.o" -ID:/vivado_pj/RTC_FND_AXI/workspace/rtc_fnd_axi_wrapper/export/rtc_fnd_axi_wrapper/sw/rtc_fnd_axi_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/helloworld.d" -MT"src/helloworld.o" -o "src/helloworld.o" "../src/helloworld.c"
+'Finished building: ../src/helloworld.c'
+' '
+'Building file: ../src/platform.c'
+'Invoking: MicroBlaze gcc compiler'
+mb-gcc -Wall -O0 -g3 -c -fmessage-length=0 -MT"src/platform.o" -ID:/vivado_pj/RTC_FND_AXI/workspace/rtc_fnd_axi_wrapper/export/rtc_fnd_axi_wrapper/sw/rtc_fnd_axi_wrapper/standalone_microblaze_0/bspinclude/include -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -ffunction-sections -fdata-sections -MMD -MP -MF"src/platform.d" -MT"src/platform.o" -o "src/platform.o" "../src/platform.c"
+'Finished building: ../src/platform.c'
+' '
+'Building target: rtc_fnd.elf'
+'Invoking: MicroBlaze gcc linker'
+mb-gcc -Wl,-T -Wl,../src/lscript.ld -LD:/vivado_pj/RTC_FND_AXI/workspace/rtc_fnd_axi_wrapper/export/rtc_fnd_axi_wrapper/sw/rtc_fnd_axi_wrapper/standalone_microblaze_0/bsplib/lib -mlittle-endian -mcpu=v11.0 -mxl-soft-mul -Wl,--no-relax -Wl,--gc-sections -o "rtc_fnd.elf"  ./src/helloworld.o ./src/platform.o   -Wl,--start-group,-lxil,-lgcc,-lc,--end-group
+'Finished building target: rtc_fnd.elf'
+' '
+'Invoking: MicroBlaze Print Size'
+mb-size rtc_fnd.elf  |tee "rtc_fnd.elf.size"
+   text	   data	    bss	    dec	    hex	filename
+   6344	    272	   3104	   9720	   25f8	rtc_fnd.elf
+'Finished building: rtc_fnd.elf.size'
+' '
+12:50:35 **** Incremental Build of configuration Debug for project rtc_fnd_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

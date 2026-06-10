@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Tue Jun  9 15:37:32 2026
+# Process ID: 20144
+# Current directory: D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_mdm_1_0_synth_1
+# Command line: vivado.exe -log pwm_test_mdm_1_0.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source pwm_test_mdm_1_0.tcl
+# Log file: D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_mdm_1_0_synth_1/pwm_test_mdm_1_0.vds
+# Journal file: D:/vivado_pj/pwm_my_ip/pwm_my_ip.runs/pwm_test_mdm_1_0_synth_1\vivado.jou
+# Running On: SmST12, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 14, Host memory: 34116 MB
+#-----------------------------------------------------------
+source pwm_test_mdm_1_0.tcl -notrace
