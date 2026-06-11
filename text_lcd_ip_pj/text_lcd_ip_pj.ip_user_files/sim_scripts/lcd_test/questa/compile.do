@@ -73,13 +73,6 @@ vcom -work xil_defaultlib  -93  \
 "../../../bd/lcd_test/ip/lcd_test_axi_uartlite_0_0/sim/lcd_test_axi_uartlite_0_0.vhd" \
 
 vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/30ef" "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/ec67/hdl" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/en_clk_lcd.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/hdl/lcd_axi_v1_0_S00_lcd_AXI.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/lcd_display.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/lcd_display_string.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/lcd_driver.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/hdl/lcd_axi_v1_0.v" \
-"../../../bd/lcd_test/ip/lcd_test_lcd_axi_v1_0_0_0/sim/lcd_test_lcd_axi_v1_0_0_0.v" \
 "../../../bd/lcd_test/ipshared/2419/ip_repo/rtc_axi_1_0/src/clock.v" \
 "../../../bd/lcd_test/ipshared/2419/ip_repo/rtc_axi_1_0/src/clockdivider_10Hz.v" \
 "../../../bd/lcd_test/ipshared/2419/ip_repo/rtc_axi_1_0/hdl/rtc_axi_v1_0_S00_rtc_AXI.v" \
@@ -148,6 +141,13 @@ vlog -work axi_crossbar_v2_1_29  -incr -mfcu  "+incdir+../../../../text_lcd_ip_p
 
 vlog -work xil_defaultlib  -incr -mfcu  "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/30ef" "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/ec67/hdl" \
 "../../../bd/lcd_test/ip/lcd_test_xbar_0/sim/lcd_test_xbar_0.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/en_clk_lcd.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/hdl/lcd_axi_v1_0_S00_lcd_AXI.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/lcd_display.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/lcd_display_string.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/lcd_driver.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/hdl/lcd_axi_v1_0.v" \
+"../../../bd/lcd_test/ip/lcd_test_lcd_axi_v1_0_0_2/sim/lcd_test_lcd_axi_v1_0_0_2.v" \
 "../../../bd/lcd_test/sim/lcd_test.v" \
 
 vlog -work xil_defaultlib \

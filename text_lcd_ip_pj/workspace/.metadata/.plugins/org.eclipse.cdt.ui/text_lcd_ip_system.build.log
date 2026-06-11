@@ -1,6 +1,6 @@
-16:48:12 **** Build of configuration Debug for project text_lcd_ip_system ****
+11:44:22 **** Incremental Build of configuration Debug for project text_lcd_ip_system ****
 make all 
 Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
 
-16:48:12 Build Finished (took 104ms)
+11:44:22 Build Finished (took 101ms)
 

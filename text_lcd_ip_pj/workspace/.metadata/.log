@@ -1247,3 +1247,1911 @@ java.lang.Error
 	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
 	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
 	at java.base/java.lang.Thread.run(Thread.java:829)
+!SESSION 2026-06-11 09:25:46.788 -----------------------------------------------
+eclipse.buildId=2023.1
+java.version=11.0.16.1
+java.vendor=Eclipse Adoptium
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=ko_KR
+Command-line arguments:  -os win32 -ws win32 -arch x86_64
+
+!ENTRY org.eclipse.ui 4 4 2026-06-11 09:26:19.636
+!MESSAGE Plug-in 'org.eclipse.ui.editors' contributed an invalid Menu Extension (Path: 'navigate' is invalid): org.eclipse.ui.edit.text.gotoLastEditPosition
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:27.145
+!MESSAGE XSCT Command: [::hsi::utils::init_repo], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:27.146
+!MESSAGE XSCT Command: [plnx-install-path  ; ::scw::scw_mode gui], Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:27.159
+!MESSAGE XSCT Command: [set sdk::sdk_chan tcfchan#0], Thread: Thread-31
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:29.854
+!MESSAGE XSCT command with result: [::hsi::utils::init_repo], Result: [null, ]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:29.854
+!MESSAGE XSCT command with result: [plnx-install-path  ; ::scw::scw_mode gui], Result: [null, ]. Thread: Thread-10
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:29.855
+!MESSAGE XSCT Command: [set query_var1 $::env(RDI_DATADIR)], Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:29.855
+!MESSAGE XSCT command with result: [set sdk::sdk_chan tcfchan#0], Result: [null, tcfchan#0]. Thread: Thread-31
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:29.855
+!MESSAGE XSCT Command: [setws D:/vivado_pj/text_lcd_ip_pj/workspace], Thread: Thread-31
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:29.856
+!MESSAGE XSCT command with result: [set query_var1 $::env(RDI_DATADIR)], Result: [null, H:/Xilinx/SharedData/2023.1/data;H:/Xilinx/Vitis/2023.1/data]. Thread: Worker-2: Initializing s/w repositories
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:29.857
+!MESSAGE XSCT command with result: [setws D:/vivado_pj/text_lcd_ip_pj/workspace], Result: [null, ]. Thread: Thread-31
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-06-11 09:26:33.371
+!MESSAGE Enablement expression is missing for descriptor type org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-06-11 09:26:33.372
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY org.eclipse.launchbar.core 2 0 2026-06-11 09:26:33.372
+!MESSAGE Enablement expression is missing for config provider for org.eclipse.cdt.debug.core.coreBuildDescriptorType
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:34.937
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Thread: Worker-1: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:35.153
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-1: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:35.185
+!MESSAGE XSCT Command: [platform active {lcd_test_wrapper}], Thread: Worker-1: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:35.203
+!MESSAGE XSCT command with result: [platform active {lcd_test_wrapper}], Result: [null, ]. Thread: Worker-1: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:26:40.033
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:26:40.033
+!MESSAGE Preference loaded using local preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:26:40.034
+!MESSAGE Workspace path used is: D:\vivado_pj\text_lcd_ip_pj\workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:45.254
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper4.xsa}], Thread: Worker-0: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:26:45.516
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper4.xsa}], Result: [null, ]. Thread: Worker-0: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:27:06.225
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '1'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:23.309
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Thread: Worker-7: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:23.425
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-7: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:25.667
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper4.xsa}], Thread: Worker-6: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:25.899
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper4.xsa}], Result: [null, ]. Thread: Worker-6: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.404
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.501
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Result: [null, ]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.507
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.510
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.510
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.513
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:27:35.514
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.519
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:35.520
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.165
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.166
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Result: [null, ]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.168
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream}], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.188
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream}], Result: [null, ]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.190
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.191
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Wed Jun 10 16:12:57 2026",
+"vivado_version": "2023.1",
+"part": "xc7a35tcpg236-1",
+}]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.192
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:37.195
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"lcd_axi_v1_0_0": {"hier_name": "lcd_axi_v1_0_0",
+"type": "lcd_axi_v1_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rtc_axi_v1_0_0": {"hier_name": "rtc_axi_v1_0_0",
+"type": "rtc_axi_v1_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-4: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:27:37.314
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '2'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:43.608
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:43.611
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:43.611
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:43.624
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:27:43.624
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:43.625
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:43.625
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:56.373
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:56.375
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:56.376
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:56.377
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:27:56.377
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:56.378
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-5: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:27:56.379
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-5: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 09:34:38.265
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 09:34:38.266
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 09:34:38.267
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:40:23.924
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:40:23.927
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:40:23.927
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:40:23.929
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:40:23.929
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:40:23.930
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:40:23.931
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-10: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:17.693
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:17.694
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:17.695
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:17.697
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:41:17.697
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:17.698
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:17.716
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:41:18.156
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '3'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:21.323
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:21.325
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:21.326
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:21.328
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:41:21.328
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:21.329
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:21.330
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-0: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:26.355
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:26.357
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:26.358
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:26.360
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper4.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:41:26.360
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:26.361
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 09:41:26.372
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 09:41:26.783
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '4'
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:17:26.964
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:17:26.965
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:17:26.965
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:22:44.317
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:22:44.319
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:22:44.319
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:22:46.571
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:22:46.571
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:22:46.572
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:32:34.289
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:32:34.290
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:32:34.290
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:41:36.574
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:41:36.574
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:41:36.575
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:10.880
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Thread: Worker-2: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:11.004
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-2: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 10:42:12.868
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 10:42:12.868
+!MESSAGE Preference loaded using local preference: D:\vivado_pj\text_lcd_ip_pj
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:16.528
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper5.xsa}], Thread: Worker-3: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:16.758
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper5.xsa}], Result: [null, ]. Thread: Worker-3: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 10:42:43.988
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '5'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.108
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.202
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Result: [null, ]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.202
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.209
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.210
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.212
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 10:42:52.212
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.213
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:52.214
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.303
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.304
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Result: [null, ]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.305
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream}], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.313
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream}], Result: [null, ]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.314
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.316
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Thu Jun 11 10:39:11 2026",
+"vivado_version": "2023.1",
+"part": "xc7a35tcpg236-1",
+}]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.316
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:42:53.326
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"lcd_axi_v1_0_0": {"hier_name": "lcd_axi_v1_0_0",
+"type": "lcd_axi_v1_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rtc_axi_v1_0_0": {"hier_name": "rtc_axi_v1_0_0",
+"type": "rtc_axi_v1_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-2: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 10:42:53.453
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '6'
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:43:01.385
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:43:01.398
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:43:01.399
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:43:01.400
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 10:43:01.400
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:43:01.401
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-3: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 10:43:01.413
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-3: Build Project
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:22.745
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:22.767
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:22.768
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:22.768
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:22.768
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:22.768
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:24.422
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:24.422
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:24.423
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:24.423
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:24.423
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:45:24.424
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:52:41.972
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:52:42.020
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:52:42.020
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:52:42.021
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:52:42.021
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 10:52:42.022
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:00:07.097
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:00:07.132
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:00:07.133
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:00:07.133
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:00:07.133
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:00:07.134
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:06:39.950
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:06:39.958
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:06:39.989
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:06:39.990
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:06:39.990
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:06:39.990
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:16:51.227
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:16:51.268
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:16:51.268
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:16:51.269
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:16:51.269
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:16:51.269
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:17.135
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:17.136
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:17.136
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:17.136
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:17.137
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:17.137
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:18.869
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:18.886
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:18.887
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:18.887
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:18.887
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:17:18.888
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:18:21.063
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:18:21.073
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:18:21.074
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:18:21.074
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:18:21.074
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:18:21.074
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:19:04.799
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:19:04.801
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:19:04.802
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:19:04.803
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:19:04.804
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:19:04.804
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:19:04.805
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-31: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:19:05.767
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '7'
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:22:10.056
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:22:10.091
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:22:10.107
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:22:10.108
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:22:10.109
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:22:10.109
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:26:41.819
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:26:41.870
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:26:41.871
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:26:41.872
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:26:41.873
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:26:41.874
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:27:33.936
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:27:33.944
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:27:33.945
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:27:33.945
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:27:33.945
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:27:33.946
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:34:09.689
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:34:09.692
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:34:09.692
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:34:09.693
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper5.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:34:09.694
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:34:09.695
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:34:09.695
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-37: Build Project
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:34:11.847
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '8'
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:35:31.379
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:35:31.406
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:35:31.408
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:35:31.408
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:35:31.410
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:35:31.411
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:02.770
+!MESSAGE XSCT Command: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Thread: Worker-47: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:02.921
+!MESSAGE XSCT command with result: [platform read {D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/platform.spr}], Result: [null, ]. Thread: Worker-47: Reading platform
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:44:05.293
+!MESSAGE Opening file dialog using preferences. Current path: null, Local preference: scw_hwspec_file_selection, Group preference: null
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:44:05.293
+!MESSAGE Preference loaded using local preference: D:\vivado_pj\text_lcd_ip_pj
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:07.955
+!MESSAGE XSCT Command: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper6.xsa}], Thread: Worker-47: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:08.171
+!MESSAGE XSCT command with result: [platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper6.xsa}], Result: [null, ]. Thread: Worker-47: Updating hardware platform
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.432
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.526
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Result: [null, ]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.526
+!MESSAGE XSCT Command: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.528
+!MESSAGE XSCT command with result: [ ::hsi::utils::set_current_hw_sw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss ], Result: [null, ]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.529
+!MESSAGE XSCT Command: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.530
+!MESSAGE XSCT command with result: [::hsi::utils::get_hw_sw_details -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, {"procname": "microblaze_0",
+"osname": "standalone",
+"osver": "8.1",
+}]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:44:21.530
+!MESSAGE Generating MD5 hash for file: D:\vivado_pj\text_lcd_ip_pj\workspace\lcd_test_wrapper\export\lcd_test_wrapper\sw\lcd_test_wrapper\standalone_microblaze_0\system.mss ...
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.530
+!MESSAGE XSCT Command: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:21.532
+!MESSAGE XSCT command with result: [::hsi::utils::closesw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/sw/lcd_test_wrapper/standalone_microblaze_0/system.mss], Result: [null, ]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.638
+!MESSAGE XSCT Command: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.639
+!MESSAGE XSCT command with result: [::hsi::utils::openhw D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Result: [null, ]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.640
+!MESSAGE XSCT Command: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream}], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.649
+!MESSAGE XSCT command with result: [hsi::internal::extract_hw_files -quiet bit mmi bmm -dir {D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream}], Result: [null, ]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.650
+!MESSAGE XSCT Command: [::hsi::utils::get_design_properties -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.652
+!MESSAGE XSCT command with result: [::hsi::utils::get_design_properties -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Result: [null, {"device": "7a35t",
+"family": "artix7",
+"timestamp": "Thu Jun 11 11:40:40 2026",
+"vivado_version": "2023.1",
+"part": "xc7a35tcpg236-1",
+}]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.653
+!MESSAGE XSCT Command: [::hsi::utils::get_all_periphs -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 0 0 2026-06-11 11:44:22.661
+!MESSAGE XSCT command with result: [::hsi::utils::get_all_periphs -json D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/hw/lcd_test_wrapper6.xsa], Result: [null, {"axi_uartlite_0": {"hier_name": "axi_uartlite_0",
+"type": "axi_uartlite",
+"version": "2.0",
+"ip_type": "PERIPHERAL",
+},
+"clk_wiz_1": {"hier_name": "clk_wiz_1",
+"type": "clk_wiz",
+"version": "6.0",
+"ip_type": "PERIPHERAL",
+},
+"lcd_axi_v1_0_0": {"hier_name": "lcd_axi_v1_0_0",
+"type": "lcd_axi_v1_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+"mdm_1": {"hier_name": "mdm_1",
+"type": "mdm",
+"version": "3.2",
+"ip_type": "DEBUG",
+},
+"microblaze_0": {"hier_name": "microblaze_0",
+"type": "microblaze",
+"version": "11.0",
+"ip_type": "PROCESSOR",
+},
+"microblaze_0_axi_periph": {"hier_name": "microblaze_0_axi_periph",
+"type": "axi_interconnect",
+"version": "2.1",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_dlmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_dlmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_dlmb_v10": {"hier_name": "microblaze_0_local_memory_dlmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_ilmb_bram_if_cntlr": {"hier_name": "microblaze_0_local_memory_ilmb_bram_if_cntlr",
+"type": "lmb_bram_if_cntlr",
+"version": "4.0",
+"ip_type": "MEMORY_CNTLR",
+},
+"microblaze_0_local_memory_ilmb_v10": {"hier_name": "microblaze_0_local_memory_ilmb_v10",
+"type": "lmb_v10",
+"version": "3.0",
+"ip_type": "BUS",
+},
+"microblaze_0_local_memory_lmb_bram": {"hier_name": "microblaze_0_local_memory_lmb_bram",
+"type": "blk_mem_gen",
+"version": "8.4",
+"ip_type": "MEMORY",
+},
+"rst_clk_wiz_1_100M": {"hier_name": "rst_clk_wiz_1_100M",
+"type": "proc_sys_reset",
+"version": "5.0",
+"ip_type": "PERIPHERAL",
+},
+"rtc_axi_v1_0_0": {"hier_name": "rtc_axi_v1_0_0",
+"type": "rtc_axi_v1_0",
+"version": "1.0",
+"ip_type": "PERIPHERAL",
+},
+}]. Thread: Worker-49: Building Workspace
+
+!ENTRY com.xilinx.sdk.utils 1 0 2026-06-11 11:44:22.775
+!MESSAGE Tool usage for 'SDX_NO_OP_BUILD' updated to '9'
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:38.350
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:38.378
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:38.393
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:38.409
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:38.409
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:38.409
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:38.410
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:40.054
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:40.055
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:40.055
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:40.056
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:40.056
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:40.057
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:47:40.057
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:49:24.849
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:49:24.888
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:49:24.889
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:49:24.889
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:49:24.890
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:49:24.890
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)
+
+!ENTRY org.eclipse.tcf 4 0 2026-06-11 11:49:24.890
+!MESSAGE Invalid peerAdded event
+!STACK 0
+java.lang.Error
+	at org.eclipse.tcf.internal.services.remote.LocatorProxy$1.event(LocatorProxy.java:64)
+	at org.eclipse.tcf.core.AbstractChannel.handleInput(AbstractChannel.java:1191)
+	at org.eclipse.tcf.core.AbstractChannel$1$1.run(AbstractChannel.java:371)
+	at org.eclipse.tcf.EventQueue.run(EventQueue.java:98)
+	at java.base/java.lang.Thread.run(Thread.java:829)

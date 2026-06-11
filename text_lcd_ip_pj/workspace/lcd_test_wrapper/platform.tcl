@@ -18,3 +18,15 @@ platform generate -domains
 platform active {lcd_test_wrapper}
 platform generate -quick
 platform generate
+platform active {lcd_test_wrapper}
+platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper4.xsa}
+platform generate -domains 
+platform clean
+platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper4.xsa}
+platform generate
+platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper5.xsa}
+platform generate -domains 
+platform clean
+platform generate
+platform config -updatehw {D:/vivado_pj/text_lcd_ip_pj/lcd_test_wrapper6.xsa}
+platform generate -domains 

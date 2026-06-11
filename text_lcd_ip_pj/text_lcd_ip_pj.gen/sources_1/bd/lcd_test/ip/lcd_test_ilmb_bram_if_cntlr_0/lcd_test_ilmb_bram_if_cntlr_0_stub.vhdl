@@ -2,10 +2,10 @@
 -- Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2023.1 (win64) Build 3865809 Sun May  7 15:05:29 MDT 2023
--- Date        : Wed Jun 10 16:13:36 2026
+-- Date        : Wed Jun 10 16:13:35 2026
 -- Host        : SmST12 running 64-bit major release  (build 9200)
--- Command     : write_vhdl -force -mode synth_stub
---               d:/vivado_pj/text_lcd_ip_pj/text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ip/lcd_test_ilmb_bram_if_cntlr_0/lcd_test_ilmb_bram_if_cntlr_0_stub.vhdl
+-- Command     : write_vhdl -force -mode synth_stub -rename_top lcd_test_ilmb_bram_if_cntlr_0 -prefix
+--               lcd_test_ilmb_bram_if_cntlr_0_ lcd_test_ilmb_bram_if_cntlr_0_stub.vhdl
 -- Design      : lcd_test_ilmb_bram_if_cntlr_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xc7a35tcpg236-1

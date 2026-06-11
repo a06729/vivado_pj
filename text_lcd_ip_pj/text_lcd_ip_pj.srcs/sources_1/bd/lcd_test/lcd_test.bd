@@ -13,7 +13,6 @@
     "design_tree": {
       "microblaze_0": "",
       "axi_uartlite_0": "",
-      "lcd_axi_v1_0_0": "",
       "rtc_axi_v1_0_0": "",
       "microblaze_0_local_memory": {
         "dlmb_v10": "",
@@ -31,7 +30,8 @@
         "m00_couplers": {},
         "m01_couplers": {},
         "m02_couplers": {}
-      }
+      },
+      "lcd_axi_v1_0_0": ""
     },
     "interface_ports": {
       "usb_uart": {
@@ -189,19 +189,6 @@
           },
           "USE_BOARD_FLOW": {
             "value": "true"
-          }
-        }
-      },
-      "lcd_axi_v1_0_0": {
-        "vlnv": "xilinx.com:user:lcd_axi_v1_0:1.0",
-        "xci_name": "lcd_test_lcd_axi_v1_0_0_0",
-        "xci_path": "ip\\lcd_test_lcd_axi_v1_0_0_0\\lcd_test_lcd_axi_v1_0_0_0.xci",
-        "inst_hier_path": "lcd_axi_v1_0_0",
-        "interface_ports": {
-          "s00_lcd_axi": {
-            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
-            "mode": "Slave",
-            "memory_map_ref": "s00_lcd_axi"
           }
         }
       },
@@ -863,6 +850,19 @@
             ]
           }
         }
+      },
+      "lcd_axi_v1_0_0": {
+        "vlnv": "xilinx.com:user:lcd_axi_v1_0:1.0",
+        "xci_name": "lcd_test_lcd_axi_v1_0_0_2",
+        "xci_path": "ip\\lcd_test_lcd_axi_v1_0_0_2\\lcd_test_lcd_axi_v1_0_0_2.xci",
+        "inst_hier_path": "lcd_axi_v1_0_0",
+        "interface_ports": {
+          "s00_lcd_axi": {
+            "vlnv": "xilinx.com:interface:aximm_rtl:1.0",
+            "mode": "Slave",
+            "memory_map_ref": "s00_lcd_axi"
+          }
+        }
       }
     },
     "interface_nets": {
@@ -962,10 +962,10 @@
           "axi_uartlite_0/s_axi_aclk",
           "microblaze_0_axi_periph/M00_ACLK",
           "microblaze_0_axi_periph/ACLK",
-          "lcd_axi_v1_0_0/s00_lcd_axi_aclk",
           "microblaze_0_axi_periph/M01_ACLK",
           "rtc_axi_v1_0_0/s00_rtc_axi_aclk",
-          "microblaze_0_axi_periph/M02_ACLK"
+          "microblaze_0_axi_periph/M02_ACLK",
+          "lcd_axi_v1_0_0/s00_lcd_axi_aclk"
         ]
       },
       "reset_1": {
@@ -994,10 +994,10 @@
           "axi_uartlite_0/s_axi_aresetn",
           "microblaze_0_axi_periph/M00_ARESETN",
           "microblaze_0_axi_periph/ARESETN",
-          "lcd_axi_v1_0_0/s00_lcd_axi_aresetn",
           "microblaze_0_axi_periph/M01_ARESETN",
           "rtc_axi_v1_0_0/s00_rtc_axi_aresetn",
-          "microblaze_0_axi_periph/M02_ARESETN"
+          "microblaze_0_axi_periph/M02_ARESETN",
+          "lcd_axi_v1_0_0/s00_lcd_axi_aresetn"
         ]
       },
       "sys_clock_1": {
@@ -1052,7 +1052,7 @@
       "file": {
         "name": "..\\..\\..\\..\\workspace\\text_lcd_ip\\Debug\\text_lcd_ip.elf",
         "type": "ELF",
-        "checksum": "2981861536",
+        "checksum": "390813053",
         "IsVisible": "1",
         "ScopedToRef": "lcd_test",
         "ScopedToCell": [
@@ -1065,7 +1065,7 @@
       "file": {
         "name": "..\\..\\..\\..\\workspace\\text_lcd_ip\\Debug\\text_lcd_ip.elf",
         "type": "ELF",
-        "checksum": "2981861536",
+        "checksum": "390813053",
         "IsVisible": "1",
         "ScopedToRef": "lcd_test",
         "ScopedToCell": [

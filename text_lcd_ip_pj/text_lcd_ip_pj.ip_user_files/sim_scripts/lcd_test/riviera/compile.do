@@ -57,13 +57,6 @@ vcom -work xil_defaultlib -93  -incr \
 "../../../bd/lcd_test/ip/lcd_test_axi_uartlite_0_0/sim/lcd_test_axi_uartlite_0_0.vhd" \
 
 vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/30ef" "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/ec67/hdl" -l xpm -l microblaze_v11_0_11 -l xil_defaultlib -l axi_lite_ipif_v3_0_4 -l lib_pkg_v1_0_2 -l lib_srl_fifo_v1_0_2 -l lib_cdc_v1_0_2 -l axi_uartlite_v2_0_32 -l lmb_v10_v3_0_12 -l lmb_bram_if_cntlr_v4_0_22 -l blk_mem_gen_v8_4_6 -l mdm_v3_2_24 -l proc_sys_reset_v5_0_13 -l generic_baseblocks_v2_1_0 -l axi_infrastructure_v1_1_0 -l axi_register_slice_v2_1_28 -l fifo_generator_v13_2_8 -l axi_data_fifo_v2_1_27 -l axi_crossbar_v2_1_29 \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/en_clk_lcd.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/hdl/lcd_axi_v1_0_S00_lcd_AXI.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/lcd_display.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/lcd_display_string.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/src/lcd_driver.v" \
-"../../../bd/lcd_test/ipshared/df45/lcd_axi_1_0/hdl/lcd_axi_v1_0.v" \
-"../../../bd/lcd_test/ip/lcd_test_lcd_axi_v1_0_0_0/sim/lcd_test_lcd_axi_v1_0_0_0.v" \
 "../../../bd/lcd_test/ipshared/2419/ip_repo/rtc_axi_1_0/src/clock.v" \
 "../../../bd/lcd_test/ipshared/2419/ip_repo/rtc_axi_1_0/src/clockdivider_10Hz.v" \
 "../../../bd/lcd_test/ipshared/2419/ip_repo/rtc_axi_1_0/hdl/rtc_axi_v1_0_S00_rtc_AXI.v" \
@@ -132,6 +125,13 @@ vlog -work axi_crossbar_v2_1_29  -incr -v2k5 "+incdir+../../../../text_lcd_ip_pj
 
 vlog -work xil_defaultlib  -incr -v2k5 "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/30ef" "+incdir+../../../../text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ipshared/ec67/hdl" -l xpm -l microblaze_v11_0_11 -l xil_defaultlib -l axi_lite_ipif_v3_0_4 -l lib_pkg_v1_0_2 -l lib_srl_fifo_v1_0_2 -l lib_cdc_v1_0_2 -l axi_uartlite_v2_0_32 -l lmb_v10_v3_0_12 -l lmb_bram_if_cntlr_v4_0_22 -l blk_mem_gen_v8_4_6 -l mdm_v3_2_24 -l proc_sys_reset_v5_0_13 -l generic_baseblocks_v2_1_0 -l axi_infrastructure_v1_1_0 -l axi_register_slice_v2_1_28 -l fifo_generator_v13_2_8 -l axi_data_fifo_v2_1_27 -l axi_crossbar_v2_1_29 \
 "../../../bd/lcd_test/ip/lcd_test_xbar_0/sim/lcd_test_xbar_0.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/en_clk_lcd.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/hdl/lcd_axi_v1_0_S00_lcd_AXI.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/lcd_display.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/lcd_display_string.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/src/lcd_driver.v" \
+"../../../bd/lcd_test/ipshared/e462/lcd_axi_1_0/hdl/lcd_axi_v1_0.v" \
+"../../../bd/lcd_test/ip/lcd_test_lcd_axi_v1_0_0_2/sim/lcd_test_lcd_axi_v1_0_0_2.v" \
 "../../../bd/lcd_test/sim/lcd_test.v" \
 
 vlog -work xil_defaultlib \

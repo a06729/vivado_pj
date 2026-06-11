@@ -68,22 +68,25 @@ int main()
     init_platform();
 
     print("Hello World\n\r");
-    print("Successfully ran Hello World application");
+    print("Successfully ran Hello World application \n\r");
 
     u8 SEC = 0;
     u8 MIN = 0;
     u8 HOUR = 0;
 
     while(1){
+
     	SEC = Xil_In32(AXI_RTC_DIGIT2);
     	MIN = Xil_In32(AXI_RTC_DIGIT3);
     	HOUR = Xil_In32(AXI_RTC_DIGIT4);
 
+    	//xil_printf("SEC raw = 0x%08x\r\n", SEC);
+    	//xil_printf("MIN raw = 0x%08x\r\n", MIN);
+    	//xil_printf("HOUR raw = 0x%08x\r\n", HOUR);
+
     	Xil_Out32(LCD_SEC,SEC);
     	Xil_Out32(LCD_MIN,MIN);
     	Xil_Out32(LCD_HOUR,HOUR);
-
-    	sleep(20000);
 
     }
 

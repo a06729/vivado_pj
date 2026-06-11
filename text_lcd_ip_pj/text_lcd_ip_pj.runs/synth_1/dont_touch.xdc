@@ -12,9 +12,6 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==lcd_test_mi
 # IP: bd/lcd_test/ip/lcd_test_axi_uartlite_0_0/lcd_test_axi_uartlite_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==lcd_test_axi_uartlite_0_0 || ORIG_REF_NAME==lcd_test_axi_uartlite_0_0} -quiet] -quiet
 
-# IP: bd/lcd_test/ip/lcd_test_lcd_axi_v1_0_0_0/lcd_test_lcd_axi_v1_0_0_0.xci
-set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==lcd_test_lcd_axi_v1_0_0_0 || ORIG_REF_NAME==lcd_test_lcd_axi_v1_0_0_0} -quiet] -quiet
-
 # IP: bd/lcd_test/ip/lcd_test_rtc_axi_v1_0_0_0/lcd_test_rtc_axi_v1_0_0_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==lcd_test_rtc_axi_v1_0_0_0 || ORIG_REF_NAME==lcd_test_rtc_axi_v1_0_0_0} -quiet] -quiet
 
@@ -47,5 +44,8 @@ set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==lcd_test_xb
 
 # IP: bd/lcd_test/ip/lcd_test_microblaze_0_axi_periph_0/lcd_test_microblaze_0_axi_periph_0.xci
 set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==lcd_test_microblaze_0_axi_periph_0 || ORIG_REF_NAME==lcd_test_microblaze_0_axi_periph_0} -quiet] -quiet
+
+# IP: bd/lcd_test/ip/lcd_test_lcd_axi_v1_0_0_2/lcd_test_lcd_axi_v1_0_0_2.xci
+set_property KEEP_HIERARCHY SOFT [get_cells -hier -filter {REF_NAME==lcd_test_lcd_axi_v1_0_0_2 || ORIG_REF_NAME==lcd_test_lcd_axi_v1_0_0_2} -quiet] -quiet
 
 # XDC: d:/vivado_pj/text_lcd_ip_pj/text_lcd_ip_pj.gen/sources_1/bd/lcd_test/lcd_test_ooc.xdc

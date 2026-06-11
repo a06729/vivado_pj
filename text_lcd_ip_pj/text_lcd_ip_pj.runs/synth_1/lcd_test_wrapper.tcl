@@ -71,6 +71,7 @@ proc create_report { reportName command } {
 }
 OPTRACE "synth_1" START { ROLLUP_AUTO }
 set_param chipscope.maxJobs 5
+set_param xicom.use_bs_reader 1
 OPTRACE "Creating in-memory project" START { }
 create_project -in_memory -part xc7a35tcpg236-1
 
@@ -93,6 +94,9 @@ set_property ip_output_repo d:/vivado_pj/text_lcd_ip_pj/text_lcd_ip_pj.cache/ip 
 set_property ip_cache_permissions {read write} [current_project]
 OPTRACE "Creating in-memory project" END { }
 OPTRACE "Adding files" START { }
+add_files D:/vivado_pj/text_lcd_ip_pj/workspace/text_lcd_ip/Debug/text_lcd_ip.elf
+set_property SCOPED_TO_REF lcd_test [get_files -all D:/vivado_pj/text_lcd_ip_pj/workspace/text_lcd_ip/Debug/text_lcd_ip.elf]
+set_property SCOPED_TO_CELLS microblaze_0 [get_files -all D:/vivado_pj/text_lcd_ip_pj/workspace/text_lcd_ip/Debug/text_lcd_ip.elf]
 read_verilog -library xil_defaultlib d:/vivado_pj/text_lcd_ip_pj/text_lcd_ip_pj.gen/sources_1/bd/lcd_test/hdl/lcd_test_wrapper.v
 add_files D:/vivado_pj/text_lcd_ip_pj/text_lcd_ip_pj.srcs/sources_1/bd/lcd_test/lcd_test.bd
 set_property used_in_implementation false [get_files -all d:/vivado_pj/text_lcd_ip_pj/text_lcd_ip_pj.gen/sources_1/bd/lcd_test/ip/lcd_test_microblaze_0_0/lcd_test_microblaze_0_0.xdc]
@@ -133,6 +137,8 @@ set_property used_in_implementation false [get_files D:/vivado_pj/text_lcd_ip_pj
 read_xdc dont_touch.xdc
 set_property used_in_implementation false [get_files dont_touch.xdc]
 set_param ips.enableIPCacheLiteLoad 1
+
+read_checkpoint -auto_incremental -incremental D:/vivado_pj/text_lcd_ip_pj/text_lcd_ip_pj.srcs/utils_1/imports/synth_1/lcd_test_wrapper.dcp
 close [open __synthesis_is_running__ w]
 
 OPTRACE "synth_design" START { }
