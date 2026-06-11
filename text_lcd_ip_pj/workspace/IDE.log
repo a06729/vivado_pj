@@ -19,3 +19,52 @@
 16:24:45 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
 16:48:05 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
 16:48:12 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+09:26:21 DEBUG : Logs will be stored at 'D:/vivado_pj/text_lcd_ip_pj/workspace/IDE.log'.
+09:26:23 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\text_lcd_ip_pj\workspace\temp_xsdb_launch_script.tcl
+09:26:26 INFO  : Registering command handlers for Vitis TCF services
+09:26:27 INFO  : XSCT server has started successfully.
+09:26:27 INFO  : Platform repository initialization has completed.
+09:26:29 INFO  : plnx-install-location is set to ''
+09:26:29 INFO  : Successfully done setting XSCT server connection channel  
+09:26:29 INFO  : Successfully done query RDI_DATADIR 
+09:26:29 INFO  : Successfully done setting workspace for the tool. 
+09:26:45 INFO  : Hardware specification for platform project 'lcd_test_wrapper' is updated.
+09:26:55 INFO  : Result from executing command 'getProjects': lcd_test_wrapper
+09:26:55 INFO  : Result from executing command 'getPlatforms': lcd_test_wrapper|D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/lcd_test_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+09:27:05 INFO  : Result from executing command 'removePlatformRepo': 
+09:27:25 INFO  : Hardware specification for platform project 'lcd_test_wrapper' is updated.
+09:27:34 INFO  : Result from executing command 'getProjects': lcd_test_wrapper
+09:27:34 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+09:27:35 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+09:27:37 INFO  : The hardware specification used by project 'text_lcd_ip' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+09:27:37 INFO  : The file 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream\lcd_test_wrapper.bit' stored in project is removed.
+09:27:37 INFO  : The file 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream\lcd_test_wrapper.mmi' stored in project is removed.
+09:27:37 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream' in project 'text_lcd_ip'.
+09:27:43 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+09:27:56 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+09:40:23 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+09:41:17 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+09:41:21 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+09:41:26 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+10:42:16 INFO  : Hardware specification for platform project 'lcd_test_wrapper' is updated.
+10:42:36 INFO  : Result from executing command 'getProjects': lcd_test_wrapper
+10:42:36 INFO  : Result from executing command 'getPlatforms': lcd_test_wrapper|D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/lcd_test_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+10:42:43 INFO  : Result from executing command 'removePlatformRepo': 
+10:42:51 INFO  : Result from executing command 'getProjects': lcd_test_wrapper
+10:42:51 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+10:42:52 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+10:42:53 INFO  : The hardware specification used by project 'text_lcd_ip' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+10:42:53 INFO  : The file 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream\lcd_test_wrapper4.bit' stored in project is removed.
+10:42:53 INFO  : The file 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream\lcd_test_wrapper4.mmi' stored in project is removed.
+10:42:53 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream' in project 'text_lcd_ip'.
+10:43:01 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+11:19:04 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+11:34:09 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+11:44:08 INFO  : Hardware specification for platform project 'lcd_test_wrapper' is updated.
+11:44:20 INFO  : Result from executing command 'getProjects': lcd_test_wrapper
+11:44:20 INFO  : Result from executing command 'getPlatforms': lcd_test_wrapper|D:/vivado_pj/text_lcd_ip_pj/workspace/lcd_test_wrapper/export/lcd_test_wrapper/lcd_test_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+11:44:21 INFO  : Checking for BSP changes to sync application flags for project 'text_lcd_ip'...
+11:44:22 INFO  : The hardware specification used by project 'text_lcd_ip' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+11:44:22 INFO  : The file 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream\lcd_test_wrapper5.bit' stored in project is removed.
+11:44:22 INFO  : The file 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream\lcd_test_wrapper5.mmi' stored in project is removed.
+11:44:22 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\text_lcd_ip_pj\workspace\text_lcd_ip\_ide\bitstream' in project 'text_lcd_ip'.
