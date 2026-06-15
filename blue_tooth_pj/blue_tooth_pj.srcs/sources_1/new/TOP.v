@@ -7,7 +7,7 @@ module TOP(
     output       Tx,         // BLE module RXD
     output [7:0] RxData,     // LED 표시용 (옵션)
     output [6:0] fnd,        // FND segments (a~g, active low)
-    output [3:0] insel             // FND digit select (active low)
+    output [3:0] insel       // FND digit select (active low)
 );
     // ===== UART 관련 wire =====
     wire [7:0]  TxData;
@@ -24,20 +24,32 @@ module TOP(
     
     // ===== UART 인스턴스 =====
     UART_rx RX(
-        .Clk(Clk), .Rst_n(Rst_n), .RxEn(RxEn),
-        .RxData(RxData), .RxDone(RxDone),
-        .Rx(Rx), .Tick(tick), .NBits(NBits)
+        .Clk(Clk), 
+        .Rst_n(Rst_n), 
+        .RxEn(RxEn),
+        .RxData(RxData), 
+        .RxDone(RxDone),
+        .Rx(Rx), 
+        .Tick(tick), 
+        .NBits(NBits)
     );
     
     UART_tx TX(
-        .Clk(Clk), .Rst_n(Rst_n), .TxEn(TxEn),
-        .TxData(TxData), .TxDone(TxDone),
-        .Tx(Tx), .Tick(tick), .NBits(NBits)
+        .Clk(Clk), 
+        .Rst_n(Rst_n), 
+        .TxEn(TxEn),
+        .TxData(TxData), 
+        .TxDone(TxDone),
+        .Tx(Tx), 
+        .Tick(tick), 
+        .NBits(NBits)
     );
     
     UART_BaudRate_generator BAUDGEN(
-        .Clk(Clk), .Rst_n(Rst_n),
-        .Tick(tick), .BaudRate(BaudRate)
+        .Clk(Clk), 
+        .Rst_n(Rst_n),
+        .Tick(tick), 
+        .BaudRate(BaudRate)
     );
     
     assign TxData = 8'h00;  // TX 미사용 (floating 방지)
