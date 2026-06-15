@@ -1,0 +1,80 @@
+15:01:12 DEBUG : Logs will be stored at 'D:/vivado_pj/servo_motor_ip_pj/workspace/IDE.log'.
+15:01:17 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\servo_motor_ip_pj\workspace\temp_xsdb_launch_script.tcl
+15:01:17 INFO  : Registering command handlers for Vitis TCF services
+15:01:18 INFO  : Platform repository initialization has completed.
+15:01:21 INFO  : XSCT server has started successfully.
+15:01:21 INFO  : Successfully done setting XSCT server connection channel  
+15:01:24 INFO  : plnx-install-location is set to ''
+15:01:24 INFO  : Successfully done setting workspace for the tool. 
+15:01:24 INFO  : Successfully done query RDI_DATADIR 
+15:01:53 INFO  : Result from executing command 'getProjects': servo_wrapper
+15:01:53 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:01:54 WARN  : An unexpected exception occurred in the module 'platform project logging'
+15:01:54 INFO  : Platform 'servo_wrapper' is added to custom repositories.
+15:01:57 INFO  : Platform 'servo_wrapper' is added to custom repositories.
+15:03:40 INFO  : Result from executing command 'getProjects': servo_wrapper
+15:03:40 INFO  : Result from executing command 'getPlatforms': servo_wrapper|D:/vivado_pj/servo_motor_ip_pj/workspace/servo_wrapper/export/servo_wrapper/servo_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:03:41 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:05:14 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:05:33 INFO  : Result from executing command 'removePlatformRepo': 
+15:06:00 INFO  : Result from executing command 'getProjects': servo_wrapper
+15:06:00 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:06:04 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:21:14 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:28:39 INFO  : Hardware specification for platform project 'servo_wrapper' is updated.
+15:29:04 INFO  : Result from executing command 'getProjects': servo_wrapper
+15:29:04 INFO  : Result from executing command 'getPlatforms': servo_wrapper|D:/vivado_pj/servo_motor_ip_pj/workspace/servo_wrapper/export/servo_wrapper/servo_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:29:22 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:43:18 INFO  : Hardware specification for platform project 'servo_wrapper' is updated.
+15:43:28 INFO  : Result from executing command 'removePlatformRepo': 
+15:43:36 INFO  : Result from executing command 'getProjects': servo_wrapper
+15:43:36 INFO  : Result from executing command 'getPlatforms': xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:43:42 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:53:50 INFO  : Hardware specification for platform project 'servo_wrapper' is updated.
+15:53:59 INFO  : Result from executing command 'getProjects': servo_wrapper
+15:53:59 INFO  : Result from executing command 'getPlatforms': servo_wrapper|D:/vivado_pj/servo_motor_ip_pj/workspace/servo_wrapper/export/servo_wrapper/servo_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+15:54:04 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:54:41 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+15:57:28 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+16:28:06 DEBUG : Logs will be stored at 'D:/vivado_pj/servo_motor_ip_pj/workspace/IDE.log'.
+16:28:07 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\servo_motor_ip_pj\workspace\temp_xsdb_launch_script.tcl
+16:28:09 INFO  : XSCT server has started successfully.
+16:28:09 INFO  : Successfully done setting XSCT server connection channel  
+16:28:09 INFO  : plnx-install-location is set to ''
+16:28:09 INFO  : Successfully done setting workspace for the tool. 
+16:28:09 INFO  : Successfully done query RDI_DATADIR 
+16:28:09 INFO  : Registering command handlers for Vitis TCF services
+16:28:10 INFO  : Platform repository initialization has completed.
+16:28:26 INFO  : Hardware specification for platform project 'servo_wrapper' is updated.
+16:28:34 INFO  : Result from executing command 'getProjects': servo_wrapper
+16:28:34 INFO  : Result from executing command 'getPlatforms': servo_wrapper|D:/vivado_pj/servo_motor_ip_pj/workspace/servo_wrapper/export/servo_wrapper/servo_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+16:28:39 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+16:28:43 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+16:28:43 INFO  : The hardware specification used by project 'servo' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+16:28:43 INFO  : The file 'D:\vivado_pj\servo_motor_ip_pj\workspace\servo\_ide\bitstream\servo_wrapper.bit' stored in project is removed.
+16:28:43 INFO  : The file 'D:\vivado_pj\servo_motor_ip_pj\workspace\servo\_ide\bitstream\servo_wrapper.mmi' stored in project is removed.
+16:28:43 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\servo_motor_ip_pj\workspace\servo\_ide\bitstream' in project 'servo'.
+17:05:32 DEBUG : Logs will be stored at 'D:/vivado_pj/servo_motor_ip_pj/workspace/IDE.log'.
+17:05:33 INFO  : Launching XSCT server: xsct.bat -n  -interactive D:\vivado_pj\servo_motor_ip_pj\workspace\temp_xsdb_launch_script.tcl
+17:05:36 INFO  : Registering command handlers for Vitis TCF services
+17:05:37 INFO  : Platform repository initialization has completed.
+17:05:37 INFO  : XSCT server has started successfully.
+17:05:37 INFO  : plnx-install-location is set to ''
+17:05:37 INFO  : Successfully done setting XSCT server connection channel  
+17:05:40 INFO  : Successfully done setting workspace for the tool. 
+17:05:40 INFO  : Successfully done query RDI_DATADIR 
+17:06:09 INFO  : Hardware specification for platform project 'servo_wrapper' is updated.
+17:06:20 INFO  : Result from executing command 'getProjects': servo_wrapper
+17:06:20 INFO  : Result from executing command 'getPlatforms': servo_wrapper|D:/vivado_pj/servo_motor_ip_pj/workspace/servo_wrapper/export/servo_wrapper/servo_wrapper.xpfm;xilinx_vck190_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_202310_1/xilinx_vck190_base_202310_1.xpfm;xilinx_vck190_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vck190_base_dfx_202310_1/xilinx_vck190_base_dfx_202310_1.xpfm;xilinx_vek280_es1_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vek280_es1_base_202310_1/xilinx_vek280_es1_base_202310_1.xpfm;xilinx_vmk180_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_vmk180_base_202310_1/xilinx_vmk180_base_202310_1.xpfm;xilinx_zcu102_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_202310_1/xilinx_zcu102_base_202310_1.xpfm;xilinx_zcu102_base_dfx_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu102_base_dfx_202310_1/xilinx_zcu102_base_dfx_202310_1.xpfm;xilinx_zcu104_base_202310_1|H:/Xilinx/Vitis/2023.1/base_platforms/xilinx_zcu104_base_202310_1/xilinx_zcu104_base_202310_1.xpfm
+17:06:25 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+17:06:26 INFO  : The hardware specification used by project 'servo' is out of sync with the platform. Resource files extracted from the hardware specification will be updated.
+17:06:26 INFO  : The file 'D:\vivado_pj\servo_motor_ip_pj\workspace\servo\_ide\bitstream\servo_wrapper6.bit' stored in project is removed.
+17:06:26 INFO  : The file 'D:\vivado_pj\servo_motor_ip_pj\workspace\servo\_ide\bitstream\servo_wrapper6.mmi' stored in project is removed.
+17:06:26 INFO  : The updated bitstream files are copied from platform to folder 'D:\vivado_pj\servo_motor_ip_pj\workspace\servo\_ide\bitstream' in project 'servo'.
+17:16:10 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+17:16:13 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+17:20:54 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+17:20:58 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+17:21:00 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+17:21:04 INFO  : Checking for BSP changes to sync application flags for project 'servo'...
+17:21:06 INFO  : Checking for BSP changes to sync application flags for project 'servo'...

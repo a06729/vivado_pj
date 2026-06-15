@@ -1,0 +1,6 @@
+17:21:06 **** Incremental Build of configuration Debug for project servo_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."
+
+17:21:06 Build Finished (took 90ms)
+

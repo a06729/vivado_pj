@@ -1,0 +1,13 @@
+vhdl xil_defaultlib  \
+"../../../bd/servo/ip/servo_microblaze_0_1/sim/servo_microblaze_0_1.vhd" \
+"../../../bd/servo/ip/servo_axi_uartlite_0_1/sim/servo_axi_uartlite_0_1.vhd" \
+"../../../bd/servo/ip/servo_axi_gpio_0_1/sim/servo_axi_gpio_0_1.vhd" \
+"../../../bd/servo/ip/servo_dlmb_v10_1/sim/servo_dlmb_v10_1.vhd" \
+"../../../bd/servo/ip/servo_ilmb_v10_1/sim/servo_ilmb_v10_1.vhd" \
+"../../../bd/servo/ip/servo_dlmb_bram_if_cntlr_1/sim/servo_dlmb_bram_if_cntlr_1.vhd" \
+"../../../bd/servo/ip/servo_ilmb_bram_if_cntlr_1/sim/servo_ilmb_bram_if_cntlr_1.vhd" \
+"../../../bd/servo/ip/servo_mdm_1_1/sim/servo_mdm_1_1.vhd" \
+"../../../bd/servo/ip/servo_rst_clk_wiz_1_100M_1/sim/servo_rst_clk_wiz_1_100M_1.vhd" \
+
+# Do not sort compile order
+nosort

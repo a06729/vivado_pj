@@ -1,0 +1,8 @@
+Nothing to build in platform 'servo_wrapper'
+
+17:21:06 **** Incremental Build of configuration Debug for project servo ****
+make all 
+make: Nothing to be done for 'all'.
+17:21:06 **** Incremental Build of configuration Debug for project servo_system ****
+make all 
+Skipping SD card image generation. Reason: "The system project only has applications for microblaze processors."

@@ -1,0 +1,285 @@
+#-----------------------------------------------------------
+# Vivado v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Mon Jun 15 12:24:25 2026
+# Process ID: 18800
+# Current directory: D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.runs/synth_1
+# Command line: vivado.exe -log TOP.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source TOP.tcl
+# Log file: D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.runs/synth_1/TOP.vds
+# Journal file: D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.runs/synth_1\vivado.jou
+# Running On: SmST12, OS: Windows, CPU Frequency: 2611 MHz, CPU Physical cores: 14, Host memory: 34116 MB
+#-----------------------------------------------------------
+source TOP.tcl -notrace
+Command: read_checkpoint -auto_incremental -incremental D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/utils_1/imports/synth_1/TOP.dcp
+INFO: [Vivado 12-5825] Read reference checkpoint from D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/utils_1/imports/synth_1/TOP.dcp for incremental synthesis
+INFO: [Vivado 12-7989] Please ensure there are no constraint changes
+Command: synth_design -top TOP -part xc7a35tcpg236-1
+Starting synth_design
+Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+INFO: [Synth 8-7079] Multithreading enabled for synth_design using a maximum of 2 processes.
+INFO: [Synth 8-7078] Launching helper process for spawning children vivado processes
+INFO: [Synth 8-7075] Helper process launched with PID 24036
+---------------------------------------------------------------------------------
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:03 . Memory (MB): peak = 2276.305 ; gain = 410.918
+---------------------------------------------------------------------------------
+INFO: [Synth 8-6157] synthesizing module 'TOP' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/TOP.v:3]
+INFO: [Synth 8-6157] synthesizing module 'UART_rx' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_rx.v:4]
+INFO: [Synth 8-155] case statement is not full and has no default [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_rx.v:48]
+INFO: [Synth 8-6155] done synthesizing module 'UART_rx' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_rx.v:4]
+INFO: [Synth 8-6157] synthesizing module 'UART_tx' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_tx.v:3]
+INFO: [Synth 8-226] default block is never used [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_tx.v:39]
+INFO: [Synth 8-6155] done synthesizing module 'UART_tx' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_tx.v:3]
+INFO: [Synth 8-6157] synthesizing module 'UART_BaudRate_generator' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_BaudRate_generator.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'UART_BaudRate_generator' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_BaudRate_generator.v:3]
+INFO: [Synth 8-6157] synthesizing module 'clockdivder' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/clockdivider.v:3]
+	Parameter N bound to: 50000 - type: integer 
+INFO: [Synth 8-6155] done synthesizing module 'clockdivder' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/clockdivider.v:3]
+INFO: [Synth 8-6157] synthesizing module 'counter' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/counter.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'counter' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/counter.v:3]
+INFO: [Synth 8-6157] synthesizing module 'bin2bcd' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/bin2bcd.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'bin2bcd' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/bin2bcd.v:3]
+INFO: [Synth 8-6157] synthesizing module 'datamux4x1' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:3]
+WARNING: [Synth 8-567] referenced signal 'ina' should be on the sensitivity list [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:11]
+WARNING: [Synth 8-567] referenced signal 'inb' should be on the sensitivity list [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:11]
+WARNING: [Synth 8-567] referenced signal 'ine' should be on the sensitivity list [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:11]
+WARNING: [Synth 8-567] referenced signal 'inf' should be on the sensitivity list [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:11]
+WARNING: [Synth 8-567] referenced signal 'inc' should be on the sensitivity list [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:11]
+WARNING: [Synth 8-567] referenced signal 'ind' should be on the sensitivity list [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'datamux4x1' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/datamux4x1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'mux4x1' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/mux4x1.v:3]
+INFO: [Synth 8-226] default block is never used [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/mux4x1.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'mux4x1' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/mux4x1.v:3]
+INFO: [Synth 8-6157] synthesizing module 'fnddecoder' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/fnddecoder.v:3]
+INFO: [Synth 8-226] default block is never used [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/fnddecoder.v:15]
+WARNING: [Synth 8-567] referenced signal 'reset' should be on the sensitivity list [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/fnddecoder.v:11]
+INFO: [Synth 8-6155] done synthesizing module 'fnddecoder' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/fnddecoder.v:3]
+INFO: [Synth 8-6155] done synthesizing module 'TOP' (0#1) [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/TOP.v:3]
+WARNING: [Synth 8-7137] Register clk1000Hz_reg in module clockdivder has both Set and reset with same priority. This may cause simulation mismatches. Consider rewriting code  [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/clockdivider.v:18]
+---------------------------------------------------------------------------------
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2369.730 ; gain = 504.344
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2387.641 ; gain = 522.254
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:04 . Memory (MB): peak = 2387.641 ; gain = 522.254
+---------------------------------------------------------------------------------
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2387.641 ; gain = 0.000
+INFO: [Project 1-570] Preparing netlist for logic optimization
+
+Processing XDC Constraints
+Initializing timing engine
+Parsing XDC File [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/constrs_1/new/BLUETOOTH.xdc]
+Finished Parsing XDC File [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/constrs_1/new/BLUETOOTH.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/constrs_1/new/BLUETOOTH.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/TOP_propImpl.xdc].
+Resolution: To avoid this warning, move constraints listed in [.Xil/TOP_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
+Completed Processing XDC Constraints
+
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2500.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 2500.387 ; gain = 0.000
+INFO: [Designutils 20-5440] No compile time benefit to using incremental synthesis; A full resynthesis will be run
+INFO: [Designutils 20-4379] Flow is switching to default flow due to incremental criteria not met. If you would like to alter this behaviour and have the flow terminate instead, please set the following parameter config_implementation {autoIncr.Synth.RejectBehavior Terminate}
+---------------------------------------------------------------------------------
+Finished Constraint Validation : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Loading Part and Timing Information
+---------------------------------------------------------------------------------
+Loading part: xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying 'set_property' XDC Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+INFO: [Synth 8-802] inferred FSM for state register 'State_reg' in module 'UART_rx'
+WARNING: [Synth 8-327] inferring latch for variable 'read_enable_reg' [D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.srcs/sources_1/new/UART_rx.v:49]
+---------------------------------------------------------------------------------------------------
+                   State |                     New Encoding |                Previous Encoding 
+---------------------------------------------------------------------------------------------------
+                    IDLE |                                0 |                               00
+                    READ |                                1 |                               01
+---------------------------------------------------------------------------------------------------
+INFO: [Synth 8-3354] encoded FSM with state register 'State_reg' using encoding 'sequential' in module 'UART_rx'
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:08 ; elapsed = 00:00:09 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start RTL Component Statistics 
+---------------------------------------------------------------------------------
+Detailed RTL Component Info : 
++---Adders : 
+	   2 Input   32 Bit       Adders := 1     
+	   2 Input   26 Bit       Adders := 1     
+	   2 Input    5 Bit       Adders := 2     
+	   2 Input    4 Bit       Adders := 14    
+	   2 Input    2 Bit       Adders := 1     
++---Registers : 
+	               26 Bit    Registers := 1     
+	                8 Bit    Registers := 3     
+	                5 Bit    Registers := 2     
+	                4 Bit    Registers := 2     
+	                2 Bit    Registers := 2     
+	                1 Bit    Registers := 8     
++---Muxes : 
+	   2 Input   26 Bit        Muxes := 1     
+	   2 Input    8 Bit        Muxes := 4     
+	  17 Input    7 Bit        Muxes := 1     
+	   2 Input    4 Bit        Muxes := 8     
+	   4 Input    4 Bit        Muxes := 3     
+	   4 Input    1 Bit        Muxes := 1     
+	   2 Input    1 Bit        Muxes := 11    
+---------------------------------------------------------------------------------
+Finished RTL Component Statistics 
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Part Resource Summary
+---------------------------------------------------------------------------------
+Part Resources:
+DSPs: 90 (col length:60)
+BRAMs: 100 (col length: RAMB18 60 RAMB36 30)
+---------------------------------------------------------------------------------
+Finished Part Resource Summary
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Cross Boundary and Area Optimization
+---------------------------------------------------------------------------------
+WARNING: [Synth 8-7080] Parallel synthesis criteria is not met
+WARNING: [Synth 8-3332] Sequential element (RX/read_enable_reg) is unused and will be removed from module TOP.
+---------------------------------------------------------------------------------
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Applying XDC Timing Constraints
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:13 ; elapsed = 00:00:14 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Technology Mapping
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Technology Mapping : Time (s): cpu = 00:00:14 ; elapsed = 00:00:15 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Flattening Before IO Insertion
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Final Netlist Cleanup
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished IO Insertion : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Instances
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Rebuilding User Hierarchy
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Ports
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Handling Custom Attributes
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Renaming Generated Nets
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Start Writing Synthesis Report
+---------------------------------------------------------------------------------
+
+Report BlackBoxes: 
++-+--------------+----------+
+| |BlackBox name |Instances |
++-+--------------+----------+
++-+--------------+----------+
+
+Report Cell Usage: 
++------+-------+------+
+|      |Cell   |Count |
++------+-------+------+
+|1     |BUFG   |     2|
+|2     |CARRY4 |    12|
+|3     |LUT1   |     7|
+|4     |LUT2   |    40|
+|5     |LUT3   |    14|
+|6     |LUT4   |    20|
+|7     |LUT5   |    13|
+|8     |LUT6   |    21|
+|9     |FDCE   |    47|
+|10    |FDPE   |     1|
+|11    |FDRE   |    38|
+|12    |FDSE   |     1|
+|13    |IBUF   |     3|
+|14    |OBUF   |    20|
++------+-------+------+
+---------------------------------------------------------------------------------
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+---------------------------------------------------------------------------------
+Synthesis finished with 0 errors, 0 critical warnings and 3 warnings.
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:11 ; elapsed = 00:00:16 . Memory (MB): peak = 2500.387 ; gain = 522.254
+Synthesis Optimization Complete : Time (s): cpu = 00:00:16 ; elapsed = 00:00:17 . Memory (MB): peak = 2500.387 ; gain = 635.000
+INFO: [Project 1-571] Translating synthesized netlist
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.001 . Memory (MB): peak = 2500.387 ; gain = 0.000
+INFO: [Netlist 29-17] Analyzing 12 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 2500.387 ; gain = 0.000
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+Synth Design complete | Checksum: 3bfc940c
+INFO: [Common 17-83] Releasing license: Synthesis
+47 Infos, 11 Warnings, 0 Critical Warnings and 0 Errors encountered.
+synth_design completed successfully
+synth_design: Time (s): cpu = 00:00:19 ; elapsed = 00:00:20 . Memory (MB): peak = 2500.387 ; gain = 1016.211
+INFO: [Common 17-1381] The checkpoint 'D:/vivado_pj/blue_tooth_pj/blue_tooth_pj.runs/synth_1/TOP.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file TOP_utilization_synth.rpt -pb TOP_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Mon Jun 15 12:24:53 2026...
