@@ -1,0 +1,8 @@
+0.7
+2020.2
+May  7 2023
+15:24:31
+D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.sim/sim_1/behav/xsim/glbl.v,1683266558,verilog,,,,glbl,,,,,,,,
+D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sim_1/new/top_vga.v,1782570353,verilog,,,,top_vga,,,,,,,,
+D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sources_1/new/top.v,1782563070,verilog,,D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sources_1/new/vga_controller.v,,top,,,,,,,,
+D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sources_1/new/vga_controller.v,1782563099,verilog,,D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sim_1/new/top_vga.v,,vga_controller,,,,,,,,

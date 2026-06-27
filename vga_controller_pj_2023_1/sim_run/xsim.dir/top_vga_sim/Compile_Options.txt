@@ -1,0 +1,1 @@
+"top_vga" -s "top_vga_sim" -debug "typical" 

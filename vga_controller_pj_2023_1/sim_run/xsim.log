@@ -1,0 +1,31 @@
+#-----------------------------------------------------------
+# xsim v2023.1 (64-bit)
+# SW Build 3865809 on Sun May  7 15:05:29 MDT 2023
+# IP Build 3864474 on Sun May  7 20:36:21 MDT 2023
+# SharedData Build 3865790 on Sun May 07 13:33:03 MDT 2023
+# Start of session at: Sat Jun 27 23:54:25 2026
+# Process ID: 38700
+# Current directory: D:/vivado_pj/vga_controller_pj_2023_1/sim_run
+# Command line: xsim.exe -mode tcl -source {xsim.dir/top_vga_sim/xsim_script.tcl}
+# Log file: D:/vivado_pj/vga_controller_pj_2023_1/sim_run/xsim.log
+# Journal file: D:/vivado_pj/vga_controller_pj_2023_1/sim_run\xsim.jou
+# Running On: DESKTOP-A2AGG41, OS: Windows, CPU Frequency: 2904 MHz, CPU Physical cores: 8, Host memory: 17039 MB
+#-----------------------------------------------------------
+source xsim.dir/top_vga_sim/xsim_script.tcl
+# xsim {top_vga_sim} -autoloadwcfg -runall
+Time resolution is 1 ps
+run -all
+[TB] sw=000 : captured 307200 pixels -> vga_dump_0.txt
+[TB] sw=001 : captured 307200 pixels -> vga_dump_1.txt
+[TB] sw=010 : captured 307200 pixels -> vga_dump_2.txt
+[TB] sw=011 : captured 307200 pixels -> vga_dump_3.txt
+[TB] sw=100 : captured 307200 pixels -> vga_dump_4.txt
+[TB] sw=101 : captured 307200 pixels -> vga_dump_5.txt
+[TB] sw=110 : captured 307200 pixels -> vga_dump_6.txt
+[TB] sw=111 : captured 307200 pixels -> vga_dump_7.txt
+[TB] simulation finished. All 8 patterns dumped.
+$finish called at time : 201600195 ns : File "D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sim_1/new/top_vga.v" Line 169
+run: Time (s): cpu = 00:00:00 ; elapsed = 00:00:21 . Memory (MB): peak = 198.109 ; gain = 0.000
+exit
+INFO: xsimkernel Simulation Memory Usage: 12508 KB (Peak: 12508 KB), Simulation CPU Usage: 21046 ms
+INFO: [Common 17-206] Exiting xsim at Sat Jun 27 23:54:48 2026...

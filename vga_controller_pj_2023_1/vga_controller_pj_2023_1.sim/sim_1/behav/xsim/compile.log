@@ -1,0 +1,6 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sources_1/new/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sources_1/new/vga_controller.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module vga_controller
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/vivado_pj/vga_controller_pj_2023_1/vga_controller_pj_2023_1.srcs/sim_1/new/top_vga.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_vga

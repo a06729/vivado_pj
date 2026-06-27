@@ -1,0 +1,7 @@
+{
+  "permissions": {
+    "allow": [
+      "PowerShell(Get-ChildItem \"D:\\\\vivado_pj\\\\vga_controller_pj_2023_1\\\\sim_run\\\\dump.vcd\" -ErrorAction SilentlyContinue | Select-Object Name, @{N=\"MB\";E={[math]::Round\\($_.Length/1MB,1\\)}})"
+    ]
+  }
+}
